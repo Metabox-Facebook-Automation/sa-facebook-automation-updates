@@ -1,9 +1,18 @@
 {
  "changes": [
-  "Connect YouTube seedha redirect — sirf aik Google App (Project 1) ho to picker modal khulna hi nahi, browser foran Google sign-in par khul jata hai",
-  "2 ya zyada apps hon to chunne wala modal waisa hi, aur nayi app ab bhi Settings se add hoti hai"
+  "Facebook upload ab VPN par bhi rukega nahi — VPN band / IP badalne par upload khud dobara koshish karega (5, 30, 120 minute ke waqfe se)",
+  "Upload fail ki asal wajah ab saaf dikhegi — Meta ka error pehle chhup jata tha, ab token expire, rate limit aur network ka farq nazar ayega",
+  "Retry dabane par dobara poori 3 koshishen milengi (pehle purani ginti ki wajah se foran fail ho jata tha)"
  ],
  "history": [
+  {
+   "version": "1.6.74",
+   "changes": [
+    "Facebook upload ab VPN par bhi rukega nahi — VPN band / IP badalne par upload khud dobara koshish karega (5, 30, 120 minute ke waqfe se)",
+    "Upload fail ki asal wajah ab saaf dikhegi — Meta ka error pehle chhup jata tha, ab token expire, rate limit aur network ka farq nazar ayega",
+    "Retry dabane par dobara poori 3 koshishen milengi (pehle purani ginti ki wajah se foran fail ho jata tha)"
+   ]
+  },
   {
    "version": "1.6.73",
    "changes": [
@@ -438,7 +447,7 @@
   }
  ],
  "notes": "Naya version v1.6.42 tayyar hai. Audit fixes.",
- "size": 128375441,
+ "size": 128376277,
  "url": "https://drive.google.com/uc?export=download&id=1-gyyl9cs9HkiG_J80dJD2__u31MVGu7k",
- "version": "1.6.73"
+ "version": "1.6.74"
 }
