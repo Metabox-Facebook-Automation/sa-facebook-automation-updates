@@ -1,10 +1,16 @@
 {
  "changes": [
-  "Facebook upload ab VPN par bhi rukega nahi — VPN band / IP badalne par upload khud dobara koshish karega (5, 30, 120 minute ke waqfe se)",
-  "Upload fail ki asal wajah ab saaf dikhegi — Meta ka error pehle chhup jata tha, ab token expire, rate limit aur network ka farq nazar ayega",
-  "Retry dabane par dobara poori 3 koshishen milengi (pehle purani ginti ki wajah se foran fail ho jata tha)"
+  "Settings se YouTube / Google App wala section hata diya — Project 1 pehle se laga hai, Connect dabate hi seedha browser khulta hai, is liye Add/Delete ki zaroorat nahi",
+  "Connect YouTube aur uploads waisi hi — sirf Settings wala card gaya hai, andar ka system nahi"
  ],
  "history": [
+  {
+   "version": "1.6.75",
+   "changes": [
+    "Settings se YouTube / Google App wala section hata diya — Project 1 pehle se laga hai, Connect dabate hi seedha browser khulta hai, is liye Add/Delete ki zaroorat nahi",
+    "Connect YouTube aur uploads waisi hi — sirf Settings wala card gaya hai, andar ka system nahi"
+   ]
+  },
   {
    "version": "1.6.74",
    "changes": [
@@ -447,7 +453,7 @@
   }
  ],
  "notes": "Naya version v1.6.42 tayyar hai. Audit fixes.",
- "size": 128376277,
+ "size": 128375958,
  "url": "https://drive.google.com/uc?export=download&id=1-gyyl9cs9HkiG_J80dJD2__u31MVGu7k",
- "version": "1.6.74"
+ "version": "1.6.75"
 }
