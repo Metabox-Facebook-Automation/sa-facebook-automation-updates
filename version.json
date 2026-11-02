@@ -5,6 +5,13 @@
   ],
   "history": [
     {
+      "version": "1.6.80",
+      "changes": [
+        "Queue timezone selector: Queue page par Timezone select aa gaya — Pakistan (Asia/Karachi), USA (Central/Eastern/Pacific), UK (London) aur poori IANA list; jis timezone ko chuno, upload usi ke 6:00 PM par hoga",
+        "Scheduler/Dashboard ab waqt job ki apni timezone me dikhate hain (masalan Nov 2, 6:00 PM PKT) — system timezone me convert kar ke nahi; pehle 6 PM PKT wala slot Chicago waqt me dikhta tha"
+      ]
+    },
+    {
       "version": "1.6.79",
       "changes": [
         "Move to channel fix: Move dabane par kuch hota hi nahi tha — channel wala rasta preload me tha hi nahi, ab hai; harness me preload coverage check bhi aa gaya hai",
@@ -481,7 +488,7 @@
     }
   ],
   "notes": "Naya version v1.6.42 tayyar hai. Audit fixes.",
-  "size": 128379081,
+  "size": 128379937,
   "url": "https://drive.google.com/uc?export=download&id=1-gyyl9cs9HkiG_J80dJD2__u31MVGu7k",
-  "version": "1.6.79"
+  "version": "1.6.80"
 }
