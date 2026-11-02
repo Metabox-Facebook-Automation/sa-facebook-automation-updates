@@ -1,9 +1,16 @@
 {
  "changes": [
-  "Settings se YouTube / Google App wala section hata diya — Project 1 pehle se laga hai, Connect dabate hi seedha browser khulta hai, is liye Add/Delete ki zaroorat nahi",
-  "Connect YouTube aur uploads waisi hi — sirf Settings wala card gaya hai, andar ka system nahi"
+  "Library fix: delete ki hui videos wala folder dobara add karo to files wapas import hongi — pehle scan unhe “already in library” keh kar rok deta tha",
+  "Khud-bakhud scan ab bhi delete ki hui files ko wapas nahi lata — sirf folder dobara add karne par wapas ati hain"
  ],
  "history": [
+  {
+   "version": "1.6.76",
+   "changes": [
+    "Library fix: delete ki hui videos wala folder dobara add karo to files wapas import hongi — pehle scan unhe “already in library” keh kar rok deta tha",
+    "Khud-bakhud scan ab bhi delete ki hui files ko wapas nahi lata — sirf folder dobara add karne par wapas ati hain"
+   ]
+  },
   {
    "version": "1.6.75",
    "changes": [
@@ -453,7 +460,7 @@
   }
  ],
  "notes": "Naya version v1.6.42 tayyar hai. Audit fixes.",
- "size": 128375958,
+ "size": 128376547,
  "url": "https://drive.google.com/uc?export=download&id=1-gyyl9cs9HkiG_J80dJD2__u31MVGu7k",
- "version": "1.6.75"
+ "version": "1.6.76"
 }
