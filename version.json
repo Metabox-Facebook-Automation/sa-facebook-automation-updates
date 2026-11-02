@@ -5,6 +5,13 @@
   ],
   "history": [
     {
+      "version": "1.6.79",
+      "changes": [
+        "Move to channel fix: Move dabane par kuch hota hi nahi tha — channel wala rasta preload me tha hi nahi, ab hai; harness me preload coverage check bhi aa gaya hai",
+        "Channel-target import: channel select karke folder add ya upload karo to videos seedha usi channel me jati hain, All videos me nahi — pehle channel ka rasta import me tha hi nahi"
+      ]
+    },
+    {
       "version": "1.6.78",
       "changes": [
         "Boot fix: update ke baad app khaali screen par ruk jata tha (nav/page/license kuch nahi khulta tha) — theme boot code aik icon variable ko us ki line se pehle istemal kar raha tha, ab theek hai aur boot test bhi shamil hai",
@@ -474,7 +481,7 @@
     }
   ],
   "notes": "Naya version v1.6.42 tayyar hai. Audit fixes.",
-  "size": 128378663,
+  "size": 128379081,
   "url": "https://drive.google.com/uc?export=download&id=1-gyyl9cs9HkiG_J80dJD2__u31MVGu7k",
-  "version": "1.6.78"
+  "version": "1.6.79"
 }
