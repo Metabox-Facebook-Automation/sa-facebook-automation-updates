@@ -1,0 +1,36 @@
+{
+  "changes": [
+    "KartBrowser buttons theek: bulk buttons (Check Live, Login, Remove, Create, Join, Post) ab hamesha enabled \u2014 bina selection click karo to 'pehle select karo' toast aye ga, khamosh kuch nahi hoga",
+    "Tabs foran khulte hain: page ab cache se foran render hota hai, data background me taaza hota hai \u2014 har click par poora page dobara load nahi hota",
+    "Add/Edit Profile me Browser select: Chrome, Microsoft Edge, Firefox, Brave \u2014 jo PC par installed hai wo select karo, na ho to greyed dikhe ga; select karte hi User Agent khud bhar jayega aur window usi browser ki identity se khulegi",
+    "Device select: Desktop (Windows 10 / Windows 11) ya Mobile (iPhone, Android, Google Pixel) \u2014 mobile par phone size window + touch emulation",
+    "Tabs aur action buttons alag saaf rows me \u2014 aik hi height, barabar spacing, ghule hue nahi",
+    "Test auto-update: ab test build bhi khud update check karega (sirf test feed se) \u2014 manual download ki zaroorat nahi"
+  ],
+  "history": [
+    {
+      "changes": [
+        "KartBrowser buttons theek: bulk buttons (Check Live, Login, Remove, Create, Join, Post) ab hamesha enabled \u2014 bina selection click karo to 'pehle select karo' toast aye ga, khamosh kuch nahi hoga",
+        "Tabs foran khulte hain: page ab cache se foran render hota hai, data background me taaza hota hai \u2014 har click par poora page dobara load nahi hota",
+        "Add/Edit Profile me Browser select: Chrome, Microsoft Edge, Firefox, Brave \u2014 jo PC par installed hai wo select karo, na ho to greyed dikhe ga; select karte hi User Agent khud bhar jayega aur window usi browser ki identity se khulegi",
+        "Device select: Desktop (Windows 10 / Windows 11) ya Mobile (iPhone, Android, Google Pixel) \u2014 mobile par phone size window + touch emulation",
+        "Tabs aur action buttons alag saaf rows me \u2014 aik hi height, barabar spacing, ghule hue nahi",
+        "Test auto-update: ab test build bhi khud update check karega (sirf test feed se) \u2014 manual download ki zaroorat nahi"
+      ],
+      "version": "1.7.2-test"
+    },
+    {
+      "changes": [
+        "KartBrowser engine + per-profile proxy + bulk ID import/cookie login + dashboard",
+        "Bulk page creation (1 page per account per day) + group posting (auto-join open groups only)",
+        "Muse inbox + Spintax/macros",
+        "Android companion app v1 + Tailscale option (mobile data par bhi chale)"
+      ],
+      "version": "1.7.0-test.1"
+    }
+  ],
+  "notes": "Test build \u2014 KartBrowser Step 4. Main app ko nahi chhedta.",
+  "size": 128344620,
+  "url": "https://drive.google.com/uc?export=download&id=1KejYKSep7B4TxXPiRjhEmdEpmOkD182H",
+  "version": "1.7.2-test"
+}
