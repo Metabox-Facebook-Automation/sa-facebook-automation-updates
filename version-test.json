@@ -1,14 +1,18 @@
 {
   "changes": [
-    "Scheduler burst fix: 2/day select karne par bhi ~17 videos ek saath publish ho jati thin — ab overdue jobs (slot guzar gaya ho) foran publish nahi hoti, agle khali slot par reschedule hoti hain (30 min grace); Generate bhi pehle se bhare din skip karta hai (aik din me 2 se zyada nahi); tick har minute overdue jobs ko reschedule karta hai",
-    "Status sachha: platform mode me video upload ke baad 'PUBLISHED' nahi kehti jab tak YouTube/Facebook usay slot par public na kare — Scheduler table me ab 'SCHEDULED' badge + waqt dikhta hai; YouTube private video par 'upload ho gayi (Private)' likhta hai, 'publish ho gayi' sirf asal public par",
-    "Scheduler table alignment: lambe titles 2 lines tak (poora naam hover par), badges aik line me, actions tidy",
-    "YouTube 400 error: doosre channel par 'Request failed with status code 400' ki asal wajah ab Logs/notification me dikhti hai (pehle classify hi nahi hota tha); dead refresh token (Testing-mode tokens 7 din me expire) par channel ko YouTube page par 'Dobara connect karein' ke sath NEEDS_RECONNECT dikhata hai, jobs baar-baar retry nahi kartin",
-    "Upload verify: YouTube upload ke baad video asal channel + privacy par check hoti hai — ghalat channel ho to job FAILED (dobara upload se duplicate nahi banta)",
-    "DB v21 (yt_channels status columns); KB local posts ka burst fix bhi (overdue kb-local rows agle khali slot par reschedule)",
-    "Live Facebook/YouTube post user ke PC par test hoga — VM par page token + Electron session nahi"
+    "Calendar fix: 7-din grid ab aik screen par fit hota hai — right slide khatam (grid minmax(0,1fr) + day cells min-width 0, events ellipsis karte hain)",
+    "Scheduler table: badges aik line me (YouTube + Platform aik hi row, nowrap), actions aik line me compact (Resume/Switch to local/Reschedule/Cancel), channel/date aik line me (nowrap + ellipsis)",
+    "Scheduler table fixed layout: poora table viewport me fit hota hai, horizontal scroll nahi"
   ],
   "history": [
+    {
+      "version": "1.7.20-test",
+      "changes": [
+        "Calendar fix: 7-din grid ab aik screen par fit hota hai — right slide khatam (grid minmax(0,1fr) + day cells min-width 0, events ellipsis karte hain)",
+        "Scheduler table: badges aik line me (YouTube + Platform aik hi row, nowrap), actions aik line me compact (Resume/Switch to local/Reschedule/Cancel), channel/date aik line me (nowrap + ellipsis)",
+        "Scheduler table fixed layout: poora table viewport me fit hota hai, horizontal scroll nahi"
+      ]
+    },
     {
       "version": "1.7.19-test",
       "changes": [
@@ -180,7 +184,7 @@
     }
   ],
   "notes": "Test build — KartStudio live demo gaps (per-page config, Auto Comment, Story/Link, small gaps) + Rasta 2 Cloud Posting. Main app ko nahi chhedta.",
-  "size": 128497693,
+  "size": 128498111,
   "url": "https://drive.google.com/uc?export=download&id=1KejYKSep7B4TxXPiRjhEmdEpmOkD182H",
-  "version": "1.7.19-test"
+  "version": "1.7.20-test"
 }
