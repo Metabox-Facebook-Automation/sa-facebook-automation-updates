@@ -1,14 +1,24 @@
 {
-  "version": "1.7.4",
+  "version": "1.7.5",
   "url": "https://drive.google.com/uc?export=download&id=1-gyyl9cs9HkiG_J80dJD2__u31MVGu7k",
-  "size": 128583943,
-  "notes": "Naya version v1.7.4 tayyar hai. Scheduler Cancel button overflow fix.",
+  "size": 128591152,
+  "notes": "Naya version v1.7.5 tayyar hai. Tour spotlight + MetaBox rename + saada update pop-up + pop-up language fix.",
   "changes": [
-    "Scheduler Cancel button fix: 13 inch screen par 4-button wali row (Resume + Switch to local + Reschedule + Cancel) actions column se bahar nikal jati thi — Cancel button table ke bahar / kata hua dikhta tha; ab saare buttons column ke andar hain, koi horizontal slide nahi",
-    "Scheduler action buttons ab row ke darmiyan me (vertically center) hain — pehle upar chipke rehte thay; video cell ka top-align aur title 1 line + badges line 2 waisa hi hai",
-    "Scheduler table columns rebalance: actions column chaura (328px), page/attempts/error thode tang — poori table ki chaudai waisi hi, bari screen par layout waisa hi hai"
+    "Guided tour ab spotlight style me — har step par pehle us page par jata hai, phir baqi screen dim karke us section ko roshan highlight karta hai + chhota tooltip card (title + body + Next/Back + 'N / 5' + Don't show again); 13 inch screen par tooltip viewport ke andar rehta hai",
+    "'KartBrowser' lafz app me kahin nazar nahi aayega — browser windows, page titles, logs aur messages ab 'MetaBox' kehte hain (andar ke naam/files waisi hi)",
+    "Update pop-up saada — lambi changelog list khatam; sirf 'Update Available' + version + 'Minor updates / Bug fixes' (bare update par generic line); app ki language English ho to pop-up bhi English (pehle Urdu changelog dikhta tha)",
+    "Toasts/notifications bhi selected language me — update, publish, Safe Mode aur automation wali ittila ab usi zuban me aati hai jo app me select hai"
   ],
   "history": [
+    {
+      "version": "1.7.5",
+      "changes": [
+        "Guided tour ab spotlight style me — har step par pehle us page par jata hai, phir baqi screen dim karke us section ko roshan highlight karta hai + chhota tooltip card (title + body + Next/Back + 'N / 5' + Don't show again); 13 inch screen par tooltip viewport ke andar rehta hai",
+        "'KartBrowser' lafz app me kahin nazar nahi aayega — browser windows, page titles, logs aur messages ab 'MetaBox' kehte hain (andar ke naam/files waisi hi)",
+        "Update pop-up saada — lambi changelog list khatam; sirf 'Update Available' + version + 'Minor updates / Bug fixes' (bare update par generic line); app ki language English ho to pop-up bhi English (pehle Urdu changelog dikhta tha)",
+        "Toasts/notifications bhi selected language me — update, publish, Safe Mode aur automation wali ittila ab usi zuban me aati hai jo app me select hai"
+      ]
+    },
     {
       "version": "1.7.4",
       "changes": [
