@@ -1,10 +1,18 @@
 {
   "changes": [
-    "Calendar refinement: din ke cell ka size waisa hi — andar wale event pills chhote kar diye (padding 2px 5px, font 10px, badge 9px); '+N more' khatam — din ki saari events dikhti hain (pehle 4 ke baad baqi chhup jati thin)",
-    "Scheduler video cell: title ab 1 line me ellipsis (poora naam hover par) + badges us ke neeche line 2 par — pehle title block tha, badges teesri line par chale jate thay; checkbox vertically center (pehle upar chipka rehta tha); baqi cells top-align (badges page text se na takrayen)",
-    "Calendar grid + Scheduler table-layout fixed, th widths, actions/date aik line — 1.7.20-test wale theek hisse barqarar"
+    "Scheduler Cancel button fix: 13 inch screen par 4-button wali row (Resume + Switch to local + Reschedule + Cancel) actions column se bahar nikal jati thi — Cancel button table ke bahar / kata hua dikhta tha; ab saare buttons column ke andar hain, koi horizontal slide nahi",
+    "Scheduler action buttons ab row ke darmiyan me (vertically center) hain — pehle upar chipke rehte thay; video cell ka top-align aur title 1 line + badges line 2 waisa hi hai",
+    "Scheduler table columns rebalance: actions column chaura (328px), page/attempts/error thode tang — poori table ki chaudai waisi hi, bari screen par layout waisa hi hai"
   ],
   "history": [
+    {
+      "version": "1.7.22-test",
+      "changes": [
+        "Scheduler Cancel button fix: 13 inch screen par 4-button wali row (Resume + Switch to local + Reschedule + Cancel) actions column se bahar nikal jati thi — Cancel button table ke bahar / kata hua dikhta tha; ab saare buttons column ke andar hain, koi horizontal slide nahi",
+        "Scheduler action buttons ab row ke darmiyan me (vertically center) hain — pehle upar chipke rehte thay; video cell ka top-align aur title 1 line + badges line 2 waisa hi hai",
+        "Scheduler table columns rebalance: actions column chaura (328px), page/attempts/error thode tang — poori table ki chaudai waisi hi, bari screen par layout waisa hi hai"
+      ]
+    },
     {
       "version": "1.7.21-test",
       "changes": [
@@ -192,7 +200,7 @@
     }
   ],
   "notes": "Test build — KartStudio live demo gaps (per-page config, Auto Comment, Story/Link, small gaps) + Rasta 2 Cloud Posting. Main app ko nahi chhedta.",
-  "size": 128498334,
+  "size": 128498863,
   "url": "https://drive.google.com/uc?export=download&id=1KejYKSep7B4TxXPiRjhEmdEpmOkD182H",
-  "version": "1.7.21-test"
+  "version": "1.7.22-test"
 }
