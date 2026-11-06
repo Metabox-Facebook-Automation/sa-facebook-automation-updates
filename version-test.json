@@ -1,13 +1,18 @@
 {
   "changes": [
-    "Rasta 1 — API Facebook posting wapas (laptop se, platform mode): subah select karo → app background me khamoshi se upload karta hai (koi browser window nahi khulti, saath me aur kaam kar sakte ho) → upload khatam hote hi laptop band → Facebook khud waqt par publish karta hai (scheduled_publish_time + published=false); Oracle server/card ki zaroorat nahi",
-    "Effective mode fix: server URL khaali ho to mode hamesha local — pehle default cloud rehta tha aur jobs PENDING me phans jati thin, kuch post nahi hota tha",
-    "PENDING jobs reclaim: local mode me server par na gayi jobs (cloud_job_id nahi) LOCAL par flip hokar worker se post hoti hain; server wali jobs kabhi nahi chhedi jatin",
-    "Purani API jobs (cloud_status NULL) dobara NEEDS_MIGRATION nahi hoti — legacy local samajh kar platform flow se post hoti hain; Reels hamesha local (waqt par post)",
-    "Settings mode select + Queue badge/hint effective mode dikhate hain (URL nahi to Is PC se); dead API_REMOVED code hataya gaya",
-    "Live Facebook post user ke PC par test hoga — VM par page token + Electron session nahi"
+    "Guided tour modal fix: 'Don't show again' checkbox ab sahi align hai — pehle global input{width:100%} ki wajah se checkbox poori modal chaudai tak phail jata tha (khali bordered box + text neeche); ab label.check flex row hai (17px checkbox + text aik line me)",
+    "Library folder card fix: 'Auto queue' checkbox bhi wahi 100% width bug tha — width:auto kar diya",
+    "Baaki sab 1.7.17-test jaisa (Rasta 1 platform mode, cloud mode, demo gaps); live Facebook post user ke PC par test hoga"
   ],
   "history": [
+    {
+      "version": "1.7.18-test",
+      "changes": [
+        "Guided tour modal fix: 'Don't show again' checkbox ab sahi align hai — pehle global input{width:100%} ki wajah se checkbox poori modal chaudai tak phail jata tha (khali bordered box + text neeche); ab label.check flex row hai (17px checkbox + text aik line me)",
+        "Library folder card fix: 'Auto queue' checkbox bhi wahi 100% width bug tha — width:auto kar diya",
+        "Baaki sab 1.7.17-test jaisa (Rasta 1 platform mode, cloud mode, demo gaps); live Facebook post user ke PC par test hoga"
+      ]
+    },
     {
       "version": "1.7.17-test",
       "changes": [
@@ -159,7 +164,7 @@
     }
   ],
   "notes": "Test build — KartStudio live demo gaps (per-page config, Auto Comment, Story/Link, small gaps) + Rasta 2 Cloud Posting. Main app ko nahi chhedta.",
-  "size": 128490267,
+  "size": 128490248,
   "url": "https://drive.google.com/uc?export=download&id=1KejYKSep7B4TxXPiRjhEmdEpmOkD182H",
-  "version": "1.7.17-test"
+  "version": "1.7.18-test"
 }
