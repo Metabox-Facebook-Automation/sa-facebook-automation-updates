@@ -1,12 +1,14 @@
 {
   "changes": [
-    "Desktop full audit (duplicates singled): Dashboard se Analytics section hata di — publishing chart + page status + YouTube insights ab sirf Analytics page par (pehle dono jagah wahi cheez thi); Dashboard sirf stats + upcoming + quick actions",
-    "Pages header fix: 'Pages queued: {n} (skipped {s})' aur 'Pages created: {n}' raw placeholders dikhte thay — ab saaf labels (naye kb.pagesQueuedLbl / kb.pagesCreatedLbl, 5 languages)",
-    "Scheduler duplicate Generate hata di — kb card wali 'Generate from Queue' button aur upar wali 'Generate schedule for all pages' dono aik hi scheduler_generate() chalati thin; ab sirf aik button",
-    "CDP debugger attach/detach awaited (automation.js) — floating promise khatam, 'already attached' ab catch me ata hai (1.7.8 wala crash class)",
-    "Notifications page ka title ab tarjuma shuda label dikhata hai (raw 'notifications' id nahi); hub-dead i18n keys (kb.tab* x7) aur schedulerKbGenerate key hatayi gayin; SHELL_HEIGHT 88 theek nikla (tabstrip 40 + toolbar 48, border-box) — sirf stale 80px comment theek hui"
+    "Rasta 2 — Cloud Posting: videos ab cloud server (Oracle VM) ko jati hain — server waqt par Facebook par post karta hai, PC band ho to bhi; Settings me Cloud Posting card (server URL + token + Test Connection + Cloud / Is PC se mode), Accounts par API Facebook card (sirf page tokens), Library modal + Queue me API pages dobara targets (Cloud badge), Jobs page par server status sync (Server par hai / Schedule ho gaya / Publish ho gaya / Fail) + Refresh + server se cancel; local worker cloud jobs ko nahi chhede (double-post guard); DB v19 (jobs par cloud_job_id / cloud_status / cloud_error)"
   ],
   "history": [
+    {
+      "version": "1.7.15-test",
+      "changes": [
+        "Rasta 2 — Cloud Posting: videos ab cloud server (Oracle VM) ko jati hain — server waqt par Facebook par post karta hai, PC band ho to bhi; Settings me Cloud Posting card (server URL + token + Test Connection + Cloud / Is PC se mode), Accounts par API Facebook card (sirf page tokens), Library modal + Queue me API pages dobara targets (Cloud badge), Jobs page par server status sync (Server par hai / Schedule ho gaya / Publish ho gaya / Fail) + Refresh + server se cancel; local worker cloud jobs ko nahi chhede (double-post guard); DB v19 (jobs par cloud_job_id / cloud_status / cloud_error)"
+      ]
+    },
     {
       "version": "1.7.14-test",
       "changes": [
@@ -126,7 +128,7 @@
     }
   ],
   "notes": "Test build — KartBrowser Steps 5-13 + real MCP + Cloud relay + PC-off scheduling. Main app ko nahi chhedta.",
-  "size": 128432813,
+  "size": 128442304,
   "url": "https://drive.google.com/uc?export=download&id=1KejYKSep7B4TxXPiRjhEmdEpmOkD182H",
-  "version": "1.7.14-test"
+  "version": "1.7.15-test"
 }
