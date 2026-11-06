@@ -1,8 +1,32 @@
 {
   "changes": [
-    "Rasta 2 — Cloud Posting: videos ab cloud server (Oracle VM) ko jati hain — server waqt par Facebook par post karta hai, PC band ho to bhi; Settings me Cloud Posting card (server URL + token + Test Connection + Cloud / Is PC se mode), Accounts par API Facebook card (sirf page tokens), Library modal + Queue me API pages dobara targets (Cloud badge), Jobs page par server status sync (Server par hai / Schedule ho gaya / Publish ho gaya / Fail) + Refresh + server se cancel; local worker cloud jobs ko nahi chhede (double-post guard); DB v19 (jobs par cloud_job_id / cloud_status / cloud_error)"
+    "Per-page posting config: har page ki apni settings — media folder, caption source (custom/file/sidecar), caption strategy (same/remove-after-use/random), schedule mode (interval/specific times), daily limit Image/Reel, interval minutes, move-used-media toggle; config na ho to purana global scheduler waisa hi",
+    "Queue me Facebook-style post preview card — page naam, caption, media, Scheduled chip + waqt",
+    "Auto Comment / Comments & Engagement: page posts par comments fetch + manual reply + auto-reply rules (keyword/all, Spintax); naya Comments tab (sidebar 21 entries)",
+    "Story + Link posts: Page Posts aur Queue me Story (browser story composer) aur Link (URL + preview) types; Link post ka URL caption se bhi nikalta hai",
+    "Target-group join: Groups page par link paste karo — open group ho to join, questions/approval mile to ruk jata hai (auto-answer nahi)",
+    "Accounts: categories + filter, Trash/restore, bulk actions (Open browsers / Check status / Move to trash)",
+    "Proxy health check: latency (ms) + Ready/Failed status, proxy groups, Check all",
+    "Logs Export CSV, About me diagnostics view + export, privacy masking, Data & Storage panel (clear history/export/optimize), worker threads setting, auth-token login (Graph validation + API page fetch), Dashboard 'Your next move' shortcuts, guided tour (pehli dafa 5 steps)",
+    "DB v20 (kb_page_configs, kb_comment_rules, kb_comments, link_url, trashed, proxy health columns)",
+    "Live flows (Story post, comments fetch/reply, group join, auth-token validation) user ke PC par test honge — VM par prove nahi ho sake"
   ],
   "history": [
+    {
+      "version": "1.7.16-test",
+      "changes": [
+        "Per-page posting config: har page ki apni settings — media folder, caption source (custom/file/sidecar), caption strategy (same/remove-after-use/random), schedule mode (interval/specific times), daily limit Image/Reel, interval minutes, move-used-media toggle; config na ho to purana global scheduler waisa hi",
+        "Queue me Facebook-style post preview card — page naam, caption, media, Scheduled chip + waqt",
+        "Auto Comment / Comments & Engagement: page posts par comments fetch + manual reply + auto-reply rules (keyword/all, Spintax); naya Comments tab (sidebar 21 entries)",
+        "Story + Link posts: Page Posts aur Queue me Story (browser story composer) aur Link (URL + preview) types; Link post ka URL caption se bhi nikalta hai",
+        "Target-group join: Groups page par link paste karo — open group ho to join, questions/approval mile to ruk jata hai (auto-answer nahi)",
+        "Accounts: categories + filter, Trash/restore, bulk actions (Open browsers / Check status / Move to trash)",
+        "Proxy health check: latency (ms) + Ready/Failed status, proxy groups, Check all",
+        "Logs Export CSV, About me diagnostics view + export, privacy masking, Data & Storage panel (clear history/export/optimize), worker threads setting, auth-token login (Graph validation + API page fetch), Dashboard 'Your next move' shortcuts, guided tour (pehli dafa 5 steps)",
+        "DB v20 (kb_page_configs, kb_comment_rules, kb_comments, link_url, trashed, proxy health columns)",
+        "Live flows (Story post, comments fetch/reply, group join, auth-token validation) user ke PC par test honge — VM par prove nahi ho sake"
+      ]
+    },
     {
       "version": "1.7.15-test",
       "changes": [
@@ -127,8 +151,8 @@
       "version": "1.7.0-test.1"
     }
   ],
-  "notes": "Test build — KartBrowser Steps 5-13 + real MCP + Cloud relay + PC-off scheduling. Main app ko nahi chhedta.",
-  "size": 128442304,
+  "notes": "Test build — KartStudio live demo gaps (per-page config, Auto Comment, Story/Link, small gaps) + Rasta 2 Cloud Posting. Main app ko nahi chhedta.",
+  "size": 128488993,
   "url": "https://drive.google.com/uc?export=download&id=1KejYKSep7B4TxXPiRjhEmdEpmOkD182H",
-  "version": "1.7.15-test"
+  "version": "1.7.16-test"
 }
