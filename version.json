@@ -1,14 +1,22 @@
 {
-  "version": "1.7.2",
+  "version": "1.7.3",
   "url": "https://drive.google.com/uc?export=download&id=1-gyyl9cs9HkiG_J80dJD2__u31MVGu7k",
-  "size": 128583193,
+  "size": 128583067,
   "notes": "Naya version v1.6.42 tayyar hai. Audit fixes.",
   "changes": [
-    "Calendar fix: 7-din grid ab aik screen par fit hota hai — right slide khatam (grid minmax(0,1fr) + day cells min-width 0, events ellipsis karte hain)",
-    "Scheduler table: badges aik line me (YouTube + Platform aik hi row, nowrap), actions aik line me compact (Resume/Switch to local/Reschedule/Cancel), channel/date aik line me (nowrap + ellipsis)",
-    "Scheduler table fixed layout: poora table viewport me fit hota hai, horizontal scroll nahi"
+    "Calendar refinement: din ki saari events dikhti hain — '+N more' khatam (slice hata di); event pills chhote kar diye (compact padding/font/badge); din ka cell aur grid waisa hi hai",
+    "Scheduler video cell: title 1 line me (ellipsis, poora naam hover par) + badges line 2 par — video cell 2 lines, 3 nahi; checkbox vertically center; baqi cells top-align taake badges page text se na takraein",
+    "Scheduler table: fixed layout, th widths, actions/date aik line — 1.7.2 wala theek hissa barqarar"
   ],
   "history": [
+    {
+      "version": "1.7.3",
+      "changes": [
+        "Calendar refinement: din ki saari events dikhti hain — '+N more' khatam (slice hata di); event pills chhote kar diye (compact padding/font/badge); din ka cell aur grid waisa hi hai",
+        "Scheduler video cell: title 1 line me (ellipsis, poora naam hover par) + badges line 2 par — video cell 2 lines, 3 nahi; checkbox vertically center; baqi cells top-align taake badges page text se na takraein",
+        "Scheduler table: fixed layout, th widths, actions/date aik line — 1.7.2 wala theek hissa barqarar"
+      ]
+    },
     {
       "version": "1.7.2",
       "changes": [
