@@ -1,18 +1,32 @@
 {
-  "version": "1.7.0",
+  "version": "1.7.1",
   "url": "https://drive.google.com/uc?export=download&id=1-gyyl9cs9HkiG_J80dJD2__u31MVGu7k",
-  "size": 128575416,
+  "size": 128582782,
   "notes": "Naya version v1.6.42 tayyar hai. Audit fixes.",
   "changes": [
-    "Test branch ki sari cheezein main app me aa gayin — KartBrowser (browser automation, bulk ID import, per-ID profiles, proxies, fingerprint), group posting, bulk page creation, Muse inbox + Spintax, real tab browser + extensions",
-    "Platform scheduling: YouTube publishAt + Facebook scheduled_publish_time — upload abhi, platform waqt par publish karega; laptop band ho to bhi chalega; Reels hamesha local",
-    "Rasta 1 (Is PC se): API Facebook posting wapas — background silent upload, Facebook khud waqt par publish karega; Rasta 2 (Cloud): Oracle VM server se posting (Settings > Cloud Posting)",
-    "Per-page posting config, Auto Comment + Comments tab, Story + Link posts, account categories/Trash, proxy health, Logs CSV export, diagnostics, guided tour",
-    "Muse MCP server + cloud relay (port 8747, 8 tools) aur Mobile Companion API (port 8745) — phone se dashboard/queue/jobs dekho",
-    "Sidebar ab 21 entries (Comments tab naya); Dashboard/Analytics duplicate hataya gaya",
-    "Guided tour modal + Library auto-queue checkbox alignment fix (1.7.18-test se sync: label.check class, checkbox ab poori chaudai nahi phailta)"
+    "Scheduler burst fix: overdue jobs ab ek saath publish nahi hoti — guzri hui job agle khali slot par reschedule hoti hai, 2/day ki limit barqarar (17 videos queue karo to slots 9 din me spread hote hain)",
+    "Nayi generation purani scheduled jobs ke peeche nahi — pehle se bhare din skip hote hain, aik din me 2 se zyada kabhi nahi",
+    "Status sachha: platform par schedule hui video ab 'SCHEDULED (date)' dikhati hai — 'PUBLISHED' sirf tab jab video asal me public ho; Private upload par 'upload ho gayi (Private)'",
+    "YouTube 400 error: ab asal Google wajah dikhti hai (masalan token expire) — sirf 'status code 400' nahi; dead token wala channel 'Reconnect zaroori' mark hota hai, YouTube page par Dobara Connect button",
+    "Upload verify: video upload ke baad channel + privacy check hoti hai — ghalat channel par gayi to job FAILED (PUBLISHED nahi)",
+    "KartBrowser local posts ka bhi wahi burst fix: overdue rows reschedule hoti hain, ek saath post nahi",
+    "Scheduler table alignment: lambe titles 2 lines me, badges inline, actions tidy",
+    "Retry fix: platform job retry 15 min baad (10-min platform lead se zyada), local 5 min"
   ],
   "history": [
+    {
+      "version": "1.7.1",
+      "changes": [
+        "Scheduler burst fix: overdue jobs ab ek saath publish nahi hoti — guzri hui job agle khali slot par reschedule hoti hai, 2/day ki limit barqarar (17 videos queue karo to slots 9 din me spread hote hain)",
+        "Nayi generation purani scheduled jobs ke peeche nahi — pehle se bhare din skip hote hain, aik din me 2 se zyada kabhi nahi",
+        "Status sachha: platform par schedule hui video ab 'SCHEDULED (date)' dikhati hai — 'PUBLISHED' sirf tab jab video asal me public ho; Private upload par 'upload ho gayi (Private)'",
+        "YouTube 400 error: ab asal Google wajah dikhti hai (masalan token expire) — sirf 'status code 400' nahi; dead token wala channel 'Reconnect zaroori' mark hota hai, YouTube page par Dobara Connect button",
+        "Upload verify: video upload ke baad channel + privacy check hoti hai — ghalat channel par gayi to job FAILED (PUBLISHED nahi)",
+        "KartBrowser local posts ka bhi wahi burst fix: overdue rows reschedule hoti hain, ek saath post nahi",
+        "Scheduler table alignment: lambe titles 2 lines me, badges inline, actions tidy",
+        "Retry fix: platform job retry 15 min baad (10-min platform lead se zyada), local 5 min"
+      ]
+    },
     {
       "version": "1.7.0",
       "changes": [
