@@ -1,14 +1,22 @@
 {
-  "version": "1.7.3",
+  "version": "1.7.4",
   "url": "https://drive.google.com/uc?export=download&id=1-gyyl9cs9HkiG_J80dJD2__u31MVGu7k",
-  "size": 128583067,
-  "notes": "Naya version v1.6.42 tayyar hai. Audit fixes.",
+  "size": 128583943,
+  "notes": "Naya version v1.7.4 tayyar hai. Scheduler Cancel button overflow fix.",
   "changes": [
-    "Calendar refinement: din ki saari events dikhti hain — '+N more' khatam (slice hata di); event pills chhote kar diye (compact padding/font/badge); din ka cell aur grid waisa hi hai",
-    "Scheduler video cell: title 1 line me (ellipsis, poora naam hover par) + badges line 2 par — video cell 2 lines, 3 nahi; checkbox vertically center; baqi cells top-align taake badges page text se na takraein",
-    "Scheduler table: fixed layout, th widths, actions/date aik line — 1.7.2 wala theek hissa barqarar"
+    "Scheduler Cancel button fix: 13 inch screen par 4-button wali row (Resume + Switch to local + Reschedule + Cancel) actions column se bahar nikal jati thi — Cancel button table ke bahar / kata hua dikhta tha; ab saare buttons column ke andar hain, koi horizontal slide nahi",
+    "Scheduler action buttons ab row ke darmiyan me (vertically center) hain — pehle upar chipke rehte thay; video cell ka top-align aur title 1 line + badges line 2 waisa hi hai",
+    "Scheduler table columns rebalance: actions column chaura (328px), page/attempts/error thode tang — poori table ki chaudai waisi hi, bari screen par layout waisa hi hai"
   ],
   "history": [
+    {
+      "version": "1.7.4",
+      "changes": [
+        "Scheduler Cancel button fix: 13 inch screen par 4-button wali row (Resume + Switch to local + Reschedule + Cancel) actions column se bahar nikal jati thi — Cancel button table ke bahar / kata hua dikhta tha; ab saare buttons column ke andar hain, koi horizontal slide nahi",
+        "Scheduler action buttons ab row ke darmiyan me (vertically center) hain — pehle upar chipke rehte thay; video cell ka top-align aur title 1 line + badges line 2 waisa hi hai",
+        "Scheduler table columns rebalance: actions column chaura (328px), page/attempts/error thode tang — poori table ki chaudai waisi hi, bari screen par layout waisa hi hai"
+      ]
+    },
     {
       "version": "1.7.3",
       "changes": [
