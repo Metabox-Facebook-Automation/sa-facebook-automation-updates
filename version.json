@@ -1,19 +1,22 @@
 {
-  "version": "1.7.1",
+  "version": "1.7.2",
   "url": "https://drive.google.com/uc?export=download&id=1-gyyl9cs9HkiG_J80dJD2__u31MVGu7k",
-  "size": 128582782,
+  "size": 128583193,
   "notes": "Naya version v1.6.42 tayyar hai. Audit fixes.",
   "changes": [
-    "Scheduler burst fix: overdue jobs ab ek saath publish nahi hoti — guzri hui job agle khali slot par reschedule hoti hai, 2/day ki limit barqarar (17 videos queue karo to slots 9 din me spread hote hain)",
-    "Nayi generation purani scheduled jobs ke peeche nahi — pehle se bhare din skip hote hain, aik din me 2 se zyada kabhi nahi",
-    "Status sachha: platform par schedule hui video ab 'SCHEDULED (date)' dikhati hai — 'PUBLISHED' sirf tab jab video asal me public ho; Private upload par 'upload ho gayi (Private)'",
-    "YouTube 400 error: ab asal Google wajah dikhti hai (masalan token expire) — sirf 'status code 400' nahi; dead token wala channel 'Reconnect zaroori' mark hota hai, YouTube page par Dobara Connect button",
-    "Upload verify: video upload ke baad channel + privacy check hoti hai — ghalat channel par gayi to job FAILED (PUBLISHED nahi)",
-    "KartBrowser local posts ka bhi wahi burst fix: overdue rows reschedule hoti hain, ek saath post nahi",
-    "Scheduler table alignment: lambe titles 2 lines me, badges inline, actions tidy",
-    "Retry fix: platform job retry 15 min baad (10-min platform lead se zyada), local 5 min"
+    "Calendar fix: 7-din grid ab aik screen par fit hota hai — right slide khatam (grid minmax(0,1fr) + day cells min-width 0, events ellipsis karte hain)",
+    "Scheduler table: badges aik line me (YouTube + Platform aik hi row, nowrap), actions aik line me compact (Resume/Switch to local/Reschedule/Cancel), channel/date aik line me (nowrap + ellipsis)",
+    "Scheduler table fixed layout: poora table viewport me fit hota hai, horizontal scroll nahi"
   ],
   "history": [
+    {
+      "version": "1.7.2",
+      "changes": [
+        "Calendar fix: 7-din grid ab aik screen par fit hota hai — right slide khatam (grid minmax(0,1fr) + day cells min-width 0, events ellipsis karte hain)",
+        "Scheduler table: badges aik line me (YouTube + Platform aik hi row, nowrap), actions aik line me compact (Resume/Switch to local/Reschedule/Cancel), channel/date aik line me (nowrap + ellipsis)",
+        "Scheduler table fixed layout: poora table viewport me fit hota hai, horizontal scroll nahi"
+      ]
+    },
     {
       "version": "1.7.1",
       "changes": [
