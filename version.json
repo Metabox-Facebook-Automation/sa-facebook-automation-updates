@@ -1,13 +1,22 @@
 {
-  "version": "1.7.10",
+  "version": "1.7.11",
   "url": "https://drive.google.com/uc?export=download&id=1-gyyl9cs9HkiG_J80dJD2__u31MVGu7k",
-  "size": 128598569,
+  "size": 128600289,
   "notes": "Naya version v1.7.9 tayyar hai. Browser shell polish — Chrome jaisi fonts, avatar initial, New tab button tab strip me.",
   "changes": [
-    "Appearance ka alag tab — Settings se nikal kar sidebar me Settings ke upar apna tab bana diya; 8 colors, Waves/Mesh/Boxes/Linings patterns aur Gradient/Solid style wahi hain, choice restart ke baad bhi barqarar rehti hai",
-    "Settings page se Appearance section hata diya — ab do jagah nahi; guided tour ka Appearance step bhi naye tab ki taraf ishara karta hai"
+    "Appearance: 8 naye background patterns — Dots, Grid, Diagonal, Hexagon, Circuit, Topo, Zigzag, Aurora",
+    "Patterns ki list ab kul 13 (None + 12) — purane Waves/Mesh/Boxes/Linings waisi hi",
+    "Aurora accent ke mutabiq glow karta hai; choice restart ke baad bhi barqarar rehti hai"
   ],
   "history": [
+    {
+      "version": "1.7.11",
+      "changes": [
+        "Appearance: 8 naye background patterns — Dots, Grid, Diagonal, Hexagon, Circuit, Topo, Zigzag, Aurora",
+        "Patterns ki list ab kul 13 (None + 12) — purane Waves/Mesh/Boxes/Linings waisi hi",
+        "Aurora accent ke mutabiq glow karta hai; choice restart ke baad bhi barqarar rehti hai"
+      ]
+    },
     {
       "version": "1.7.10",
       "changes": [
