@@ -1,11 +1,18 @@
 {
   "changes": [
-    "Guided tour ab spotlight style me — har step par pehle us page par jata hai, phir baqi screen dim karke us section ko roshan highlight karta hai + chhota tooltip card (title + body + Next/Back + 'N / 5' + Don't show again); 13 inch screen par tooltip viewport ke andar rehta hai",
-    "'KartBrowser' lafz app me kahin nazar nahi aayega — browser windows, page titles, logs aur messages ab 'MetaBox' kehte hain (andar ke naam/files waisi hi)",
-    "Update pop-up saada — lambi changelog list khatam; sirf 'Update Available' + version + 'Minor updates / Bug fixes' (bare update par generic line); app ki language English ho to pop-up bhi English (pehle Urdu changelog dikhta tha)",
-    "Toasts/notifications bhi selected language me — update, publish, Safe Mode aur automation wali ittila ab usi zuban me aati hai jo app me select hai"
+    "Welcome celebration khatam — license activate karne par ab 'Welcome to MetaBox!' card + streamers + awaz nahi aati; sirf toast + license pill refresh hota hai; Settings se celebration sound toggle bhi hata diya",
+    "Guided tour ab fresh install par bhi aata hai — pehle license popup boot par khul jata tha is liye tour ka 1.5s check haar maan leta tha aur dobara try nahi hota tha; ab tour defer hota hai aur license popup band hote hi (Later dabane ya kamyab activation ke baad) aata hai; 'Don't show again' tick karne wale ko dobara tang nahi karta",
+    "Tour ka step-1 selector waisa hi hai (dashboard stats grid) — koi step nahi badla; About page se manual tour button bhi waisa hi hai"
   ],
   "history": [
+    {
+      "version": "1.7.24-test",
+      "changes": [
+        "Welcome celebration khatam — license activate karne par ab 'Welcome to MetaBox!' card + streamers + awaz nahi aati; sirf toast + license pill refresh hota hai; Settings se celebration sound toggle bhi hata diya",
+        "Guided tour ab fresh install par bhi aata hai — pehle license popup boot par khul jata tha is liye tour ka 1.5s check haar maan leta tha aur dobara try nahi hota tha; ab tour defer hota hai aur license popup band hote hi (Later dabane ya kamyab activation ke baad) aata hai; 'Don't show again' tick karne wale ko dobara tang nahi karta",
+        "Tour ka step-1 selector waisa hi hai (dashboard stats grid) — koi step nahi badla; About page se manual tour button bhi waisa hi hai"
+      ]
+    },
     {
       "version": "1.7.23-test",
       "changes": [
@@ -210,7 +217,7 @@
     }
   ],
   "notes": "Test build — KartStudio live demo gaps (per-page config, Auto Comment, Story/Link, small gaps) + Rasta 2 Cloud Posting. Main app ko nahi chhedta.",
-  "size": 128591515,
+  "size": 128589076,
   "url": "https://drive.google.com/uc?export=download&id=1KejYKSep7B4TxXPiRjhEmdEpmOkD182H",
-  "version": "1.7.23-test"
+  "version": "1.7.24-test"
 }
