@@ -1,15 +1,20 @@
 {
-  "version": "1.7.9",
+  "version": "1.7.10",
   "url": "https://drive.google.com/uc?export=download&id=1-gyyl9cs9HkiG_J80dJD2__u31MVGu7k",
-  "size": 128597846,
+  "size": 128598569,
   "notes": "Naya version v1.7.9 tayyar hai. Browser shell polish — Chrome jaisi fonts, avatar initial, New tab button tab strip me.",
   "changes": [
-    "Browser shell polish — fonts ab Chrome jaisi (Segoe UI, sahi size/weight); pehle shell ka font serif dikhta hai, ab tabs, address bar, bookmarks bar aur menu sab Chrome jaisi dikhte hain",
-    "Profile avatar par ab hamesha profile ka pehla harf dikhta hai — '?' kabhi nahi; naam na ho to profile ID ka pehla harf, wo bhi na ho to 'M'",
-    "New tab (+) button ab sirf tab strip me hai (tabs ke baad) — bookmarks bar se hata diya; three-dot menu me ab sirf History aur Extensions hain, aur menu poora dikhta hai (pehle neeche kat jata tha)",
-    "Shell ki depth aur hover behtar — active tab toolbar se jura hua dikhta hai, tab close × aur buttons par hover states, address bar me behtar contrast"
+    "Appearance ka alag tab — Settings se nikal kar sidebar me Settings ke upar apna tab bana diya; 8 colors, Waves/Mesh/Boxes/Linings patterns aur Gradient/Solid style wahi hain, choice restart ke baad bhi barqarar rehti hai",
+    "Settings page se Appearance section hata diya — ab do jagah nahi; guided tour ka Appearance step bhi naye tab ki taraf ishara karta hai"
   ],
   "history": [
+    {
+      "version": "1.7.10",
+      "changes": [
+        "Appearance ka alag tab — Settings se nikal kar sidebar me Settings ke upar apna tab bana diya; 8 colors, Waves/Mesh/Boxes/Linings patterns aur Gradient/Solid style wahi hain, choice restart ke baad bhi barqarar rehti hai",
+        "Settings page se Appearance section hata diya — ab do jagah nahi; guided tour ka Appearance step bhi naye tab ki taraf ishara karta hai"
+      ]
+    },
     {
       "version": "1.7.9",
       "changes": [
@@ -587,5 +592,5 @@
       ]
     }
   ],
-  "kind": "fix"
+  "kind": "feature"
 }
