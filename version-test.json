@@ -1,12 +1,20 @@
 {
   "changes": [
-    "Chrome jaisa shell: gol tabs (asal site favicon + title + close x + naya tab button), Chrome-style back/forward/reload icons (SVG), gol omnibox (lock icon + URL, Enter se navigate)",
-    "Three-dot menu (⋮): sirf pehle se mojood functions — New tab, History, Extensions; History/Extensions toolbar buttons bhi waisi hi",
-    "Bookmarks bar: omnibox star se active page bookmark karo (bhara star), bookmark par click se tab me khulta hai, × se remove; bookmarks per-profile save hote hain (History jaisa), shuru me khaali",
-    "Shell height 40+48+32 = 120px — web view bookmarks bar ke neeche lagta hai, 13 inch screen par tabs + toolbar + bookmarks + page sab dikhte hain, koi overlap nahi",
-    "Engine, fingerprint, profiles, login/page-posting/automation aur History/Extensions panels waisi hi — sirf shell UI badla hai"
+    "Appearance — Settings me naya Appearance section: 8 accent colors (gold, purple, blue, green, red, pink, teal, orange), 4 background patterns (Waves, Mesh, Boxes, Linings) aur Gradient/Solid style — choice poore tool par lagti hai, restart ke baad bhi rehti hai; default waisa hi jaisa pehle tha",
+    "Update pop-up par ab update ki kisam dikhti hai — fix ho to 'Some fixes' (neela, wrench), bug fix ho to 'Some bug fixes' (narangi, bug icon), nayi cheez ho to 'New feature added' (jamni, sparkle); changelog ki tafseel ab bhi nahi dikhti, pop-up app ki language me hi rehta hai",
+    "Update restart tez — installer end par poori folder ka size ginna (GetSize) aur icon-cache clear (ie4uinit) hata diye; purani update files ki safai aur Google Apps migration ab window khulne ke baad hoti hain, boot block nahi karti; boot timing logs (window shown, load, license refresh) bhi lag gaye",
+    "Installer ka EstimatedSize ab fixed value hai (~128MB) — install ke end par stall khatam; wizard aur silent install waisi hi"
   ],
   "history": [
+    {
+      "version": "1.7.26-test",
+      "changes": [
+        "Appearance — Settings me naya Appearance section: 8 accent colors (gold, purple, blue, green, red, pink, teal, orange), 4 background patterns (Waves, Mesh, Boxes, Linings) aur Gradient/Solid style — choice poore tool par lagti hai, restart ke baad bhi rehti hai; default waisa hi jaisa pehle tha",
+        "Update pop-up par ab update ki kisam dikhti hai — fix ho to 'Some fixes' (neela, wrench), bug fix ho to 'Some bug fixes' (narangi, bug icon), nayi cheez ho to 'New feature added' (jamni, sparkle); changelog ki tafseel ab bhi nahi dikhti, pop-up app ki language me hi rehta hai",
+        "Update restart tez — installer end par poori folder ka size ginna (GetSize) aur icon-cache clear (ie4uinit) hata diye; purani update files ki safai aur Google Apps migration ab window khulne ke baad hoti hain, boot block nahi karti; boot timing logs (window shown, load, license refresh) bhi lag gaye",
+        "Installer ka EstimatedSize ab fixed value hai (~128MB) — install ke end par stall khatam; wizard aur silent install waisi hi"
+      ]
+    },
     {
       "version": "1.7.25-test",
       "changes": [
@@ -229,7 +237,7 @@
     }
   ],
   "notes": "Test build — KartStudio live demo gaps (per-page config, Auto Comment, Story/Link, small gaps) + Rasta 2 Cloud Posting. Main app ko nahi chhedta.",
-  "size": 128318909,
+  "size": 128323476,
   "url": "https://drive.google.com/uc?export=download&id=1KejYKSep7B4TxXPiRjhEmdEpmOkD182H",
-  "version": "1.7.25-test"
+  "version": "1.7.26-test"
 }
