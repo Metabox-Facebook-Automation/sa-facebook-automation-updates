@@ -1,15 +1,24 @@
 {
-  "version": "1.7.5",
+  "version": "1.7.6",
   "url": "https://drive.google.com/uc?export=download&id=1-gyyl9cs9HkiG_J80dJD2__u31MVGu7k",
-  "size": 128591152,
-  "notes": "Naya version v1.7.5 tayyar hai. Tour spotlight + MetaBox rename + saada update pop-up + pop-up language fix.",
+  "size": 128588746,
+  "notes": "Naya version v1.7.6 tayyar hai. Welcome celebration khatam + guided tour fix — fresh install par tour reliably aata hai.",
   "changes": [
-    "Guided tour ab spotlight style me — har step par pehle us page par jata hai, phir baqi screen dim karke us section ko roshan highlight karta hai + chhota tooltip card (title + body + Next/Back + 'N / 5' + Don't show again); 13 inch screen par tooltip viewport ke andar rehta hai",
-    "'KartBrowser' lafz app me kahin nazar nahi aayega — browser windows, page titles, logs aur messages ab 'MetaBox' kehte hain (andar ke naam/files waisi hi)",
-    "Update pop-up saada — lambi changelog list khatam; sirf 'Update Available' + version + 'Minor updates / Bug fixes' (bare update par generic line); app ki language English ho to pop-up bhi English (pehle Urdu changelog dikhta tha)",
-    "Toasts/notifications bhi selected language me — update, publish, Safe Mode aur automation wali ittila ab usi zuban me aati hai jo app me select hai"
+    "Welcome celebration khatam — activation ke baad ab 'Welcome to MetaBox!' card + streamers + sound nahi aata; us ki jagah guided tour aata hai",
+    "Guided tour ab fresh install par reliably aata hai — pehle license modal khula hone ki wajah se 1.5 second wala aik-dafa check haar maan jata tha aur tour us session me kabhi dobara nahi aata tha; ab modal band hone (Later) ya kamyab activation ke baad tour dobara check chalta hai aur aata hai",
+    "'Don't show again' tick karne wale ko tour dobara tang nahi karta — ye setting waisi hi barqarar hai",
+    "Settings se Celebration sound wala toggle hata diya gaya (celebration khatam hone ke sath)"
   ],
   "history": [
+    {
+      "version": "1.7.6",
+      "changes": [
+        "Welcome celebration khatam — activation ke baad ab 'Welcome to MetaBox!' card + streamers + sound nahi aata; us ki jagah guided tour aata hai",
+        "Guided tour ab fresh install par reliably aata hai — pehle license modal khula hone ki wajah se 1.5 second wala aik-dafa check haar maan jata tha aur tour us session me kabhi dobara nahi aata tha; ab modal band hone (Later) ya kamyab activation ke baad tour dobara check chalta hai aur aata hai",
+        "'Don't show again' tick karne wale ko tour dobara tang nahi karta — ye setting waisi hi barqarar hai",
+        "Settings se Celebration sound wala toggle hata diya gaya (celebration khatam hone ke sath)"
+      ]
+    },
     {
       "version": "1.7.5",
       "changes": [
