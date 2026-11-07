@@ -1,11 +1,16 @@
 {
   "changes": [
-    "Browser shell polish — fonts ab Chrome jaisi (Segoe UI, sahi size/weight); pehle shell ka font serif dikhta hai, ab tabs, address bar, bookmarks bar aur menu sab Chrome jaisi dikhte hain",
-    "Profile avatar par ab hamesha profile ka pehla harf dikhta hai — '?' kabhi nahi; naam na ho to profile ID ka pehla harf, wo bhi na ho to 'M'",
-    "New tab (+) button ab sirf tab strip me hai (tabs ke baad) — bookmarks bar se hata diya; three-dot menu me ab sirf History aur Extensions hain, aur menu poora dikhta hai (pehle neeche kat jata tha)",
-    "Shell ki depth aur hover behtar — active tab toolbar se jura hua dikhta hai, tab close × aur buttons par hover states, address bar me behtar contrast"
+    "Appearance ka alag tab — Settings se nikal kar sidebar me Settings ke upar apna tab bana diya; 8 colors, Waves/Mesh/Boxes/Linings patterns aur Gradient/Solid style wahi hain, choice restart ke baad bhi barqarar rehti hai",
+    "Settings page se Appearance section hata diya — ab do jagah nahi; guided tour ka Appearance step bhi naye tab ki taraf ishara karta hai"
   ],
   "history": [
+    {
+      "version": "1.7.28-test",
+      "changes": [
+        "Appearance ka alag tab — Settings se nikal kar sidebar me Settings ke upar apna tab bana diya; 8 colors, Waves/Mesh/Boxes/Linings patterns aur Gradient/Solid style wahi hain, choice restart ke baad bhi barqarar rehti hai",
+        "Settings page se Appearance section hata diya — ab do jagah nahi; guided tour ka Appearance step bhi naye tab ki taraf ishara karta hai"
+      ]
+    },
     {
       "version": "1.7.27-test",
       "changes": [
@@ -246,8 +251,8 @@
     }
   ],
   "notes": "Test build — KartStudio live demo gaps (per-page config, Auto Comment, Story/Link, small gaps) + Rasta 2 Cloud Posting. Main app ko nahi chhedta.",
-  "size": 128324404,
+  "size": 128324636,
   "url": "https://drive.google.com/uc?export=download&id=1KejYKSep7B4TxXPiRjhEmdEpmOkD182H",
-  "version": "1.7.27-test",
-  "kind": "fix"
+  "version": "1.7.28-test",
+  "kind": "feature"
 }
