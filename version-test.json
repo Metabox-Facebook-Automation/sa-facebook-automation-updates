@@ -1,11 +1,20 @@
 {
   "changes": [
-    "Appearance — Settings me naya Appearance section: 8 accent colors (gold, purple, blue, green, red, pink, teal, orange), 4 background patterns (Waves, Mesh, Boxes, Linings) aur Gradient/Solid style — choice poore tool par lagti hai, restart ke baad bhi rehti hai; default waisa hi jaisa pehle tha",
-    "Update pop-up par ab update ki kisam dikhti hai — fix ho to 'Some fixes' (neela, wrench), bug fix ho to 'Some bug fixes' (narangi, bug icon), nayi cheez ho to 'New feature added' (jamni, sparkle); changelog ki tafseel ab bhi nahi dikhti, pop-up app ki language me hi rehta hai",
-    "Update restart tez — installer end par poori folder ka size ginna (GetSize) aur icon-cache clear (ie4uinit) hata diye; purani update files ki safai aur Google Apps migration ab window khulne ke baad hoti hain, boot block nahi karti; boot timing logs (window shown, load, license refresh) bhi lag gaye",
-    "Installer ka EstimatedSize ab fixed value hai (~128MB) — install ke end par stall khatam; wizard aur silent install waisi hi"
+    "Browser shell polish — fonts ab Chrome jaisi (Segoe UI, sahi size/weight); pehle shell ka font serif dikhta hai, ab tabs, address bar, bookmarks bar aur menu sab Chrome jaisi dikhte hain",
+    "Profile avatar par ab hamesha profile ka pehla harf dikhta hai — '?' kabhi nahi; naam na ho to profile ID ka pehla harf, wo bhi na ho to 'M'",
+    "New tab (+) button ab sirf tab strip me hai (tabs ke baad) — bookmarks bar se hata diya; three-dot menu me ab sirf History aur Extensions hain, aur menu poora dikhta hai (pehle neeche kat jata tha)",
+    "Shell ki depth aur hover behtar — active tab toolbar se jura hua dikhta hai, tab close × aur buttons par hover states, address bar me behtar contrast"
   ],
   "history": [
+    {
+      "version": "1.7.27-test",
+      "changes": [
+        "Browser shell polish — fonts ab Chrome jaisi (Segoe UI, sahi size/weight); pehle shell ka font serif dikhta hai, ab tabs, address bar, bookmarks bar aur menu sab Chrome jaisi dikhte hain",
+        "Profile avatar par ab hamesha profile ka pehla harf dikhta hai — '?' kabhi nahi; naam na ho to profile ID ka pehla harf, wo bhi na ho to 'M'",
+        "New tab (+) button ab sirf tab strip me hai (tabs ke baad) — bookmarks bar se hata diya; three-dot menu me ab sirf History aur Extensions hain, aur menu poora dikhta hai (pehle neeche kat jata tha)",
+        "Shell ki depth aur hover behtar — active tab toolbar se jura hua dikhta hai, tab close × aur buttons par hover states, address bar me behtar contrast"
+      ]
+    },
     {
       "version": "1.7.26-test",
       "changes": [
@@ -237,7 +246,8 @@
     }
   ],
   "notes": "Test build — KartStudio live demo gaps (per-page config, Auto Comment, Story/Link, small gaps) + Rasta 2 Cloud Posting. Main app ko nahi chhedta.",
-  "size": 128323476,
+  "size": 128324404,
   "url": "https://drive.google.com/uc?export=download&id=1KejYKSep7B4TxXPiRjhEmdEpmOkD182H",
-  "version": "1.7.26-test"
+  "version": "1.7.27-test",
+  "kind": "fix"
 }
