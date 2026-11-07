@@ -1,15 +1,26 @@
 {
-  "version": "1.7.6",
+  "version": "1.7.7",
   "url": "https://drive.google.com/uc?export=download&id=1-gyyl9cs9HkiG_J80dJD2__u31MVGu7k",
-  "size": 128588746,
-  "notes": "Naya version v1.7.6 tayyar hai. Welcome celebration khatam + guided tour fix — fresh install par tour reliably aata hai.",
+  "size": 128592555,
+  "notes": "Naya version v1.7.7 tayyar hai. Chrome-like browser shell — asal favicon wale gol tabs, bookmarks bar aur three-dot menu.",
   "changes": [
-    "Welcome celebration khatam — activation ke baad ab 'Welcome to MetaBox!' card + streamers + sound nahi aata; us ki jagah guided tour aata hai",
-    "Guided tour ab fresh install par reliably aata hai — pehle license modal khula hone ki wajah se 1.5 second wala aik-dafa check haar maan jata tha aur tour us session me kabhi dobara nahi aata tha; ab modal band hone (Later) ya kamyab activation ke baad tour dobara check chalta hai aur aata hai",
-    "'Don't show again' tick karne wale ko tour dobara tang nahi karta — ye setting waisi hi barqarar hai",
-    "Settings se Celebration sound wala toggle hata diya gaya (celebration khatam hone ke sath)"
+    "Browser shell ab Chrome jaisa dikhta hai — gol tabs, gol address bar, back/forward/reload ke asal icons, three-dot menu aur neeche bookmarks bar; poora shell dark navy theme me hai",
+    "Tabs par ab site ka asal favicon dikhta hai (jaise Facebook ka 'f') — kisi site ka favicon na ho to pehle wala globe icon rehta hai",
+    "Bookmarks bar: omnibox ke star se koi bhi page bookmark karo — bookmark bar me save rehta hai, click karne se naye tab me khulta hai, × se hat jata hai; shuru me bar khaali hoti hai, aap ke apne bookmarks hi aayenge",
+    "Three-dot menu me sirf maujooda cheezein hain — New tab, History, Extensions; History/Extensions ke toolbar buttons bhi waisi hi hain",
+    "13 inch screen par bhi page poora nazar aata hai — bookmarks bar ke neeche page kabhi nahi chhupta; engine, login aur page-posting waisi hi hain"
   ],
   "history": [
+    {
+      "version": "1.7.7",
+      "changes": [
+        "Browser shell ab Chrome jaisa dikhta hai — gol tabs, gol address bar, back/forward/reload ke asal icons, three-dot menu aur neeche bookmarks bar; poora shell dark navy theme me hai",
+        "Tabs par ab site ka asal favicon dikhta hai (jaise Facebook ka 'f') — kisi site ka favicon na ho to pehle wala globe icon rehta hai",
+        "Bookmarks bar: omnibox ke star se koi bhi page bookmark karo — bookmark bar me save rehta hai, click karne se naye tab me khulta hai, × se hat jata hai; shuru me bar khaali hoti hai, aap ke apne bookmarks hi aayenge",
+        "Three-dot menu me sirf maujooda cheezein hain — New tab, History, Extensions; History/Extensions ke toolbar buttons bhi waisi hi hain",
+        "13 inch screen par bhi page poora nazar aata hai — bookmarks bar ke neeche page kabhi nahi chhupta; engine, login aur page-posting waisi hi hain"
+      ]
+    },
     {
       "version": "1.7.6",
       "changes": [
