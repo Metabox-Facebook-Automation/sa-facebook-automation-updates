@@ -1,14 +1,22 @@
 {
-  "version": "1.7.16",
+  "version": "1.7.17",
   "url": "https://drive.google.com/uc?export=download&id=1krBQZ6Od3IrR9uVOQwaeMTKAS-ry7RpL",
-  "size": 128643516,
+  "size": 172322205,
   "notes": "Naya version v1.7.14 tayyar hai. Settings tabs, Muse Connect aik jagah, aur light-mode background tint.",
   "changes": [
-    "Settings ke tabs ab upar hain — header band me, title ke neeche",
-    "Browser ab ixBrowser jaisa anti-detect hai — har profile ki apni pehchan: Audio, fonts, WebRTC, geo aur device fingerprint, apna Chrome/Edge/Firefox version",
-    "Proxy bulk import, per-profile proxy check, cookie import/export aur profile transfer, bulk profile kaam, har profile ki apni extensions aur Local API"
+    "Engine upgrade — Electron 45.2.3, Chromium 156, Node 24 — browser ab tumhare Chromium jaisa naya hai",
+    "Browser ki pehchan ab asal engine se match karti hai — Chrome 156, Edge 156",
+    "1.7.16 ka sab kuch barqarar — Settings tabs upar, ixBrowser jaisa anti-detect browser, glass logo"
   ],
   "history": [
+    {
+      "version": "1.7.17",
+      "changes": [
+        "Engine upgrade — Electron 45.2.3, Chromium 156, Node 24 — browser ab tumhare Chromium jaisa naya hai",
+        "Browser ki pehchan ab asal engine se match karti hai — Chrome 156, Edge 156",
+        "1.7.16 ka sab kuch barqarar — Settings tabs upar, ixBrowser jaisa anti-detect browser, glass logo"
+      ]
+    },
     {
       "version": "1.7.16",
       "changes": [
