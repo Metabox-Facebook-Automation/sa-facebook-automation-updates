@@ -1,14 +1,22 @@
 {
-  "version": "1.7.17",
+  "version": "1.7.18",
   "url": "https://drive.google.com/uc?export=download&id=1krBQZ6Od3IrR9uVOQwaeMTKAS-ry7RpL",
-  "size": 172322205,
+  "size": 172390026,
   "notes": "Naya version v1.7.14 tayyar hai. Settings tabs, Muse Connect aik jagah, aur light-mode background tint.",
   "changes": [
-    "Engine upgrade — Electron 45.2.3, Chromium 156, Node 24 — browser ab tumhare Chromium jaisa naya hai",
-    "Browser ki pehchan ab asal engine se match karti hai — Chrome 156, Edge 156",
-    "1.7.16 ka sab kuch barqarar — Settings tabs upar, ixBrowser jaisa anti-detect browser, glass logo"
+    "Browser ab bilkul Chromium jaisa — address bar me jo likho wo Google search, suggestions, downloads shelf, find, zoom, poora menu",
+    "Sidebar chhoti (216px) + collapse toggle — click karo to sirf icons, dobara click karo to labels wapas",
+    "Browser ka taskbar icon Chromium wala, app ka taskbar icon MetaBox wala — dono alag; YouTube built-in app ki tayyari bhi hai"
   ],
   "history": [
+    {
+      "version": "1.7.18",
+      "changes": [
+        "Browser ab bilkul Chromium jaisa — address bar me jo likho wo Google search, suggestions, downloads shelf, find, zoom, poora menu",
+        "Sidebar chhoti (216px) + collapse toggle — click karo to sirf icons, dobara click karo to labels wapas",
+        "Browser ka taskbar icon Chromium wala, app ka taskbar icon MetaBox wala — dono alag; YouTube built-in app ki tayyari bhi hai"
+      ]
+    },
     {
       "version": "1.7.17",
       "changes": [
