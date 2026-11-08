@@ -1,14 +1,22 @@
 {
-  "version": "1.7.18",
+  "version": "1.7.19",
   "url": "https://drive.google.com/uc?export=download&id=1krBQZ6Od3IrR9uVOQwaeMTKAS-ry7RpL",
-  "size": 172390026,
+  "size": 172390886,
   "notes": "Naya version v1.7.14 tayyar hai. Settings tabs, Muse Connect aik jagah, aur light-mode background tint.",
   "changes": [
-    "Browser ab bilkul Chromium jaisa — address bar me jo likho wo Google search, suggestions, downloads shelf, find, zoom, poora menu",
-    "Sidebar chhoti (216px) + collapse toggle — click karo to sirf icons, dobara click karo to labels wapas",
-    "Browser ka taskbar icon Chromium wala, app ka taskbar icon MetaBox wala — dono alag; YouTube built-in app ki tayyari bhi hai"
+    "YouTube Connect ab seedha — Client ID app me pehle se hai, koi ID/Secret mangna nahi; token exchange tumhare apne Cloudflare server se hota hai",
+    "Uninstall/reinstall ke baad bhi Connect waisa hi — built-in app har boot par seed hoti hai",
+    "Apni secret wali app ka flow waisa hi — direct Google, kuch nahi badla"
   ],
   "history": [
+    {
+      "version": "1.7.19",
+      "changes": [
+        "YouTube Connect ab seedha — Client ID app me pehle se hai, koi ID/Secret mangna nahi; token exchange tumhare apne Cloudflare server se hota hai",
+        "Uninstall/reinstall ke baad bhi Connect waisa hi — built-in app har boot par seed hoti hai",
+        "Apni secret wali app ka flow waisa hi — direct Google, kuch nahi badla"
+      ]
+    },
     {
       "version": "1.7.18",
       "changes": [
