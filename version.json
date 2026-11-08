@@ -1,17 +1,24 @@
 {
-  "version": "1.7.13",
-  "url": "https://drive.google.com/uc?export=download&id=1cMEWeqQO0gtkQkd0eXWmmdcqA8tVgw5o",
-  "size": 128620854,
-  "notes": "Naya version v1.7.13 tayyar hai. Browser system ki fixes \u2014 har ID ki apni profile, profile delete par poora wipe, asal proxy, aur naye browser actions.",
+  "version": "1.7.14",
+  "url": "https://drive.google.com/uc?export=download&id=1krBQZ6Od3IrR9uVOQwaeMTKAS-ry7RpL",
+  "size": 128622956,
+  "notes": "Naya version v1.7.14 tayyar hai. Settings tabs, Muse Connect aik jagah, aur light-mode background tint.",
   "changes": [
-    "Browser system: bulk import par har ID ki apni profile banti hai \u2014 Auto option default hai, IDs table me per-row profile bhi badal sakte hain",
-    "Profile delete karne par us ki poori browser data saaf hoti hai \u2014 session, cookies aur partition dir; dobara login par purana session nahi milta",
-    "IDs table me ab asal (effective) proxy dikhta hai \u2014 profile ya default proxy se",
-    "Browser UA update \u2014 Chrome 157, Edge 157, Firefox 159; Profiles me 'Refresh UA' action bhi hai",
-    "Profile edit ab khuli window par live lagta hai; modal me Advanced section \u2014 languages, screen size, fingerprint seed + 'Naya fingerprint'",
-    "Naye browser actions: Controlled Browser open, browser data clear + re-login, Trash/Restore, IDs table par right-click menu"
+    "Settings me ab tabs hain \u2014 General, Muse Connect, Privacy aur Storage; har section apni jagah par hai",
+    "Muse Connect ab aik jagah \u2014 pairing, MCP token, relay, download folder aur inbox sab Settings ke Muse Connect tab me; sidebar se alag Muse Connected tab hata diya gaya",
+    "Light mode me background ab selected color ki halki tint hota hai \u2014 pattern ki lines bhi usi rang me; dark mode bilkul waisa hi hai",
+    "Appearance apne sidebar tab me hi hai \u2014 Settings me wapas nahi laya gaya"
   ],
   "history": [
+    {
+      "version": "1.7.14",
+      "changes": [
+        "Settings me ab tabs hain \u2014 General, Muse Connect, Privacy aur Storage; har section apni jagah par hai",
+        "Muse Connect ab aik jagah \u2014 pairing, MCP token, relay, download folder aur inbox sab Settings ke Muse Connect tab me; sidebar se alag Muse Connected tab hata diya gaya",
+        "Light mode me background ab selected color ki halki tint hota hai \u2014 pattern ki lines bhi usi rang me; dark mode bilkul waisa hi hai",
+        "Appearance apne sidebar tab me hi hai \u2014 Settings me wapas nahi laya gaya"
+      ]
+    },
     {
       "version": "1.7.13",
       "changes": [
@@ -624,5 +631,5 @@
       ]
     }
   ],
-  "kind": "fix"
+  "kind": "feature"
 }
