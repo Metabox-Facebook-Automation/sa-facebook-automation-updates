@@ -1,14 +1,22 @@
 {
-  "version": "1.7.33-test",
+  "version": "1.7.34-test",
   "url": "https://drive.google.com/uc?export=download&id=1Rdg6hlRulrYnKi78Jg5FzGGDgdRetuv8",
-  "size": 128348966,
+  "size": 128368847,
   "notes": "Naya version v1.7.32-test tayyar hai. Settings tabs, Muse Connect aik jagah, aur light-mode background tint.",
   "changes": [
-    "Buttons ab chipke hue nahi lagte — toolbar rows ka gap barha diya gaya, har button alag dikhta hai",
-    "Sidebar logo ab glass type hai — baghair rang, appearance ke colour aur dark/light mode ke sath khud badal jata hai",
-    "Poori app ka UI audit — 13 inch screen par chaudi tables ab card ke andar scroll hoti hain, page ki horizontal scrollbar nahi aati"
+    "Settings ke tabs ab upar hain — header band me, title ke neeche",
+    "Browser ab ixBrowser jaisa anti-detect hai — har profile ki apni pehchan: Audio, fonts, WebRTC, geo aur device fingerprint, apna Chrome/Edge/Firefox version",
+    "Proxy bulk import, per-profile proxy check, cookie import/export aur profile transfer, bulk profile kaam, har profile ki apni extensions aur Local API"
   ],
   "history": [
+    {
+      "version": "1.7.34-test",
+      "changes": [
+        "Settings ke tabs ab upar hain — header band me, title ke neeche",
+        "Browser ab ixBrowser jaisa anti-detect hai — har profile ki apni pehchan: Audio, fonts, WebRTC, geo aur device fingerprint, apna Chrome/Edge/Firefox version",
+        "Proxy bulk import, per-profile proxy check, cookie import/export aur profile transfer, bulk profile kaam, har profile ki apni extensions aur Local API"
+      ]
+    },
     {
       "version": "1.7.33-test",
       "changes": [
@@ -296,5 +304,5 @@
       "version": "1.7.0-test.1"
     }
   ],
-  "kind": "fix"
+  "kind": "feature"
 }
