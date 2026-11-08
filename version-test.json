@@ -1,11 +1,18 @@
 {
   "changes": [
-    "Muse Connect naya feature — Settings me Muse Connect card: Enable toggle, Setup Instruction copy (Muse me paste karo), pairing token se Pairing Done, aur download folder chooser",
-    "Muse generated media ab seedha PC par aata hai — naya MCP tool media_deliver file ko download folder me category subfolder (jaise Celebrity Photos) me save karke Library me import karta hai; kuch bhi auto-post nahi hota",
-    "App khulte hi pending deliveries kheench leti hai — tool off tha to Muse pending content apne paas rakh kar dobara connect par deliver karta hai, relay files store nahi kar sakta",
-    "Skill + MD template shamil — sirf content category likho, baqi automation par hai; hard rule: content confirmation ke baghair auto PC par jaye, posting kabhi auto nahi"
+    "Browser system theek — bulk import ab har ID ki apni profile banata hai (Auto default), profile delete poora wipe (session + cookies saaf), IDs table me asal proxy, page/group hamesha sahi ID ke browser me",
+    "User Agent current — Chrome 157 / Edge 157 / Firefox 159, aik hi source; per-profile Refresh UA; test bookmarks bar par ab asal favicon",
+    "Kartar engine features — Controlled Browser open, browser data clear + dobara login, Trash Export, IDs table par right-click menu; profile edit live-apply + Advanced section"
   ],
   "history": [
+    {
+      "version": "1.7.31-test",
+      "changes": [
+        "Browser system theek — bulk import ab har ID ki apni profile banata hai (Auto default), profile delete poora wipe (session + cookies saaf), IDs table me asal proxy, page/group hamesha sahi ID ke browser me",
+        "User Agent current — Chrome 157 / Edge 157 / Firefox 159, aik hi source; per-profile Refresh UA; test bookmarks bar par ab asal favicon",
+        "Kartar engine features — Controlled Browser open, browser data clear + dobara login, Trash Export, IDs table par right-click menu; profile edit live-apply + Advanced section"
+      ]
+    },
     {
       "version": "1.7.30-test",
       "changes": [
@@ -269,8 +276,8 @@
     }
   ],
   "notes": "Test build — KartStudio live demo gaps (per-page config, Auto Comment, Story/Link, small gaps) + Rasta 2 Cloud Posting. Main app ko nahi chhedta.",
-  "size": 128338514,
+  "size": 128347078,
   "url": "https://drive.google.com/uc?export=download&id=1KejYKSep7B4TxXPiRjhEmdEpmOkD182H",
-  "version": "1.7.30-test",
-  "kind": "feature"
+  "version": "1.7.31-test",
+  "kind": "fix"
 }
