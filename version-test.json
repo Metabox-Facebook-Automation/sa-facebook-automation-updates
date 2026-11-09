@@ -1,14 +1,22 @@
 {
-  "version": "1.7.38-test",
+  "version": "1.7.39-test",
   "url": "https://drive.google.com/uc?export=download&id=1Rdg6hlRulrYnKi78Jg5FzGGDgdRetuv8",
-  "size": 172428468,
+  "size": 172433301,
   "notes": "Naya version v1.7.32-test tayyar hai. Settings tabs, Muse Connect aik jagah, aur light-mode background tint.",
   "changes": [
-    "Browser ab asal Chrome hai — imitation shell khatam; Profile kholo to tumhare PC ka Chrome khulta hai, poora Chromium UI",
-    "Sidebar wapas pehle jaisa — hamesha 248px khula, collapse wala button khatam",
-    "Fingerprint ab Chrome ke control channel se; extensions Web Store se seedha real Chrome me"
+    "Naya Analytics tab — har Facebook page ka card (Followers, Views, Reach, Engagement, Top posts) aur har YouTube channel ka card (Subscribers, Views, Watch time, Top videos)",
+    "Period 7 din / 28 din, Refresh button, 1 ghante ka cache — jo metric na mile wo khaali rehta hai, number kabhi invent nahi hota",
+    "Token expire ho to card par saaf wajah + dobara-connect ka rasta"
   ],
   "history": [
+    {
+      "version": "1.7.39-test",
+      "changes": [
+        "Naya Analytics tab — har Facebook page ka card (Followers, Views, Reach, Engagement, Top posts) aur har YouTube channel ka card (Subscribers, Views, Watch time, Top videos)",
+        "Period 7 din / 28 din, Refresh button, 1 ghante ka cache — jo metric na mile wo khaali rehta hai, number kabhi invent nahi hota",
+        "Token expire ho to card par saaf wajah + dobara-connect ka rasta"
+      ]
+    },
     {
       "version": "1.7.38-test",
       "changes": [
