@@ -1,14 +1,22 @@
 {
-  "version": "1.7.37-test",
+  "version": "1.7.38-test",
   "url": "https://drive.google.com/uc?export=download&id=1Rdg6hlRulrYnKi78Jg5FzGGDgdRetuv8",
-  "size": 172440496,
+  "size": 172428468,
   "notes": "Naya version v1.7.32-test tayyar hai. Settings tabs, Muse Connect aik jagah, aur light-mode background tint.",
   "changes": [
-    "YouTube Connect ab seedha — Client ID app me pehle se hai, koi ID/Secret mangna nahi; token exchange tumhare apne Cloudflare server se hota hai",
-    "Uninstall/reinstall ke baad bhi Connect waisa hi — built-in app har boot par seed hoti hai",
-    "Apni secret wali app ka flow waisa hi — direct Google, kuch nahi badla"
+    "Browser ab asal Chrome hai — imitation shell khatam; Profile kholo to tumhare PC ka Chrome khulta hai, poora Chromium UI",
+    "Sidebar wapas pehle jaisa — hamesha 248px khula, collapse wala button khatam",
+    "Fingerprint ab Chrome ke control channel se; extensions Web Store se seedha real Chrome me"
   ],
   "history": [
+    {
+      "version": "1.7.38-test",
+      "changes": [
+        "Browser ab asal Chrome hai — imitation shell khatam; Profile kholo to tumhare PC ka Chrome khulta hai, poora Chromium UI",
+        "Sidebar wapas pehle jaisa — hamesha 248px khula, collapse wala button khatam",
+        "Fingerprint ab Chrome ke control channel se; extensions Web Store se seedha real Chrome me"
+      ]
+    },
     {
       "version": "1.7.37-test",
       "changes": [
