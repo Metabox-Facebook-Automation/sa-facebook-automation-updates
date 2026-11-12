@@ -1,186 +1,194 @@
 {
-  "version": "1.7.22",
+  "version": "1.7.23",
   "url": "https://drive.google.com/uc?export=download&id=1krBQZ6Od3IrR9uVOQwaeMTKAS-ry7RpL",
-  "size": 172471826,
+  "size": 172475698,
   "notes": "Naya version v1.7.14 tayyar hai. Settings tabs, Muse Connect aik jagah, aur light-mode background tint.",
   "changes": [
-    "Naya Analytics tab \u2014 har Facebook page ka card (Followers, Views, Reach, Engagement, Top posts) aur har YouTube channel ka card (Subscribers, Views, Watch time, Top videos)",
-    "Period 7 din / 28 din, Refresh button, 1 ghante ka cache \u2014 jo metric na mile wo khaali rehta hai, number kabhi invent nahi hota",
-    "Token expire ho to card par saaf wajah + dobara-connect ka rasta"
+    "YouTube Connect ab tool ke browser (Anti-Detect profile) me bhi ho sakta hai — system browser wala option bhi hai",
+    "Analytics ab aik hi tab me — Pages aur YouTube sath, alag YouTube Analytics tab khatam",
+    "Browser Profiles list ab minimal hai — sirf naam + Open/Close + Remove + Edit + Check Fingerprint; poora fingerprint ab us profile ke browser tab me dikhta hai"
   ],
   "history": [
     {
+      "version": "1.7.23",
+      "changes": [
+        "YouTube Connect ab tool ke browser (Anti-Detect profile) me bhi ho sakta hai — system browser wala option bhi hai",
+        "Analytics ab aik hi tab me — Pages aur YouTube sath, alag YouTube Analytics tab khatam",
+        "Browser Profiles list ab minimal hai — sirf naam + Open/Close + Remove + Edit + Check Fingerprint; poora fingerprint ab us profile ke browser tab me dikhta hai"
+      ]
+    },
+    {
       "version": "1.7.22",
       "changes": [
-        "Taskbar icon ab MetaBox wala hai \u2014 stock Electron icon khatam, exe ke andar wala icon badal diya",
-        "Koi aur change nahi \u2014 sirf icon fix hai"
+        "Taskbar icon ab MetaBox wala hai — stock Electron icon khatam, exe ke andar wala icon badal diya",
+        "Koi aur change nahi — sirf icon fix hai"
       ]
     },
     {
       "version": "1.7.21",
       "changes": [
-        "Naya Analytics tab \u2014 har Facebook page ka card (Followers, Views, Reach, Engagement, Top posts) aur har YouTube channel ka card (Subscribers, Views, Watch time, Top videos)",
-        "Period 7 din / 28 din, Refresh button, 1 ghante ka cache \u2014 jo metric na mile wo khaali rehta hai, number kabhi invent nahi hota",
+        "Naya Analytics tab — har Facebook page ka card (Followers, Views, Reach, Engagement, Top posts) aur har YouTube channel ka card (Subscribers, Views, Watch time, Top videos)",
+        "Period 7 din / 28 din, Refresh button, 1 ghante ka cache — jo metric na mile wo khaali rehta hai, number kabhi invent nahi hota",
         "Token expire ho to card par saaf wajah + dobara-connect ka rasta"
       ]
     },
     {
       "version": "1.7.20",
       "changes": [
-        "Browser ab asal Chrome hai \u2014 imitation shell khatam; Profile kholo to tumhare PC ka Chrome khulta hai, poora Chromium UI",
-        "Sidebar wapas pehle jaisa \u2014 hamesha 248px khula, collapse wala button khatam",
+        "Browser ab asal Chrome hai — imitation shell khatam; Profile kholo to tumhare PC ka Chrome khulta hai, poora Chromium UI",
+        "Sidebar wapas pehle jaisa — hamesha 248px khula, collapse wala button khatam",
         "Fingerprint ab Chrome ke control channel se; extensions Web Store se seedha real Chrome me"
       ]
     },
     {
       "version": "1.7.19",
       "changes": [
-        "YouTube Connect ab seedha \u2014 Client ID app me pehle se hai, koi ID/Secret mangna nahi; token exchange tumhare apne Cloudflare server se hota hai",
-        "Uninstall/reinstall ke baad bhi Connect waisa hi \u2014 built-in app har boot par seed hoti hai",
-        "Apni secret wali app ka flow waisa hi \u2014 direct Google, kuch nahi badla"
+        "YouTube Connect ab seedha — Client ID app me pehle se hai, koi ID/Secret mangna nahi; token exchange tumhare apne Cloudflare server se hota hai",
+        "Uninstall/reinstall ke baad bhi Connect waisa hi — built-in app har boot par seed hoti hai",
+        "Apni secret wali app ka flow waisa hi — direct Google, kuch nahi badla"
       ]
     },
     {
       "version": "1.7.18",
       "changes": [
-        "Browser ab bilkul Chromium jaisa \u2014 address bar me jo likho wo Google search, suggestions, downloads shelf, find, zoom, poora menu",
-        "Sidebar chhoti (216px) + collapse toggle \u2014 click karo to sirf icons, dobara click karo to labels wapas",
-        "Browser ka taskbar icon Chromium wala, app ka taskbar icon MetaBox wala \u2014 dono alag; YouTube built-in app ki tayyari bhi hai"
+        "Browser ab bilkul Chromium jaisa — address bar me jo likho wo Google search, suggestions, downloads shelf, find, zoom, poora menu",
+        "Sidebar chhoti (216px) + collapse toggle — click karo to sirf icons, dobara click karo to labels wapas",
+        "Browser ka taskbar icon Chromium wala, app ka taskbar icon MetaBox wala — dono alag; YouTube built-in app ki tayyari bhi hai"
       ]
     },
     {
       "version": "1.7.17",
       "changes": [
-        "Engine upgrade \u2014 Electron 45.2.3, Chromium 156, Node 24 \u2014 browser ab tumhare Chromium jaisa naya hai",
-        "Browser ki pehchan ab asal engine se match karti hai \u2014 Chrome 156, Edge 156",
-        "1.7.16 ka sab kuch barqarar \u2014 Settings tabs upar, ixBrowser jaisa anti-detect browser, glass logo"
+        "Engine upgrade — Electron 45.2.3, Chromium 156, Node 24 — browser ab tumhare Chromium jaisa naya hai",
+        "Browser ki pehchan ab asal engine se match karti hai — Chrome 156, Edge 156",
+        "1.7.16 ka sab kuch barqarar — Settings tabs upar, ixBrowser jaisa anti-detect browser, glass logo"
       ]
     },
     {
       "version": "1.7.16",
       "changes": [
-        "Settings ke tabs ab upar hain \u2014 header band me, title ke neeche",
-        "Browser ab ixBrowser jaisa anti-detect hai \u2014 har profile ki apni pehchan: Audio, fonts, WebRTC, geo aur device fingerprint, apna Chrome/Edge/Firefox version",
+        "Settings ke tabs ab upar hain — header band me, title ke neeche",
+        "Browser ab ixBrowser jaisa anti-detect hai — har profile ki apni pehchan: Audio, fonts, WebRTC, geo aur device fingerprint, apna Chrome/Edge/Firefox version",
         "Proxy bulk import, per-profile proxy check, cookie import/export aur profile transfer, bulk profile kaam, har profile ki apni extensions aur Local API"
       ]
     },
     {
       "version": "1.7.15",
       "changes": [
-        "Buttons ab chipke hue nahi lagte \u2014 toolbar rows ka gap barha diya gaya, har button alag dikhta hai",
-        "Sidebar logo ab glass type hai \u2014 baghair rang, appearance ke colour aur dark/light mode ke sath khud badal jata hai",
-        "Poori app ka UI audit \u2014 13 inch screen par chaudi tables ab card ke andar scroll hoti hain, page ki horizontal scrollbar nahi aati"
+        "Buttons ab chipke hue nahi lagte — toolbar rows ka gap barha diya gaya, har button alag dikhta hai",
+        "Sidebar logo ab glass type hai — baghair rang, appearance ke colour aur dark/light mode ke sath khud badal jata hai",
+        "Poori app ka UI audit — 13 inch screen par chaudi tables ab card ke andar scroll hoti hain, page ki horizontal scrollbar nahi aati"
       ]
     },
     {
       "version": "1.7.14",
       "changes": [
-        "Settings me ab tabs hain \u2014 General, Muse Connect, Privacy aur Storage; har section apni jagah par hai",
-        "Muse Connect ab aik jagah \u2014 pairing, MCP token, relay, download folder aur inbox sab Settings ke Muse Connect tab me; sidebar se alag Muse Connected tab hata diya gaya",
-        "Light mode me background ab selected color ki halki tint hota hai \u2014 pattern ki lines bhi usi rang me; dark mode bilkul waisa hi hai",
-        "Appearance apne sidebar tab me hi hai \u2014 Settings me wapas nahi laya gaya"
+        "Settings me ab tabs hain — General, Muse Connect, Privacy aur Storage; har section apni jagah par hai",
+        "Muse Connect ab aik jagah — pairing, MCP token, relay, download folder aur inbox sab Settings ke Muse Connect tab me; sidebar se alag Muse Connected tab hata diya gaya",
+        "Light mode me background ab selected color ki halki tint hota hai — pattern ki lines bhi usi rang me; dark mode bilkul waisa hi hai",
+        "Appearance apne sidebar tab me hi hai — Settings me wapas nahi laya gaya"
       ]
     },
     {
       "version": "1.7.13",
       "changes": [
-        "Browser system: bulk import par har ID ki apni profile banti hai \u2014 Auto option default hai, IDs table me per-row profile bhi badal sakte hain",
-        "Profile delete karne par us ki poori browser data saaf hoti hai \u2014 session, cookies aur partition dir; dobara login par purana session nahi milta",
-        "IDs table me ab asal (effective) proxy dikhta hai \u2014 profile ya default proxy se",
-        "Browser UA update \u2014 Chrome 157, Edge 157, Firefox 159; Profiles me 'Refresh UA' action bhi hai",
-        "Profile edit ab khuli window par live lagta hai; modal me Advanced section \u2014 languages, screen size, fingerprint seed + 'Naya fingerprint'",
+        "Browser system: bulk import par har ID ki apni profile banti hai — Auto option default hai, IDs table me per-row profile bhi badal sakte hain",
+        "Profile delete karne par us ki poori browser data saaf hoti hai — session, cookies aur partition dir; dobara login par purana session nahi milta",
+        "IDs table me ab asal (effective) proxy dikhta hai — profile ya default proxy se",
+        "Browser UA update — Chrome 157, Edge 157, Firefox 159; Profiles me 'Refresh UA' action bhi hai",
+        "Profile edit ab khuli window par live lagta hai; modal me Advanced section — languages, screen size, fingerprint seed + 'Naya fingerprint'",
         "Naye browser actions: Controlled Browser open, browser data clear + re-login, Trash/Restore, IDs table par right-click menu"
       ]
     },
     {
       "version": "1.7.12",
       "changes": [
-        "Muse Connect: Settings me naya card \u2014 Enable karo, Setup Instruction copy karke Muse me paste karo, pairing approve karo",
-        "Muse se banaya hua media (image/video) khud PC par aata hai \u2014 download folder + category subfolder me, Library me from_muse ke sath",
-        "Kuch auto-post nahi hota \u2014 files sirf Library me aati hain, post/schedule user khud karta hai",
+        "Muse Connect: Settings me naya card — Enable karo, Setup Instruction copy karke Muse me paste karo, pairing approve karo",
+        "Muse se banaya hua media (image/video) khud PC par aata hai — download folder + category subfolder me, Library me from_muse ke sath",
+        "Kuch auto-post nahi hota — files sirf Library me aati hain, post/schedule user khud karta hai",
         "App kholte hi pending files khud pull hoti hain (download folder se)"
       ]
     },
     {
       "version": "1.7.11",
       "changes": [
-        "Appearance: 8 naye background patterns \u2014 Dots, Grid, Diagonal, Hexagon, Circuit, Topo, Zigzag, Aurora",
-        "Patterns ki list ab kul 13 (None + 12) \u2014 purane Waves/Mesh/Boxes/Linings waisi hi",
+        "Appearance: 8 naye background patterns — Dots, Grid, Diagonal, Hexagon, Circuit, Topo, Zigzag, Aurora",
+        "Patterns ki list ab kul 13 (None + 12) — purane Waves/Mesh/Boxes/Linings waisi hi",
         "Aurora accent ke mutabiq glow karta hai; choice restart ke baad bhi barqarar rehti hai"
       ]
     },
     {
       "version": "1.7.10",
       "changes": [
-        "Appearance ka alag tab \u2014 Settings se nikal kar sidebar me Settings ke upar apna tab bana diya; 8 colors, Waves/Mesh/Boxes/Linings patterns aur Gradient/Solid style wahi hain, choice restart ke baad bhi barqarar rehti hai",
-        "Settings page se Appearance section hata diya \u2014 ab do jagah nahi; guided tour ka Appearance step bhi naye tab ki taraf ishara karta hai"
+        "Appearance ka alag tab — Settings se nikal kar sidebar me Settings ke upar apna tab bana diya; 8 colors, Waves/Mesh/Boxes/Linings patterns aur Gradient/Solid style wahi hain, choice restart ke baad bhi barqarar rehti hai",
+        "Settings page se Appearance section hata diya — ab do jagah nahi; guided tour ka Appearance step bhi naye tab ki taraf ishara karta hai"
       ]
     },
     {
       "version": "1.7.9",
       "changes": [
-        "Browser shell polish \u2014 fonts ab Chrome jaisi (Segoe UI, sahi size/weight); pehle shell ka font serif dikhta hai, ab tabs, address bar, bookmarks bar aur menu sab Chrome jaisi dikhte hain",
-        "Profile avatar par ab hamesha profile ka pehla harf dikhta hai \u2014 '?' kabhi nahi; naam na ho to profile ID ka pehla harf, wo bhi na ho to 'M'",
-        "New tab (+) button ab sirf tab strip me hai (tabs ke baad) \u2014 bookmarks bar se hata diya; three-dot menu me ab sirf History aur Extensions hain, aur menu poora dikhta hai (pehle neeche kat jata tha)",
-        "Shell ki depth aur hover behtar \u2014 active tab toolbar se jura hua dikhta hai, tab close \u00d7 aur buttons par hover states, address bar me behtar contrast"
+        "Browser shell polish — fonts ab Chrome jaisi (Segoe UI, sahi size/weight); pehle shell ka font serif dikhta hai, ab tabs, address bar, bookmarks bar aur menu sab Chrome jaisi dikhte hain",
+        "Profile avatar par ab hamesha profile ka pehla harf dikhta hai — '?' kabhi nahi; naam na ho to profile ID ka pehla harf, wo bhi na ho to 'M'",
+        "New tab (+) button ab sirf tab strip me hai (tabs ke baad) — bookmarks bar se hata diya; three-dot menu me ab sirf History aur Extensions hain, aur menu poora dikhta hai (pehle neeche kat jata tha)",
+        "Shell ki depth aur hover behtar — active tab toolbar se jura hua dikhta hai, tab close × aur buttons par hover states, address bar me behtar contrast"
       ]
     },
     {
       "version": "1.7.8",
       "changes": [
-        "Appearance section added in Settings \u2014 8 accent colors, 4 background patterns (Waves, Mesh, Boxes, Linings) and Gradient/Solid background styles",
-        "Update popup now shows the update kind \u2014 Some fixes, Some bug fixes or New feature added",
-        "Faster update restart \u2014 removed slow installer size scan and icon-cache refresh, update cleanup and migration no longer block startup, boot timing logs added"
+        "Appearance section added in Settings — 8 accent colors, 4 background patterns (Waves, Mesh, Boxes, Linings) and Gradient/Solid background styles",
+        "Update popup now shows the update kind — Some fixes, Some bug fixes or New feature added",
+        "Faster update restart — removed slow installer size scan and icon-cache refresh, update cleanup and migration no longer block startup, boot timing logs added"
       ]
     },
     {
       "version": "1.7.7",
       "changes": [
-        "Browser shell ab Chrome jaisa dikhta hai \u2014 gol tabs, gol address bar, back/forward/reload ke asal icons, three-dot menu aur neeche bookmarks bar; poora shell dark navy theme me hai",
-        "Tabs par ab site ka asal favicon dikhta hai (jaise Facebook ka 'f') \u2014 kisi site ka favicon na ho to pehle wala globe icon rehta hai",
-        "Bookmarks bar: omnibox ke star se koi bhi page bookmark karo \u2014 bookmark bar me save rehta hai, click karne se naye tab me khulta hai, \u00d7 se hat jata hai; shuru me bar khaali hoti hai, aap ke apne bookmarks hi aayenge",
-        "Three-dot menu me sirf maujooda cheezein hain \u2014 New tab, History, Extensions; History/Extensions ke toolbar buttons bhi waisi hi hain",
-        "13 inch screen par bhi page poora nazar aata hai \u2014 bookmarks bar ke neeche page kabhi nahi chhupta; engine, login aur page-posting waisi hi hain"
+        "Browser shell ab Chrome jaisa dikhta hai — gol tabs, gol address bar, back/forward/reload ke asal icons, three-dot menu aur neeche bookmarks bar; poora shell dark navy theme me hai",
+        "Tabs par ab site ka asal favicon dikhta hai (jaise Facebook ka 'f') — kisi site ka favicon na ho to pehle wala globe icon rehta hai",
+        "Bookmarks bar: omnibox ke star se koi bhi page bookmark karo — bookmark bar me save rehta hai, click karne se naye tab me khulta hai, × se hat jata hai; shuru me bar khaali hoti hai, aap ke apne bookmarks hi aayenge",
+        "Three-dot menu me sirf maujooda cheezein hain — New tab, History, Extensions; History/Extensions ke toolbar buttons bhi waisi hi hain",
+        "13 inch screen par bhi page poora nazar aata hai — bookmarks bar ke neeche page kabhi nahi chhupta; engine, login aur page-posting waisi hi hain"
       ]
     },
     {
       "version": "1.7.6",
       "changes": [
-        "Welcome celebration khatam \u2014 activation ke baad ab 'Welcome to MetaBox!' card + streamers + sound nahi aata; us ki jagah guided tour aata hai",
-        "Guided tour ab fresh install par reliably aata hai \u2014 pehle license modal khula hone ki wajah se 1.5 second wala aik-dafa check haar maan jata tha aur tour us session me kabhi dobara nahi aata tha; ab modal band hone (Later) ya kamyab activation ke baad tour dobara check chalta hai aur aata hai",
-        "'Don't show again' tick karne wale ko tour dobara tang nahi karta \u2014 ye setting waisi hi barqarar hai",
+        "Welcome celebration khatam — activation ke baad ab 'Welcome to MetaBox!' card + streamers + sound nahi aata; us ki jagah guided tour aata hai",
+        "Guided tour ab fresh install par reliably aata hai — pehle license modal khula hone ki wajah se 1.5 second wala aik-dafa check haar maan jata tha aur tour us session me kabhi dobara nahi aata tha; ab modal band hone (Later) ya kamyab activation ke baad tour dobara check chalta hai aur aata hai",
+        "'Don't show again' tick karne wale ko tour dobara tang nahi karta — ye setting waisi hi barqarar hai",
         "Settings se Celebration sound wala toggle hata diya gaya (celebration khatam hone ke sath)"
       ]
     },
     {
       "version": "1.7.5",
       "changes": [
-        "Guided tour ab spotlight style me \u2014 har step par pehle us page par jata hai, phir baqi screen dim karke us section ko roshan highlight karta hai + chhota tooltip card (title + body + Next/Back + 'N / 5' + Don't show again); 13 inch screen par tooltip viewport ke andar rehta hai",
-        "'KartBrowser' lafz app me kahin nazar nahi aayega \u2014 browser windows, page titles, logs aur messages ab 'MetaBox' kehte hain (andar ke naam/files waisi hi)",
-        "Update pop-up saada \u2014 lambi changelog list khatam; sirf 'Update Available' + version + 'Minor updates / Bug fixes' (bare update par generic line); app ki language English ho to pop-up bhi English (pehle Urdu changelog dikhta tha)",
-        "Toasts/notifications bhi selected language me \u2014 update, publish, Safe Mode aur automation wali ittila ab usi zuban me aati hai jo app me select hai"
+        "Guided tour ab spotlight style me — har step par pehle us page par jata hai, phir baqi screen dim karke us section ko roshan highlight karta hai + chhota tooltip card (title + body + Next/Back + 'N / 5' + Don't show again); 13 inch screen par tooltip viewport ke andar rehta hai",
+        "'KartBrowser' lafz app me kahin nazar nahi aayega — browser windows, page titles, logs aur messages ab 'MetaBox' kehte hain (andar ke naam/files waisi hi)",
+        "Update pop-up saada — lambi changelog list khatam; sirf 'Update Available' + version + 'Minor updates / Bug fixes' (bare update par generic line); app ki language English ho to pop-up bhi English (pehle Urdu changelog dikhta tha)",
+        "Toasts/notifications bhi selected language me — update, publish, Safe Mode aur automation wali ittila ab usi zuban me aati hai jo app me select hai"
       ]
     },
     {
       "version": "1.7.4",
       "changes": [
-        "Scheduler Cancel button fix: 13 inch screen par 4-button wali row (Resume + Switch to local + Reschedule + Cancel) actions column se bahar nikal jati thi \u2014 Cancel button table ke bahar / kata hua dikhta tha; ab saare buttons column ke andar hain, koi horizontal slide nahi",
-        "Scheduler action buttons ab row ke darmiyan me (vertically center) hain \u2014 pehle upar chipke rehte thay; video cell ka top-align aur title 1 line + badges line 2 waisa hi hai",
-        "Scheduler table columns rebalance: actions column chaura (328px), page/attempts/error thode tang \u2014 poori table ki chaudai waisi hi, bari screen par layout waisa hi hai"
+        "Scheduler Cancel button fix: 13 inch screen par 4-button wali row (Resume + Switch to local + Reschedule + Cancel) actions column se bahar nikal jati thi — Cancel button table ke bahar / kata hua dikhta tha; ab saare buttons column ke andar hain, koi horizontal slide nahi",
+        "Scheduler action buttons ab row ke darmiyan me (vertically center) hain — pehle upar chipke rehte thay; video cell ka top-align aur title 1 line + badges line 2 waisa hi hai",
+        "Scheduler table columns rebalance: actions column chaura (328px), page/attempts/error thode tang — poori table ki chaudai waisi hi, bari screen par layout waisa hi hai"
       ]
     },
     {
       "version": "1.7.3",
       "changes": [
-        "Calendar refinement: din ki saari events dikhti hain \u2014 '+N more' khatam (slice hata di); event pills chhote kar diye (compact padding/font/badge); din ka cell aur grid waisa hi hai",
-        "Scheduler video cell: title 1 line me (ellipsis, poora naam hover par) + badges line 2 par \u2014 video cell 2 lines, 3 nahi; checkbox vertically center; baqi cells top-align taake badges page text se na takraein",
-        "Scheduler table: fixed layout, th widths, actions/date aik line \u2014 1.7.2 wala theek hissa barqarar"
+        "Calendar refinement: din ki saari events dikhti hain — '+N more' khatam (slice hata di); event pills chhote kar diye (compact padding/font/badge); din ka cell aur grid waisa hi hai",
+        "Scheduler video cell: title 1 line me (ellipsis, poora naam hover par) + badges line 2 par — video cell 2 lines, 3 nahi; checkbox vertically center; baqi cells top-align taake badges page text se na takraein",
+        "Scheduler table: fixed layout, th widths, actions/date aik line — 1.7.2 wala theek hissa barqarar"
       ]
     },
     {
       "version": "1.7.2",
       "changes": [
-        "Calendar fix: 7-din grid ab aik screen par fit hota hai \u2014 right slide khatam (grid minmax(0,1fr) + day cells min-width 0, events ellipsis karte hain)",
+        "Calendar fix: 7-din grid ab aik screen par fit hota hai — right slide khatam (grid minmax(0,1fr) + day cells min-width 0, events ellipsis karte hain)",
         "Scheduler table: badges aik line me (YouTube + Platform aik hi row, nowrap), actions aik line me compact (Resume/Switch to local/Reschedule/Cancel), channel/date aik line me (nowrap + ellipsis)",
         "Scheduler table fixed layout: poora table viewport me fit hota hai, horizontal scroll nahi"
       ]
@@ -188,11 +196,11 @@
     {
       "version": "1.7.1",
       "changes": [
-        "Scheduler burst fix: overdue jobs ab ek saath publish nahi hoti \u2014 guzri hui job agle khali slot par reschedule hoti hai, 2/day ki limit barqarar (17 videos queue karo to slots 9 din me spread hote hain)",
-        "Nayi generation purani scheduled jobs ke peeche nahi \u2014 pehle se bhare din skip hote hain, aik din me 2 se zyada kabhi nahi",
-        "Status sachha: platform par schedule hui video ab 'SCHEDULED (date)' dikhati hai \u2014 'PUBLISHED' sirf tab jab video asal me public ho; Private upload par 'upload ho gayi (Private)'",
-        "YouTube 400 error: ab asal Google wajah dikhti hai (masalan token expire) \u2014 sirf 'status code 400' nahi; dead token wala channel 'Reconnect zaroori' mark hota hai, YouTube page par Dobara Connect button",
-        "Upload verify: video upload ke baad channel + privacy check hoti hai \u2014 ghalat channel par gayi to job FAILED (PUBLISHED nahi)",
+        "Scheduler burst fix: overdue jobs ab ek saath publish nahi hoti — guzri hui job agle khali slot par reschedule hoti hai, 2/day ki limit barqarar (17 videos queue karo to slots 9 din me spread hote hain)",
+        "Nayi generation purani scheduled jobs ke peeche nahi — pehle se bhare din skip hote hain, aik din me 2 se zyada kabhi nahi",
+        "Status sachha: platform par schedule hui video ab 'SCHEDULED (date)' dikhati hai — 'PUBLISHED' sirf tab jab video asal me public ho; Private upload par 'upload ho gayi (Private)'",
+        "YouTube 400 error: ab asal Google wajah dikhti hai (masalan token expire) — sirf 'status code 400' nahi; dead token wala channel 'Reconnect zaroori' mark hota hai, YouTube page par Dobara Connect button",
+        "Upload verify: video upload ke baad channel + privacy check hoti hai — ghalat channel par gayi to job FAILED (PUBLISHED nahi)",
         "KartBrowser local posts ka bhi wahi burst fix: overdue rows reschedule hoti hain, ek saath post nahi",
         "Scheduler table alignment: lambe titles 2 lines me, badges inline, actions tidy",
         "Retry fix: platform job retry 15 min baad (10-min platform lead se zyada), local 5 min"
@@ -201,11 +209,11 @@
     {
       "version": "1.7.0",
       "changes": [
-        "Test branch ki sari cheezein main app me aa gayin \u2014 KartBrowser (browser automation, bulk ID import, per-ID profiles, proxies, fingerprint), group posting, bulk page creation, Muse inbox + Spintax, real tab browser + extensions",
-        "Platform scheduling: YouTube publishAt + Facebook scheduled_publish_time \u2014 upload abhi, platform waqt par publish karega; laptop band ho to bhi chalega; Reels hamesha local",
-        "Rasta 1 (Is PC se): API Facebook posting wapas \u2014 background silent upload, Facebook khud waqt par publish karega; Rasta 2 (Cloud): Oracle VM server se posting (Settings > Cloud Posting)",
+        "Test branch ki sari cheezein main app me aa gayin — KartBrowser (browser automation, bulk ID import, per-ID profiles, proxies, fingerprint), group posting, bulk page creation, Muse inbox + Spintax, real tab browser + extensions",
+        "Platform scheduling: YouTube publishAt + Facebook scheduled_publish_time — upload abhi, platform waqt par publish karega; laptop band ho to bhi chalega; Reels hamesha local",
+        "Rasta 1 (Is PC se): API Facebook posting wapas — background silent upload, Facebook khud waqt par publish karega; Rasta 2 (Cloud): Oracle VM server se posting (Settings > Cloud Posting)",
         "Per-page posting config, Auto Comment + Comments tab, Story + Link posts, account categories/Trash, proxy health, Logs CSV export, diagnostics, guided tour",
-        "Muse MCP server + cloud relay (port 8747, 8 tools) aur Mobile Companion API (port 8745) \u2014 phone se dashboard/queue/jobs dekho",
+        "Muse MCP server + cloud relay (port 8747, 8 tools) aur Mobile Companion API (port 8745) — phone se dashboard/queue/jobs dekho",
         "Sidebar ab 21 entries (Comments tab naya); Dashboard/Analytics duplicate hataya gaya",
         "Guided tour modal + Library auto-queue checkbox alignment fix (1.7.18-test se sync: label.check class, checkbox ab poori chaudai nahi phailta)"
       ]
@@ -213,79 +221,79 @@
     {
       "version": "1.6.80",
       "changes": [
-        "Queue timezone selector: Queue page par Timezone select aa gaya \u2014 Pakistan (Asia/Karachi), USA (Central/Eastern/Pacific), UK (London) aur poori IANA list; jis timezone ko chuno, upload usi ke 6:00 PM par hoga",
-        "Scheduler/Dashboard ab waqt job ki apni timezone me dikhate hain (masalan Nov 2, 6:00 PM PKT) \u2014 system timezone me convert kar ke nahi; pehle 6 PM PKT wala slot Chicago waqt me dikhta tha"
+        "Queue timezone selector: Queue page par Timezone select aa gaya — Pakistan (Asia/Karachi), USA (Central/Eastern/Pacific), UK (London) aur poori IANA list; jis timezone ko chuno, upload usi ke 6:00 PM par hoga",
+        "Scheduler/Dashboard ab waqt job ki apni timezone me dikhate hain (masalan Nov 2, 6:00 PM PKT) — system timezone me convert kar ke nahi; pehle 6 PM PKT wala slot Chicago waqt me dikhta tha"
       ]
     },
     {
       "version": "1.6.79",
       "changes": [
-        "Move to channel fix: Move dabane par kuch hota hi nahi tha \u2014 channel wala rasta preload me tha hi nahi, ab hai; harness me preload coverage check bhi aa gaya hai",
-        "Channel-target import: channel select karke folder add ya upload karo to videos seedha usi channel me jati hain, All videos me nahi \u2014 pehle channel ka rasta import me tha hi nahi"
+        "Move to channel fix: Move dabane par kuch hota hi nahi tha — channel wala rasta preload me tha hi nahi, ab hai; harness me preload coverage check bhi aa gaya hai",
+        "Channel-target import: channel select karke folder add ya upload karo to videos seedha usi channel me jati hain, All videos me nahi — pehle channel ka rasta import me tha hi nahi"
       ]
     },
     {
       "version": "1.6.78",
       "changes": [
-        "Boot fix: update ke baad app khaali screen par ruk jata tha (nav/page/license kuch nahi khulta tha) \u2014 theme boot code aik icon variable ko us ki line se pehle istemal kar raha tha, ab theek hai aur boot test bhi shamil hai",
-        "Theme boot ab kabhi app ko nahi rok sakta \u2014 kharabi ho to default light + glass lag jaye ga, baqi app chalta rahe ga"
+        "Boot fix: update ke baad app khaali screen par ruk jata tha (nav/page/license kuch nahi khulta tha) — theme boot code aik icon variable ko us ki line se pehle istemal kar raha tha, ab theek hai aur boot test bhi shamil hai",
+        "Theme boot ab kabhi app ko nahi rok sakta — kharabi ho to default light + glass lag jaye ga, baqi app chalta rahe ga"
       ]
     },
     {
       "version": "1.6.77",
       "changes": [
-        "Random upload mode: Queue me Random chun kar time lagao (jaise shaam 6:00) to videos us waqt se agle 30 minute ke andar kisi random waqt par upload hongi \u2014 na pehle, na baad me; har din 2 videos, har video ka waqt alag",
-        "Light mode ab aasmani (sky blue) hai aur Settings > Appearance me Theme (Hive / Bloom / Glass / Graphite) aur Mode (System / Light / Dark) ke pills aa gaye hain \u2014 purana theme select hat gaya hai"
+        "Random upload mode: Queue me Random chun kar time lagao (jaise shaam 6:00) to videos us waqt se agle 30 minute ke andar kisi random waqt par upload hongi — na pehle, na baad me; har din 2 videos, har video ka waqt alag",
+        "Light mode ab aasmani (sky blue) hai aur Settings > Appearance me Theme (Hive / Bloom / Glass / Graphite) aur Mode (System / Light / Dark) ke pills aa gaye hain — purana theme select hat gaya hai"
       ]
     },
     {
       "version": "1.6.76",
       "changes": [
-        "Library fix: delete ki hui videos wala folder dobara add karo to files wapas import hongi \u2014 pehle scan unhe \u201calready in library\u201d keh kar rok deta tha",
-        "Khud-bakhud scan ab bhi delete ki hui files ko wapas nahi lata \u2014 sirf folder dobara add karne par wapas ati hain"
+        "Library fix: delete ki hui videos wala folder dobara add karo to files wapas import hongi — pehle scan unhe “already in library” keh kar rok deta tha",
+        "Khud-bakhud scan ab bhi delete ki hui files ko wapas nahi lata — sirf folder dobara add karne par wapas ati hain"
       ]
     },
     {
       "version": "1.6.75",
       "changes": [
-        "Settings se YouTube / Google App wala section hata diya \u2014 Project 1 pehle se laga hai, Connect dabate hi seedha browser khulta hai, is liye Add/Delete ki zaroorat nahi",
-        "Connect YouTube aur uploads waisi hi \u2014 sirf Settings wala card gaya hai, andar ka system nahi"
+        "Settings se YouTube / Google App wala section hata diya — Project 1 pehle se laga hai, Connect dabate hi seedha browser khulta hai, is liye Add/Delete ki zaroorat nahi",
+        "Connect YouTube aur uploads waisi hi — sirf Settings wala card gaya hai, andar ka system nahi"
       ]
     },
     {
       "version": "1.6.74",
       "changes": [
-        "Facebook upload ab VPN par bhi rukega nahi \u2014 VPN band / IP badalne par upload khud dobara koshish karega (5, 30, 120 minute ke waqfe se)",
-        "Upload fail ki asal wajah ab saaf dikhegi \u2014 Meta ka error pehle chhup jata tha, ab token expire, rate limit aur network ka farq nazar ayega",
+        "Facebook upload ab VPN par bhi rukega nahi — VPN band / IP badalne par upload khud dobara koshish karega (5, 30, 120 minute ke waqfe se)",
+        "Upload fail ki asal wajah ab saaf dikhegi — Meta ka error pehle chhup jata tha, ab token expire, rate limit aur network ka farq nazar ayega",
         "Retry dabane par dobara poori 3 koshishen milengi (pehle purani ginti ki wajah se foran fail ho jata tha)"
       ]
     },
     {
       "version": "1.6.73",
       "changes": [
-        "Connect YouTube seedha redirect \u2014 sirf aik Google App (Project 1) ho to picker modal khulna hi nahi, browser foran Google sign-in par khul jata hai",
+        "Connect YouTube seedha redirect — sirf aik Google App (Project 1) ho to picker modal khulna hi nahi, browser foran Google sign-in par khul jata hai",
         "2 ya zyada apps hon to chunne wala modal waisa hi, aur nayi app ab bhi Settings se add hoti hai"
       ]
     },
     {
       "version": "1.6.72",
       "changes": [
-        "Library me YouTube channels ka filter \u2014 channel select karo to sirf us ki videos dikhengi, Move to channel bhi Page ki tarah",
+        "Library me YouTube channels ka filter — channel select karo to sirf us ki videos dikhengi, Move to channel bhi Page ki tarah",
         "Control Panel (Uninstall or change a program) me app ka installed size dikhega",
-        "Page insights theek \u2014 Meta ne page_engaged_users hata diya tha, is liye (#100) error aa raha tha; ab sirf valid metrics + aik metric fail ho to baqi phir bhi ayen gi"
+        "Page insights theek — Meta ne page_engaged_users hata diya tha, is liye (#100) error aa raha tha; ab sirf valid metrics + aik metric fail ho to baqi phir bhi ayen gi"
       ]
     },
     {
       "version": "1.6.71",
       "changes": [
-        "Weekly plan support \u2014 nayi Weekly keys sahi dikhengi (purani Trial keys bhi waisi hi)",
+        "Weekly plan support — nayi Weekly keys sahi dikhengi (purani Trial keys bhi waisi hi)",
         "License detail + sidebar pill par key ki Category bhi dikhegi"
       ]
     },
     {
       "version": "1.6.70",
       "changes": [
-        "Sidebar license pill (LIFETIME) wapas \u2014 neeche left, jaisa pehle tha",
+        "Sidebar license pill (LIFETIME) wapas — neeche left, jaisa pehle tha",
         "Analytics Top videos par upload date + time dikhegi",
         "Analytics tab khulte hi FB + YouTube insights khud load hon ge, Load dabana nahi parega"
       ]
@@ -294,13 +302,13 @@
       "version": "1.6.69",
       "changes": [
         "Installer ki tamam lines ab English me hain (welcome, license aur finish pages)",
-        "License agreement dobara likha gaya \u2014 software ki tamam features wazeh taur par likhi hain (Facebook + YouTube + photo posts + license + privacy)"
+        "License agreement dobara likha gaya — software ki tamam features wazeh taur par likhi hain (Facebook + YouTube + photo posts + license + privacy)"
       ]
     },
     {
       "version": "1.6.68",
       "changes": [
-        "Facebook Page par photo posts ka flow mukammal \u2014 Library se photo queue, schedule, waqt par auto post",
+        "Facebook Page par photo posts ka flow mukammal — Library se photo queue, schedule, waqt par auto post",
         "Queue modal me photo select karne par YouTube section nahi dikhta (photos sirf Facebook Page par post hoti hain)",
         "Mixed selection me images YouTube ko nahi bheji jatin (wo fail hoti)",
         "Photo posts ke liye title caption ki pehli line ban kar jata hai"
@@ -321,7 +329,7 @@
         "Sidebar se License aur Notifications tabs hata diye gaye",
         "License ab sirf upar wale top button se khulta hai (detail modal)",
         "Notifications ab upar wale ghanti (bell) icon se khulti hain",
-        "Sidebar se license status pill bhi hata di gayi \u2014 plan ab sirf top button par nazar ayega",
+        "Sidebar se license status pill bhi hata di gayi — plan ab sirf top button par nazar ayega",
         "Dashboard aur About page ke License Info buttons ab license modal/popup kholte hain"
       ]
     },
@@ -363,7 +371,7 @@
     {
       "version": "1.6.61",
       "changes": [
-        "License page: left \u2018Your License\u2019 card wapas (sirf right \u2018Enter License Key\u2019 section hata hai) \u2014 upar wala button + detail card wahi"
+        "License page: left ‘Your License’ card wapas (sirf right ‘Enter License Key’ section hata hai) — upar wala button + detail card wahi"
       ]
     },
     {
@@ -397,10 +405,10 @@
     {
       "version": "1.6.56",
       "changes": [
-        "Uninstall ke baad dobara install par license dobara mangi jayegi \u2014 baghair key ke active nahi hogi (library/schedules mehfooz rahenge)",
-        "Install ke baad app khulte hi license key ka pop-up \u2014 key wahin daal kar activate karo, License page dhoondna nahi parega",
+        "Uninstall ke baad dobara install par license dobara mangi jayegi — baghair key ke active nahi hogi (library/schedules mehfooz rahenge)",
+        "Install ke baad app khulte hi license key ka pop-up — key wahin daal kar activate karo, License page dhoondna nahi parega",
         "License key ab Enter License Key card ke neeche show hogi + Copy button (Your License card phir chhota)",
-        "YouTube tab, Dashboard aur Analytics ab foran khulenge \u2014 3-second server wait khatam (server refresh background me)",
+        "YouTube tab, Dashboard aur Analytics ab foran khulenge — 3-second server wait khatam (server refresh background me)",
         "Activation celebration naya: left-right se gubbare, phir welcome card (Welcome + chhoti detail)"
       ]
     },
@@ -414,7 +422,7 @@
     {
       "version": "1.6.54",
       "changes": [
-        "Low-content reminder ab Settings me configurable: low content threshold field (default 4, 0 = band) \u2014 customer khud number rakh sakta hai"
+        "Low-content reminder ab Settings me configurable: low content threshold field (default 4, 0 = band) — customer khud number rakh sakta hai"
       ]
     },
     {
@@ -447,7 +455,7 @@
     {
       "version": "1.6.49",
       "changes": [
-        "YouTube All-channels overview aur auto-refresh hata diya gaya \u2014 YouTube tab/Analytics pehle jaisa (aik channel select + Load wali detail)"
+        "YouTube All-channels overview aur auto-refresh hata diya gaya — YouTube tab/Analytics pehle jaisa (aik channel select + Load wali detail)"
       ]
     },
     {
@@ -460,26 +468,26 @@
     {
       "version": "1.6.47",
       "changes": [
-        "Dashboard tabs ke kone ab sirf mamooli se gol (pill khatam) \u2014 pehli dafa ulta samajh liya tha",
+        "Dashboard tabs ke kone ab sirf mamooli se gol (pill khatam) — pehli dafa ulta samajh liya tha",
         "YouTube tab me All channels overview: Load all channels par saare channels ke total subs/views/videos + har channel ki alag line + har channel ki detail ka button"
       ]
     },
     {
       "version": "1.6.46",
       "changes": [
-        "Dashboard analytics tabs (Pages/YouTube) thode patle aur saaf pill shape me \u2014 pehle mote oval lagte the"
+        "Dashboard analytics tabs (Pages/YouTube) thode patle aur saaf pill shape me — pehle mote oval lagte the"
       ]
     },
     {
       "version": "1.6.45",
       "changes": [
-        "Scheduled jobs table me waqt ke sath timezone bhi dikhega (jese CDT) \u2014 reschedule modal wale Karachi waqt se farq foran nazar ayega"
+        "Scheduled jobs table me waqt ke sath timezone bhi dikhega (jese CDT) — reschedule modal wale Karachi waqt se farq foran nazar ayega"
       ]
     },
     {
       "version": "1.6.44",
       "changes": [
-        "Google connect success page ab poori English me (pehle aadha Urdu tha) \u2014 verification video aur customers ke liye consistent"
+        "Google connect success page ab poori English me (pehle aadha Urdu tha) — verification video aur customers ke liye consistent"
       ]
     },
     {
@@ -487,7 +495,7 @@
       "changes": [
         "Auto update popup fix: app kholte hi update popup ab zaroor ayega (pehle page load hone se pehle message zaya ho jata tha)",
         "Khula app ab har 5 minute me update check karega (pehle 30 minute tha)",
-        "Zaya hua popup ab \"Later\" nahi samjha jayega \u2014 agla check dobara offer karega"
+        "Zaya hua popup ab \"Later\" nahi samjha jayega — agla check dobara offer karega"
       ]
     },
     {
@@ -499,172 +507,172 @@
     {
       "version": "1.6.41",
       "changes": [
-        "Dashboard analytics par upar ab do buttons hain \u2014 Pages aur YouTube: Pages par sirf Pages/publishing analytics, YouTube par sirf YouTube analytics (pasand save rehti hai)."
+        "Dashboard analytics par upar ab do buttons hain — Pages aur YouTube: Pages par sirf Pages/publishing analytics, YouTube par sirf YouTube analytics (pasand save rehti hai)."
       ]
     },
     {
       "version": "1.6.40",
       "changes": [
-        "Installer ke agreement page par ab checkmark hai \u2014 tick kiye baghair Next aage nahi jayega.",
+        "Installer ke agreement page par ab checkmark hai — tick kiye baghair Next aage nahi jayega.",
         "Alignment fix: Queue page ka Time box chaura (AM/PM ab andar nahi ghusega) aur Time mode dropdown chaura ('Same time daily' poora nazar ayega); page par horizontal safety net taake koi table/button kinare se cut na ho."
       ]
     },
     {
       "version": "1.6.39",
       "changes": [
-        "Analytics ab modern MetaBox style me: dots wale charts khatam \u2014 smooth gradient area charts, #1 video par gold highlight aur VIP look; publishing + YouTube insights + top videos + next events sab Dashboard par aik hi jagah, page badalne ki zaroorat nahi (Analytics page par bhi wahi unified section)."
+        "Analytics ab modern MetaBox style me: dots wale charts khatam — smooth gradient area charts, #1 video par gold highlight aur VIP look; publishing + YouTube insights + top videos + next events sab Dashboard par aik hi jagah, page badalne ki zaroorat nahi (Analytics page par bhi wahi unified section)."
       ]
     },
     {
       "version": "1.6.38",
       "changes": [
-        "Queue page ka Time box ab hamesha editable hai \u2014 Spread mode me wo lock ho jata tha, is liye apna time adjust nahi hota tha. Ab koi bhi time chuno (4, 5, 6, 7, 8 baje ya koi bhi minute) to mode khud 'Same time daily' ho jayega aur wahi time laagu hoga."
+        "Queue page ka Time box ab hamesha editable hai — Spread mode me wo lock ho jata tha, is liye apna time adjust nahi hota tha. Ab koi bhi time chuno (4, 5, 6, 7, 8 baje ya koi bhi minute) to mode khud 'Same time daily' ho jayega aur wahi time laagu hoga."
       ]
     },
     {
       "version": "1.6.37",
       "changes": [
-        "Footer clock (IP + location + time wali pati) ab 12-hour AM/PM me chalegi \u2014 pehle us me 24-hour zabardasti set tha, is liye pichle version me wo nahi badli thi; ab wahi asal jagah theek hui hai."
+        "Footer clock (IP + location + time wali pati) ab 12-hour AM/PM me chalegi — pehle us me 24-hour zabardasti set tha, is liye pichle version me wo nahi badli thi; ab wahi asal jagah theek hui hai."
       ]
     },
     {
       "version": "1.6.36",
       "changes": [
-        "Library se delete ab waqai delete karega: queue ya schedule me lagi videos pehle delete nahi ho rahi thin (database ka rule rok deta tha, khamosh fail) \u2014 ab un ki queue/scheduler entries sath hatengi; aur watch-folder ki videos dobara scan me wapas nahi ayengi (delete ki hui files blocklist me jati hain)."
+        "Library se delete ab waqai delete karega: queue ya schedule me lagi videos pehle delete nahi ho rahi thin (database ka rule rok deta tha, khamosh fail) — ab un ki queue/scheduler entries sath hatengi; aur watch-folder ki videos dobara scan me wapas nahi ayengi (delete ki hui files blocklist me jati hain)."
       ]
     },
     {
       "version": "1.6.35",
       "changes": [
-        "Tamam times ab 12-hour AM/PM format me nazar ayenge (masalan 5:00 PM) \u2014 Scheduler, Dashboard aur logs me 24-hour format khatam; time select karne wali jagah par bhi AM/PM saaf likha nazar ayega."
+        "Tamam times ab 12-hour AM/PM format me nazar ayenge (masalan 5:00 PM) — Scheduler, Dashboard aur logs me 24-hour format khatam; time select karne wali jagah par bhi AM/PM saaf likha nazar ayega."
       ]
     },
     {
       "version": "1.6.34",
       "changes": [
-        "Scheduler page par ab jobs ko select karke Cancel ya Delete kar sakte ho \u2014 header checkbox se sab select, phir 'Cancel selected' ya 'Delete selected'; delete ki hui jobs list se poori tarah hat jati hain aur un ki videos wapas queue me aa jati hain.",
-        "Scheduling me naya 'Same time daily' mode \u2014 Queue page par time chuno (masalan 17:00) to us din ki tamam videos usi aik waqt par schedule hongi, rozana wahi waqt; purana 'Spread times' mode bhi maujood hai."
+        "Scheduler page par ab jobs ko select karke Cancel ya Delete kar sakte ho — header checkbox se sab select, phir 'Cancel selected' ya 'Delete selected'; delete ki hui jobs list se poori tarah hat jati hain aur un ki videos wapas queue me aa jati hain.",
+        "Scheduling me naya 'Same time daily' mode — Queue page par time chuno (masalan 17:00) to us din ki tamam videos usi aik waqt par schedule hongi, rozana wahi waqt; purana 'Spread times' mode bhi maujood hai."
       ]
     },
     {
       "version": "1.6.33",
       "changes": [
-        "Scheduling me ab rozana videos ki tadaad chun sakte ho (1, 2 ya 3 per day) \u2014 Queue page par Generate Schedule ke sath dropdown; pehle YouTube par sirf 2/day hardcode tha. Choice mehfooz ho jati hai.",
-        "Library me 'Sab select karo' button aa gaya hai \u2014 folder ka page filter lagao, aik click me us ki sari videos select, phir Add to queue."
+        "Scheduling me ab rozana videos ki tadaad chun sakte ho (1, 2 ya 3 per day) — Queue page par Generate Schedule ke sath dropdown; pehle YouTube par sirf 2/day hardcode tha. Choice mehfooz ho jati hai.",
+        "Library me 'Sab select karo' button aa gaya hai — folder ka page filter lagao, aik click me us ki sari videos select, phir Add to queue."
       ]
     },
     {
       "version": "1.6.32",
       "changes": [
-        "Analytics me ab YouTube Studio jaisa day-wise line chart aa gaya hai \u2014 channel ya aik video chuno, aakhri 28 din ke rozana views graph par nazar ayenge (YouTube Analytics API se).",
-        "Add to queue me ab baghair target tick kiye Add dabane par khamosh '0 added' nahi ayega \u2014 warning ayegi aur modal khula rahega taake tick laga kar dobara daba sako."
+        "Analytics me ab YouTube Studio jaisa day-wise line chart aa gaya hai — channel ya aik video chuno, aakhri 28 din ke rozana views graph par nazar ayenge (YouTube Analytics API se).",
+        "Add to queue me ab baghair target tick kiye Add dabane par khamosh '0 added' nahi ayega — warning ayegi aur modal khula rahega taake tick laga kar dobara daba sako."
       ]
     },
     {
       "version": "1.6.31",
       "changes": [
-        "Media Library ka toolbar ab scroll par upar hi khara rahega (sticky) \u2014 neeche video select karke Add to queue ke liye wapas upar nahi jana parega.",
-        "Analytics me YouTube channel insights bhi aa gaya hai (Pages jaisa) \u2014 channel chuno, Load dabao: subscribers, total views, total videos aur views ke hisaab se top videos nazar ayenge.",
+        "Media Library ka toolbar ab scroll par upar hi khara rahega (sticky) — neeche video select karke Add to queue ke liye wapas upar nahi jana parega.",
+        "Analytics me YouTube channel insights bhi aa gaya hai (Pages jaisa) — channel chuno, Load dabao: subscribers, total views, total videos aur views ke hisaab se top videos nazar ayenge.",
         "Add to queue modal me ab aik video select ho to us ka title aur hashtags pehle se bhare hue ayenge; kai videos hon to note batayega ke khaali chhorne par har video ka apna title/hashtags khud lag jayenge."
       ]
     },
     {
       "version": "1.6.30",
       "changes": [
-        "App khula ho to bhi nayi release ka popup khud aa jayega \u2014 ab har 30 minute par background me update check hota hai, restart ya manual check ka intezar nahi. Later dabane par usi version ka popup us session me dobara nahi ayega."
+        "App khula ho to bhi nayi release ka popup khud aa jayega — ab har 30 minute par background me update check hota hai, restart ya manual check ka intezar nahi. Later dabane par usi version ka popup us session me dobara nahi ayega."
       ]
     },
     {
       "version": "1.6.29",
       "changes": [
-        "Library scan aur single video upload ka '11 values for 12 columns' error theek \u2014 video save karne wali database query me 12 columns ke liye sirf 11 jagah thi, is liye har import fail ho raha tha; ab folder ki videos aur single uploads dono library me ayenge.",
+        "Library scan aur single video upload ka '11 values for 12 columns' error theek — video save karne wali database query me 12 columns ke liye sirf 11 jagah thi, is liye har import fail ho raha tha; ab folder ki videos aur single uploads dono library me ayenge.",
         "Agar aage kabhi koi import fail ho to scan toast pehli ghalti ki wajah bhi dikhayega, khamosh nahi rahega."
       ]
     },
     {
       "version": "1.6.28",
       "changes": [
-        "Update download ab ruk kar wahin se shuru hogi \u2014 download bar par Stop, Resume aur Remove buttons: net slow ho ya bijli jaye, download wahin rukegi aur Resume par wahin se aage chalegi, dobara shuru se nahi.",
+        "Update download ab ruk kar wahin se shuru hogi — download bar par Stop, Resume aur Remove buttons: net slow ho ya bijli jaye, download wahin rukegi aur Resume par wahin se aage chalegi, dobara shuru se nahi.",
         "Laptop dobara on karne par adhuri download khud wahin se aage shuru ho jayegi (poochhe baghair)."
       ]
     },
     {
       "version": "1.6.27",
       "changes": [
-        "License card par hint line wapas \u2014 number ke baghair: 'No key? Get it on WhatsApp \\u2014 tap the button below.' taake customer ko pata chale ke key kahan se leni hai."
+        "License card par hint line wapas — number ke baghair: 'No key? Get it on WhatsApp \\u2014 tap the button below.' taake customer ko pata chale ke key kahan se leni hai."
       ]
     },
     {
       "version": "1.6.26",
       "changes": [
-        "Number ab kahin likha hua nazar nahi ayega \u2014 License aur header par sirf WhatsApp button rahega, chat ka link usi button me hai.",
+        "Number ab kahin likha hua nazar nahi ayega — License aur header par sirf WhatsApp button rahega, chat ka link usi button me hai.",
         "Startup settings me checkbox ki jagah on/off toggle switches aa gaye hain (Launch at Windows startup, Start minimized to tray)."
       ]
     },
     {
       "version": "1.6.25",
       "changes": [
-        "Library ab har video format pehchanti hai \u2014 mp4 ke ilawa wmv, flv, 3gp, mpg, mpeg, m2ts, vob, rm, asf, ogv, mxf waghera sab scan aur upload me nazar ayengi.",
+        "Library ab har video format pehchanti hai — mp4 ke ilawa wmv, flv, 3gp, mpg, mpeg, m2ts, vob, rm, asf, ogv, mxf waghera sab scan aur upload me nazar ayengi.",
         "Update dobara click hone par dobara download nahi hoga, aur har download alag temp file me hogi taake file-lock error dobara na aaye."
       ]
     },
     {
       "version": "1.6.24",
       "changes": [
-        "Library folder scan fix: folder select karne par videos nahi aa rahi thin \u2014 ab scan folder ka rasta sahi tareeqe se pehchanta hai (short/long path farq khatam), aur 0 import par saaf wajah batayega: kitni files mili, kitni pehle se library me thin, ya folder nahi khul raha."
+        "Library folder scan fix: folder select karne par videos nahi aa rahi thin — ab scan folder ka rasta sahi tareeqe se pehchanta hai (short/long path farq khatam), aur 0 import par saaf wajah batayega: kitni files mili, kitni pehle se library me thin, ya folder nahi khul raha."
       ]
     },
     {
       "version": "1.6.23",
       "changes": [
-        "Notifications: aakhri notification ke neeche divider line khatam \u2014 ab list saaf tareeqe se khatam hoti hai aur bottom me gap nazar ata hai."
+        "Notifications: aakhri notification ke neeche divider line khatam — ab list saaf tareeqe se khatam hoti hai aur bottom me gap nazar ata hai."
       ]
     },
     {
       "version": "1.6.21",
       "changes": [
-        "Installer wapas standard (default) look par \u2014 NSIS ke dialogs me tool jaisa glass UI possible nahi (wo Chromium ka blur/translucency hai, Win32 dialogs me nahi hota), is liye tamam custom theme hata kar clean default installer rakha gaya hai."
+        "Installer wapas standard (default) look par — NSIS ke dialogs me tool jaisa glass UI possible nahi (wo Chromium ka blur/translucency hai, Win32 dialogs me nahi hota), is liye tamam custom theme hata kar clean default installer rakha gaya hai."
       ]
     },
     {
       "version": "1.6.20",
       "changes": [
-        "Installer ab poora dark hai \u2014 koi cheez white nahi: buttons bhi dark (Next/Install neela, Back/Cancel dark panel), License box dark (safed text), progress bar neeli bar + dark track, aur uninstaller ke pages bhi isi theme me.",
-        "Notifications + Activity Logs: har row wala checkbox hata diya (wohi design kharab kar raha tha) \u2014 ab sirf toolbar me aik chhota Select All checkbox hai, tick karne par sari rows select hoti hain, phir Delete Selected."
+        "Installer ab poora dark hai — koi cheez white nahi: buttons bhi dark (Next/Install neela, Back/Cancel dark panel), License box dark (safed text), progress bar neeli bar + dark track, aur uninstaller ke pages bhi isi theme me.",
+        "Notifications + Activity Logs: har row wala checkbox hata diya (wohi design kharab kar raha tha) — ab sirf toolbar me aik chhota Select All checkbox hai, tick karne par sari rows select hoti hain, phir Delete Selected."
       ]
     },
     {
       "version": "1.6.19",
       "changes": [
-        "Download bar ab real-time hai \u2014 pehle progress har 5% par update hoti thi (122 MB file par ~6 MB ke jumps), ab har 200ms par MB ginta hua nazar ayega aur sath live speed bhi (jaise 2.4 MB/s)."
+        "Download bar ab real-time hai — pehle progress har 5% par update hoti thi (122 MB file par ~6 MB ke jumps), ab har 200ms par MB ginta hua nazar ayega aur sath live speed bhi (jaise 2.4 MB/s)."
       ]
     },
     {
       "version": "1.6.18",
       "changes": [
-        "Installer theme repair: Installing page par text ka overlap/ghich-pich khatam \u2014 har label ka background ab solid dark hai, taake update hone wala status text har dafa saaf chhape; License ka text box bhi dark karne ki koshish ki gayi hai.",
-        "Notifications aur Activity Logs me ab bulk delete hai \u2014 har row par checkbox, upar Select All, phir Delete Selected se aik sath sab delete karein (confirm ke baad)."
+        "Installer theme repair: Installing page par text ka overlap/ghich-pich khatam — har label ka background ab solid dark hai, taake update hone wala status text har dafa saaf chhape; License ka text box bhi dark karne ki koshish ki gayi hai.",
+        "Notifications aur Activity Logs me ab bulk delete hai — har row par checkbox, upar Select All, phir Delete Selected se aik sath sab delete karein (confirm ke baad)."
       ]
     },
     {
       "version": "1.6.17",
       "changes": [
-        "Notifications page par har notification ke sath Delete button aa gaya hai, aur Activity Logs page par bhi har entry ke sath Delete button hai \u2014 delete karne se pehle confirm poocha jayega.",
-        "Update download hote waqt ab bar ke neeche poora status nazar ayega \u2014 kitne percent ho gaye, kitni MB aa gayi, kul kitni MB hai aur kitni MB baqi hai.",
-        "Installer ab poori tarah app theme me hai \u2014 har step (Welcome, License, Directory, Installing, Finish) dark navy rang me safed text ke sath; logo hata diya gaya hai aur Welcome/Finish ka left panel sirf plain dark strip hai."
+        "Notifications page par har notification ke sath Delete button aa gaya hai, aur Activity Logs page par bhi har entry ke sath Delete button hai — delete karne se pehle confirm poocha jayega.",
+        "Update download hote waqt ab bar ke neeche poora status nazar ayega — kitne percent ho gaye, kitni MB aa gayi, kul kitni MB hai aur kitni MB baqi hai.",
+        "Installer ab poori tarah app theme me hai — har step (Welcome, License, Directory, Installing, Finish) dark navy rang me safed text ke sath; logo hata diya gaya hai aur Welcome/Finish ka left panel sirf plain dark strip hai."
       ]
     },
     {
       "version": "1.6.16",
       "changes": [
-        "Installer ab app theme jaisa hai \u2014 Welcome/Finish pages par dark navy artwork (gol kon wala card, loop logo), har page ke header me theme patti, install progress page dark, app icon aur MetaBox branding; Windows 11 par installer window ke kon bhi gol honge."
+        "Installer ab app theme jaisa hai — Welcome/Finish pages par dark navy artwork (gol kon wala card, loop logo), har page ke header me theme patti, install progress page dark, app icon aur MetaBox branding; Windows 11 par installer window ke kon bhi gol honge."
       ]
     },
     {
       "version": "1.6.15",
       "changes": [
-        "Logo ke rangin boxes wala masla theek hua \u2014 hardware acceleration band kar di gayi hai, ab tasveer software rendering se banegi aur waqt ke sath kharab nahi hogi.",
-        "Sidebar me neeche wala LIFETIME pill ab clickable hai \u2014 click karne par seedha License tab khul jayega."
+        "Logo ke rangin boxes wala masla theek hua — hardware acceleration band kar di gayi hai, ab tasveer software rendering se banegi aur waqt ke sath kharab nahi hogi.",
+        "Sidebar me neeche wala LIFETIME pill ab clickable hai — click karne par seedha License tab khul jayega."
       ]
     },
     {
@@ -676,22 +684,22 @@
     {
       "version": "1.6.13",
       "changes": [
-        "App me ab mouse se bhi copy-paste chalega \u2014 kisi bhi field me right-click karne par edit menu ayega (Undo, Redo, Cut, Copy, Paste, Delete, Select All). Pehle Electron me default right-click menu hota hi nahi tha, is liye sirf Ctrl+V kaam karta tha."
+        "App me ab mouse se bhi copy-paste chalega — kisi bhi field me right-click karne par edit menu ayega (Undo, Redo, Cut, Copy, Paste, Delete, Select All). Pehle Electron me default right-click menu hota hi nahi tha, is liye sirf Ctrl+V kaam karta tha."
       ]
     },
     {
       "version": "1.6.12",
       "changes": [
-        "App khulte hi update ka popup foran ayega \u2014 ghanton (2/4/6/12/24) wale interval check khatam kar diye gaye hain, Settings se wo option bhi hata diya gaya hai. Manual 'Check for updates' wahi rahega.",
-        "Library me Upload / Folder / Scan ab khamosh nahi rahenge \u2014 kitni files aayi, kitni pehle se maujood thin (duplicates), ya koi error aaya, sab ka saaf message ayega; 0 import par wajah bhi likhi hogi."
+        "App khulte hi update ka popup foran ayega — ghanton (2/4/6/12/24) wale interval check khatam kar diye gaye hain, Settings se wo option bhi hata diya gaya hai. Manual 'Check for updates' wahi rahega.",
+        "Library me Upload / Folder / Scan ab khamosh nahi rahenge — kitni files aayi, kitni pehle se maujood thin (duplicates), ya koi error aaya, sab ka saaf message ayega; 0 import par wajah bhi likhi hogi."
       ]
     },
     {
       "version": "1.6.11",
       "changes": [
-        "Library Search apni upar wali line me (right side), baqi buttons neeche aik line me \u2014 neeli scrollbar line khatam ho gayi hai."
+        "Library Search apni upar wali line me (right side), baqi buttons neeche aik line me — neeli scrollbar line khatam ho gayi hai."
       ]
     }
   ],
-  "kind": "fix"
+  "kind": "feature"
 }
