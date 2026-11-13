@@ -1,371 +1,380 @@
 {
-  "version": "1.7.42-test",
-  "url": "https://drive.google.com/uc?export=download&id=1Rdg6hlRulrYnKi78Jg5FzGGDgdRetuv8",
-  "size": 172530180,
-  "notes": "Naya version v1.7.32-test tayyar hai. Settings tabs, Muse Connect aik jagah, aur light-mode background tint.",
-  "changes": [
-    "YouTube page par har connected channel ke saath ab Open button hai \u2014 dabane par wo channel Anti-Detect browser me khul jata hai",
+ "version": "1.7.43-test",
+ "url": "https://drive.google.com/uc?export=download&id=1Rdg6hlRulrYnKi78Jg5FzGGDgdRetuv8",
+ "size": 172530639,
+ "notes": "Naya version v1.7.32-test tayyar hai. Settings tabs, Muse Connect aik jagah, aur light-mode background tint.",
+ "changes": [
+  "Nayi profile kholne par 'PROFILE_DIR_NOT_FOUND' error aata tha — ab nayi profile bhi pehli dafa seedha khulti hai (Chrome apna data pehli launch par khud bana leta hai)",
+  "Profile kholne se pehle Chrome data check hota hai — naya profile ho to us ka data foran ban jata hai, purani profiles waisi hi khulti hain",
+  "Ghalti ki soorat me ab saaf Roman Urdu message dikhta hai — raw error code nahi"
+ ],
+ "history": [
+  {
+   "version": "1.7.43-test",
+   "kind": "bugfix",
+   "changes": [
+    "Nayi profile kholne par 'PROFILE_DIR_NOT_FOUND' error aata tha — ab nayi profile bhi pehli dafa seedha khulti hai (Chrome apna data pehli launch par khud bana leta hai)",
+    "Profile kholne se pehle Chrome data check hota hai — naya profile ho to us ka data foran ban jata hai, purani profiles waisi hi khulti hain",
+    "Ghalti ki soorat me ab saaf Roman Urdu message dikhta hai — raw error code nahi"
+   ]
+  },
+  {
+   "version": "1.7.42-test",
+   "changes": [
+    "YouTube page par har connected channel ke saath ab Open button hai — dabane par wo channel Anti-Detect browser me khul jata hai",
     "Open wahi profile use karta hai jis se channel connect hua tha; aik profile ho to wahi, multiple hon to picker dikhta hai",
-    "Koi profile na ho to saaf message aata hai \u2014 pehle Browser Profiles me aik profile banao"
-  ],
-  "history": [
-    {
-      "version": "1.7.42-test",
-      "changes": [
-        "YouTube page par har connected channel ke saath ab Open button hai \u2014 dabane par wo channel Anti-Detect browser me khul jata hai",
-        "Open wahi profile use karta hai jis se channel connect hua tha; aik profile ho to wahi, multiple hon to picker dikhta hai",
-        "Koi profile na ho to saaf message aata hai \u2014 pehle Browser Profiles me aik profile banao"
-      ]
-    },
-    {
-      "version": "1.7.41-test",
-      "changes": [
-        "YouTube Connect ab tool ke browser (Anti-Detect profile) me bhi ho sakta hai \u2014 system browser wala option bhi hai",
-        "Analytics ab aik hi tab me \u2014 Pages aur YouTube sath, alag YouTube Analytics tab khatam",
-        "Browser Profiles list ab minimal hai \u2014 sirf naam + Device + Browser + Open/Close + Remove + Edit + Check Fingerprint; poora fingerprint ab us profile ke browser tab me dikhta hai"
-      ]
-    },
-    {
-      "version": "1.7.40-test",
-      "changes": [
-        "Taskbar icon ab MetaBox wala hai \u2014 stock Electron icon khatam, exe ke andar wala icon badal diya",
-        "Koi aur change nahi \u2014 sirf icon fix hai"
-      ]
-    },
-    {
-      "version": "1.7.39-test",
-      "changes": [
-        "Naya Analytics tab \u2014 har Facebook page ka card (Followers, Views, Reach, Engagement, Top posts) aur har YouTube channel ka card (Subscribers, Views, Watch time, Top videos)",
-        "Period 7 din / 28 din, Refresh button, 1 ghante ka cache \u2014 jo metric na mile wo khaali rehta hai, number kabhi invent nahi hota",
-        "Token expire ho to card par saaf wajah + dobara-connect ka rasta"
-      ]
-    },
-    {
-      "version": "1.7.38-test",
-      "changes": [
-        "Browser ab asal Chrome hai \u2014 imitation shell khatam; Profile kholo to tumhare PC ka Chrome khulta hai, poora Chromium UI",
-        "Sidebar wapas pehle jaisa \u2014 hamesha 248px khula, collapse wala button khatam",
-        "Fingerprint ab Chrome ke control channel se; extensions Web Store se seedha real Chrome me"
-      ]
-    },
-    {
-      "version": "1.7.37-test",
-      "changes": [
-        "YouTube Connect ab seedha \u2014 Client ID app me pehle se hai, koi ID/Secret mangna nahi; token exchange tumhare apne Cloudflare server se hota hai",
-        "Uninstall/reinstall ke baad bhi Connect waisa hi \u2014 built-in app har boot par seed hoti hai",
-        "Apni secret wali app ka flow waisa hi \u2014 direct Google, kuch nahi badla"
-      ]
-    },
-    {
-      "version": "1.7.36-test",
-      "changes": [
-        "Browser ab bilkul Chromium jaisa \u2014 address bar me jo likho wo Google search, suggestions, downloads shelf, find, zoom, poora menu",
-        "Sidebar chhoti (216px) + collapse toggle \u2014 click karo to sirf icons, dobara click karo to labels wapas",
-        "Browser ka taskbar icon Chromium wala, app ka taskbar icon MetaBox wala \u2014 dono alag; YouTube built-in app ki tayyari bhi hai"
-      ]
-    },
-    {
-      "version": "1.7.35-test",
-      "changes": [
-        "Engine upgrade \u2014 Electron 45.2.3, Chromium 156, Node 24 \u2014 browser ab tumhare Chromium jaisa naya hai",
-        "Browser ki pehchan ab asal engine se match karti hai \u2014 Chrome 156, Edge 156",
-        "1.7.16 ka sab kuch barqarar \u2014 Settings tabs upar, ixBrowser jaisa anti-detect browser, glass logo"
-      ]
-    },
-    {
-      "version": "1.7.34-test",
-      "changes": [
-        "Settings ke tabs ab upar hain \u2014 header band me, title ke neeche",
-        "Browser ab ixBrowser jaisa anti-detect hai \u2014 har profile ki apni pehchan: Audio, fonts, WebRTC, geo aur device fingerprint, apna Chrome/Edge/Firefox version",
-        "Proxy bulk import, per-profile proxy check, cookie import/export aur profile transfer, bulk profile kaam, har profile ki apni extensions aur Local API"
-      ]
-    },
-    {
-      "version": "1.7.33-test",
-      "changes": [
-        "Buttons ab chipke hue nahi lagte \u2014 toolbar rows ka gap barha diya gaya, har button alag dikhta hai",
-        "Sidebar logo ab glass type hai \u2014 baghair rang, appearance ke colour aur dark/light mode ke sath khud badal jata hai",
-        "Poori app ka UI audit \u2014 13 inch screen par chaudi tables ab card ke andar scroll hoti hain, page ki horizontal scrollbar nahi aati"
-      ]
-    },
-    {
-      "version": "1.7.32-test",
-      "changes": [
-        "Settings me ab tabs hain \u2014 General, Muse Connect, Privacy aur Storage; har section apni jagah par hai",
-        "Muse Connect ab aik jagah \u2014 pairing, MCP token, relay, download folder aur inbox sab Settings ke Muse Connect tab me; sidebar se alag Muse Connected tab hata diya gaya",
-        "Light mode me background ab selected color ki halki tint hota hai \u2014 pattern ki lines bhi usi rang me; dark mode bilkul waisa hi hai",
-        "Appearance apne sidebar tab me hi hai \u2014 Settings me wapas nahi laya gaya"
-      ]
-    },
-    {
-      "version": "1.7.31-test",
-      "changes": [
-        "Browser system theek \u2014 bulk import ab har ID ki apni profile banata hai (Auto default), profile delete poora wipe (session + cookies saaf), IDs table me asal proxy, page/group hamesha sahi ID ke browser me",
-        "User Agent current \u2014 Chrome 157 / Edge 157 / Firefox 159, aik hi source; per-profile Refresh UA; test bookmarks bar par ab asal favicon",
-        "Kartar engine features \u2014 Controlled Browser open, browser data clear + dobara login, Trash Export, IDs table par right-click menu; profile edit live-apply + Advanced section"
-      ]
-    },
-    {
-      "version": "1.7.30-test",
-      "changes": [
-        "Muse Connect naya feature \u2014 Settings me Muse Connect card: Enable toggle, Setup Instruction copy (Muse me paste karo), pairing token se Pairing Done, aur download folder chooser",
-        "Muse generated media ab seedha PC par aata hai \u2014 naya MCP tool media_deliver file ko download folder me category subfolder (jaise Celebrity Photos) me save karke Library me import karta hai; kuch bhi auto-post nahi hota",
-        "App khulte hi pending deliveries kheench leti hai \u2014 tool off tha to Muse pending content apne paas rakh kar dobara connect par deliver karta hai, relay files store nahi kar sakta",
-        "Skill + MD template shamil \u2014 sirf content category likho, baqi automation par hai; hard rule: content confirmation ke baghair auto PC par jaye, posting kabhi auto nahi"
-      ]
-    },
-    {
-      "version": "1.7.29-test",
-      "changes": [
-        "8 new background patterns added \u2014 Dots, Grid, Diagonal, Hexagon, Circuit, Topo, Zigzag, Aurora; Appearance tab now has 12 patterns + None to choose from",
-        "Chosen pattern also shows in the Appearance preview box; choice stays after restart, old patterns and colors unchanged"
-      ]
-    },
-    {
-      "version": "1.7.28-test",
-      "changes": [
-        "Appearance ab Settings se nikal kar apna alag tab hai \u2014 sidebar me Settings ke upar; 8 accent colors, 4 background patterns aur Gradient/Solid style wahi hain, choice restart ke baad bhi rehti hai",
-        "Settings me ab sirf Language, Theme aur Mode rehte hain \u2014 Appearance wale controls sirf Appearance tab me milenge"
-      ]
-    },
-    {
-      "version": "1.7.27-test",
-      "changes": [
-        "Browser shell polish \u2014 fonts ab Chrome jaisi (Segoe UI, sahi size/weight); pehle shell ka font serif dikhta tha, ab tabs, address bar, bookmarks bar aur menu sab Chrome jaisi dikhte hain",
-        "Profile avatar par ab hamesha profile ka pehla harf dikhta hai \u2014 '?' kabhi nahi; naam na ho to profile ID ka pehla harf, wo bhi na ho to 'M'",
-        "New tab (+) button ab sirf tab strip me hai (tabs ke baad) \u2014 bookmarks bar se hata diya; three-dot menu me ab sirf History aur Extensions hain, aur menu poora dikhta hai (pehle neeche kat jata tha)",
-        "Shell ki depth aur hover behtar \u2014 active tab toolbar se jura hua dikhta hai, tab close \u00d7 aur buttons par hover states, address bar me behtar contrast"
-      ]
-    },
-    {
-      "version": "1.7.26-test",
-      "changes": [
-        "Appearance \u2014 Settings me naya Appearance section: 8 accent colors (gold, purple, blue, green, red, pink, teal, orange), 4 background patterns (Waves, Mesh, Boxes, Linings) aur Gradient/Solid style \u2014 choice poore tool par lagti hai, restart ke baad bhi rehti hai; default waisa hi jaisa pehle tha",
-        "Update pop-up par ab update ki kisam dikhti hai \u2014 fix ho to 'Some fixes' (neela, wrench), bug fix ho to 'Some bug fixes' (narangi, bug icon), nayi cheez ho to 'New feature added' (jamni, sparkle); changelog ki tafseel ab bhi nahi dikhti, pop-up app ki language me hi rehta hai",
-        "Update restart tez \u2014 installer end par poori folder ka size ginna (GetSize) aur icon-cache clear (ie4uinit) hata diye; purani update files ki safai aur Google Apps migration ab window khulne ke baad hoti hain, boot block nahi karti; boot timing logs (window shown, load, license refresh) bhi lag gaye",
-        "Installer ka EstimatedSize ab fixed value hai (~128MB) \u2014 install ke end par stall khatam; wizard aur silent install waisi hi"
-      ]
-    },
-    {
-      "version": "1.7.25-test",
-      "changes": [
-        "Chrome jaisa shell: gol tabs (asal site favicon + title + close x + naya tab button), Chrome-style back/forward/reload icons (SVG), gol omnibox (lock icon + URL, Enter se navigate)",
-        "Three-dot menu (\u22ee): sirf pehle se mojood functions \u2014 New tab, History, Extensions; History/Extensions toolbar buttons bhi waisi hi",
-        "Bookmarks bar: omnibox star se active page bookmark karo (bhara star), bookmark par click se tab me khulta hai, \u00d7 se remove; bookmarks per-profile save hote hain (History jaisa), shuru me khaali",
-        "Shell height 40+48+32 = 120px \u2014 web view bookmarks bar ke neeche lagta hai, 13 inch screen par tabs + toolbar + bookmarks + page sab dikhte hain, koi overlap nahi",
-        "Engine, fingerprint, profiles, login/page-posting/automation aur History/Extensions panels waisi hi \u2014 sirf shell UI badla hai"
-      ]
-    },
-    {
-      "version": "1.7.24-test",
-      "changes": [
-        "Welcome celebration khatam \u2014 license activate karne par ab 'Welcome to MetaBox!' card + streamers + awaz nahi aati; sirf toast + license pill refresh hota hai; Settings se celebration sound toggle bhi hata diya",
-        "Guided tour ab fresh install par bhi aata hai \u2014 pehle license popup boot par khul jata tha is liye tour ka 1.5s check haar maan leta tha aur dobara try nahi hota tha; ab tour defer hota hai aur license popup band hote hi (Later dabane ya kamyab activation ke baad) aata hai; 'Don't show again' tick karne wale ko dobara tang nahi karta",
-        "Tour ka step-1 selector waisa hi hai (dashboard stats grid) \u2014 koi step nahi badla; About page se manual tour button bhi waisa hi hai"
-      ]
-    },
-    {
-      "version": "1.7.23-test",
-      "changes": [
-        "Guided tour ab spotlight style me \u2014 har step par pehle us page par jata hai, phir baqi screen dim karke us section ko roshan highlight karta hai + chhota tooltip card (title + body + Next/Back + 'N / 5' + Don't show again); 13 inch screen par tooltip viewport ke andar rehta hai",
-        "'KartBrowser' lafz app me kahin nazar nahi aayega \u2014 browser windows, page titles, logs aur messages ab 'MetaBox' kehte hain (andar ke naam/files waisi hi)",
-        "Update pop-up saada \u2014 lambi changelog list khatam; sirf 'Update Available' + version + 'Minor updates / Bug fixes' (bare update par generic line); app ki language English ho to pop-up bhi English (pehle Urdu changelog dikhta tha)",
-        "Toasts/notifications bhi selected language me \u2014 update, publish, Safe Mode aur automation wali ittila ab usi zuban me aati hai jo app me select hai"
-      ]
-    },
-    {
-      "version": "1.7.22-test",
-      "changes": [
-        "Scheduler Cancel button fix: 13 inch screen par 4-button wali row (Resume + Switch to local + Reschedule + Cancel) actions column se bahar nikal jati thi \u2014 Cancel button table ke bahar / kata hua dikhta tha; ab saare buttons column ke andar hain, koi horizontal slide nahi",
-        "Scheduler action buttons ab row ke darmiyan me (vertically center) hain \u2014 pehle upar chipke rehte thay; video cell ka top-align aur title 1 line + badges line 2 waisa hi hai",
-        "Scheduler table columns rebalance: actions column chaura (328px), page/attempts/error thode tang \u2014 poori table ki chaudai waisi hi, bari screen par layout waisa hi hai"
-      ]
-    },
-    {
-      "version": "1.7.21-test",
-      "changes": [
-        "Calendar refinement: din ke cell ka size waisa hi \u2014 andar wale event pills chhote kar diye (padding 2px 5px, font 10px, badge 9px); '+N more' khatam \u2014 din ki saari events dikhti hain (pehle 4 ke baad baqi chhup jati thin)",
-        "Scheduler video cell: title ab 1 line me ellipsis (poora naam hover par) + badges us ke neeche line 2 par \u2014 pehle title block tha, badges teesri line par chale jate thay; checkbox vertically center (pehle upar chipka rehta tha); baqi cells top-align (badges page text se na takrayen)",
-        "Calendar grid + Scheduler table-layout fixed, th widths, actions/date aik line \u2014 1.7.20-test wale theek hisse barqarar"
-      ]
-    },
-    {
-      "version": "1.7.20-test",
-      "changes": [
-        "Calendar fix: 7-din grid ab aik screen par fit hota hai \u2014 right slide khatam (grid minmax(0,1fr) + day cells min-width 0, events ellipsis karte hain)",
-        "Scheduler table: badges aik line me (YouTube + Platform aik hi row, nowrap), actions aik line me compact (Resume/Switch to local/Reschedule/Cancel), channel/date aik line me (nowrap + ellipsis)",
-        "Scheduler table fixed layout: poora table viewport me fit hota hai, horizontal scroll nahi"
-      ]
-    },
-    {
-      "version": "1.7.19-test",
-      "changes": [
-        "Scheduler burst fix: 2/day select karne par bhi ~17 videos ek saath publish ho jati thin \u2014 ab overdue jobs (slot guzar gaya ho) foran publish nahi hoti, agle khali slot par reschedule hoti hain (30 min grace); Generate bhi pehle se bhare din skip karta hai (aik din me 2 se zyada nahi); tick har minute overdue jobs ko reschedule karta hai",
-        "Status sachha: platform mode me video upload ke baad 'PUBLISHED' nahi kehti jab tak YouTube/Facebook usay slot par public na kare \u2014 Scheduler table me ab 'SCHEDULED' badge + waqt dikhta hai; YouTube private video par 'upload ho gayi (Private)' likhta hai, 'publish ho gayi' sirf asal public par",
-        "Scheduler table alignment: lambe titles 2 lines tak (poora naam hover par), badges aik line me, actions tidy",
-        "YouTube 400 error: doosre channel par 'Request failed with status code 400' ki asal wajah ab Logs/notification me dikhti hai (pehle classify hi nahi hota tha); dead refresh token (Testing-mode tokens 7 din me expire) par channel ko YouTube page par 'Dobara connect karein' ke sath NEEDS_RECONNECT dikhata hai, jobs baar-baar retry nahi kartin",
-        "Upload verify: YouTube upload ke baad video asal channel + privacy par check hoti hai \u2014 ghalat channel ho to job FAILED (dobara upload se duplicate nahi banta)",
-        "DB v21 (yt_channels status columns); KB local posts ka burst fix bhi (overdue kb-local rows agle khali slot par reschedule)",
-        "Live Facebook/YouTube post user ke PC par test hoga \u2014 VM par page token + Electron session nahi"
-      ]
-    },
-    {
-      "version": "1.7.18-test",
-      "changes": [
-        "Guided tour modal fix: 'Don't show again' checkbox ab sahi align hai \u2014 pehle global input{width:100%} ki wajah se checkbox poori modal chaudai tak phail jata tha (khali bordered box + text neeche); ab label.check flex row hai (17px checkbox + text aik line me)",
-        "Library folder card fix: 'Auto queue' checkbox bhi wahi 100% width bug tha \u2014 width:auto kar diya",
-        "Baaki sab 1.7.17-test jaisa (Rasta 1 platform mode, cloud mode, demo gaps); live Facebook post user ke PC par test hoga"
-      ]
-    },
-    {
-      "version": "1.7.17-test",
-      "changes": [
-        "Rasta 1 \u2014 API Facebook posting wapas (laptop se, platform mode): subah select karo \u2192 app background me khamoshi se upload karta hai (koi browser window nahi khulti, saath me aur kaam kar sakte ho) \u2192 upload khatam hote hi laptop band \u2192 Facebook khud waqt par publish karta hai (scheduled_publish_time + published=false); Oracle server/card ki zaroorat nahi",
-        "Effective mode fix: server URL khaali ho to mode hamesha local \u2014 pehle default cloud rehta tha aur jobs PENDING me phans jati thin, kuch post nahi hota tha",
-        "PENDING jobs reclaim: local mode me server par na gayi jobs (cloud_job_id nahi) LOCAL par flip hokar worker se post hoti hain; server wali jobs kabhi nahi chhedi jatin",
-        "Purani API jobs (cloud_status NULL) dobara NEEDS_MIGRATION nahi hoti \u2014 legacy local samajh kar platform flow se post hoti hain; Reels hamesha local (waqt par post)",
-        "Settings mode select + Queue badge/hint effective mode dikhate hain (URL nahi to Is PC se); dead API_REMOVED code hataya gaya",
-        "Live Facebook post user ke PC par test hoga \u2014 VM par page token + Electron session nahi"
-      ]
-    },
-    {
-      "version": "1.7.16-test",
-      "changes": [
-        "Per-page posting config: har page ki apni settings \u2014 media folder, caption source (custom/file/sidecar), caption strategy (same/remove-after-use/random), schedule mode (interval/specific times), daily limit Image/Reel, interval minutes, move-used-media toggle; config na ho to purana global scheduler waisa hi",
-        "Queue me Facebook-style post preview card \u2014 page naam, caption, media, Scheduled chip + waqt",
-        "Auto Comment / Comments & Engagement: page posts par comments fetch + manual reply + auto-reply rules (keyword/all, Spintax); naya Comments tab (sidebar 21 entries)",
-        "Story + Link posts: Page Posts aur Queue me Story (browser story composer) aur Link (URL + preview) types; Link post ka URL caption se bhi nikalta hai",
-        "Target-group join: Groups page par link paste karo \u2014 open group ho to join, questions/approval mile to ruk jata hai (auto-answer nahi)",
-        "Accounts: categories + filter, Trash/restore, bulk actions (Open browsers / Check status / Move to trash)",
-        "Proxy health check: latency (ms) + Ready/Failed status, proxy groups, Check all",
-        "Logs Export CSV, About me diagnostics view + export, privacy masking, Data & Storage panel (clear history/export/optimize), worker threads setting, auth-token login (Graph validation + API page fetch), Dashboard 'Your next move' shortcuts, guided tour (pehli dafa 5 steps)",
-        "DB v20 (kb_page_configs, kb_comment_rules, kb_comments, link_url, trashed, proxy health columns)",
-        "Live flows (Story post, comments fetch/reply, group join, auth-token validation) user ke PC par test honge \u2014 VM par prove nahi ho sake"
-      ]
-    },
-    {
-      "version": "1.7.15-test",
-      "changes": [
-        "Rasta 2 \u2014 Cloud Posting: videos ab cloud server (Oracle VM) ko jati hain \u2014 server waqt par Facebook par post karta hai, PC band ho to bhi; Settings me Cloud Posting card (server URL + token + Test Connection + Cloud / Is PC se mode), Accounts par API Facebook card (sirf page tokens), Library modal + Queue me API pages dobara targets (Cloud badge), Jobs page par server status sync (Server par hai / Schedule ho gaya / Publish ho gaya / Fail) + Refresh + server se cancel; local worker cloud jobs ko nahi chhede (double-post guard); DB v19 (jobs par cloud_job_id / cloud_status / cloud_error)"
-      ]
-    },
-    {
-      "version": "1.7.14-test",
-      "changes": [
-        "Desktop full audit (duplicates singled): Dashboard se Analytics section hata di \u2014 publishing chart + page status + YouTube insights ab sirf Analytics page par (pehle dono jagah wahi cheez thi); Dashboard sirf stats + upcoming + quick actions",
-        "Pages header fix: 'Pages queued: {n} (skipped {s})' aur 'Pages created: {n}' raw placeholders dikhte thay \u2014 ab saaf labels (naye kb.pagesQueuedLbl / kb.pagesCreatedLbl, 5 languages)",
-        "Scheduler duplicate Generate hata di \u2014 kb card wali 'Generate from Queue' button aur upar wali 'Generate schedule for all pages' dono aik hi scheduler_generate() chalati thin; ab sirf aik button",
-        "CDP debugger attach/detach awaited (automation.js) \u2014 floating promise khatam, 'already attached' ab catch me ata hai (1.7.8 wala crash class)",
-        "Notifications page ka title ab tarjuma shuda label dikhata hai (raw 'notifications' id nahi); hub-dead i18n keys (kb.tab* x7) aur schedulerKbGenerate key hatayi gayin; SHELL_HEIGHT 88 theek nikla (tabstrip 40 + toolbar 48, border-box) \u2014 sirf stale 80px comment theek hui"
-      ]
-    },
-    {
-      "version": "1.7.13-test",
-      "changes": [
-        "Companion app v2.2 PC endpoints: naya GET /api/muse \u2014 MCP server + cloud relay + Muse inbox status aik jagah (Muse Connected screen ke liye); GET /api/jobs/upcoming me kbPosts \u2014 scheduled KartBrowser page posts bhi aane lage (composer SCHEDULED + kb-local QUEUED-with-time); GET /api/kartbrowser me Pages, Page Posts, global Extensions aur Proxies bhi \u2014 sirf safe fields, koi password/token/path nahi",
-        "FAILED jobs list (GET /api/jobs/failed) + retry (POST /api/jobs/:id/retry) pehle se thay \u2014 is build me waisi hi, kuch nahi badla"
-      ]
-    },
-    {
-      "version": "1.7.12-test",
-      "changes": [
-        "Har section sirf apna content dikhata hai \u2014 Accounts = sirf IDs, Pages = sirf Pages, Proxies = sirf Proxies, Extensions = sirf Extensions; Profiles, Page Posts aur Groups ki bhi apni sidebar entries (poora hub har jagah dikhna khatam)",
-        "Accounts Dashboard ke foran neeche \u2014 sidebar order theek; Muse Connected tab: MCP connect settings + Muse inbox ab aik jagah (Settings se MCP card aur Accounts se inbox card yahan move hue)",
-        "Extensions global ho gayin \u2014 Web Store link aik dafa dalo to extension har profile browser me khud add ho jati hai, jo bhi ID login karo (pehle se khuli window dobara kholni paregi)",
-        "KartStudio profile model: har ID ki apni profile khud ban jati hai \u2014 login/import par auto-create hoti hai, manual profile banana zaroori nahi (Profiles tab dekhne/edit karne ke liye rehta hai)",
-        "Extensions link input fix: stale tab + shell panel offset ki wajah se input nazar nahi ata tha \u2014 ab Extensions page par input sab se upar hai"
-      ]
-    },
-    {
-      "version": "1.7.11-test",
-      "changes": [
-        "Mobile emulation poori tarah khatam \u2014 1.7.8 ka crash fix 1.7.9 me hone ke bawajood iPhone/Android profile kholte hi software band ho jata tha; ab phone-sized window + touch + mobile metrics ka CDP rasta hi nahi hai \u2014 profile hamesha normal desktop-size browser jaisi khulti hai, mobile sirf UA + fingerprint identity background me rehti hai",
-        "Naya tab blank khulta hai \u2014 '+' dabao to khaali tab, Facebook nahi; address bar se koi bhi URL khulta hai (pehla tab profile kholne par Facebook hi hota hai)",
-        "Extensions Chrome Web Store link se install \u2014 Extensions panel ya hub ke naye Extensions tab me store link paste karo, extension download + install ho jayegi; unpacked folder load waisa hi",
-        "Sidebar me naye entries \u2014 Pages, Proxies, Extensions: click karte hi Accounts page khulta hai, hub ki wahi section khuli hui (Pages tab / Proxies tab / Extensions tab)"
-      ]
-    },
-    {
-      "version": "1.7.10-test",
-      "changes": [
-        "KartBrowser nav tab hata diya \u2014 KartBrowser content ab sirf Accounts page ke hub me hai (do jagah same cheez dikhti thi); sidebar se tab gaya, Accounts hub waisa hi (IDs, Profiles, Proxies, Pages, Page Posts, Groups)"
-      ]
-    },
-    {
-      "version": "1.7.9-test",
-      "changes": [
-        "KartBrowser-only Facebook workflow: Facebook API accounts test build se hata diye gaye (filhal) \u2014 Facebook posting ab sirf KartBrowser se hoti hai; Accounts page ab Muse Inbox + Kartar workflow hub hai; YouTube bilkul untouched",
-        "Browser page-posting: KartBrowser me naya Page Posts tab \u2014 video/photo/text seedha Facebook page par browser se post hoti hai (CDP file upload, Spintax/macros post time par, checkpoint par window khuli rehti hai, transient fail par 10 dafa retry)",
-        "Browser scheduling: default Facebook web-composer Schedule option \u2014 post abhi banti hai future time ke sath, Facebook khud waqt par publish karta hai (PC band ho to bhi); fallback local timed browser post (PC on zaroori); har post par Browser badge (Schedule/Local)",
-        "Purani API Facebook jobs NEEDS_MIGRATION dikhti hain \u2014 Roman Urdu wajah ke sath, dobara post nahi hoti; Facebook insights ki jagah saaf line hai, YouTube insights waisi hi",
-        "Queue/Library ab kb pages ko target karti hai (KB: targets) \u2014 API pages target list se hata diye gaye; Scheduler page par KartBrowser page posts section + mode switch (composer/local)"
-      ]
-    },
-    {
-      "version": "1.7.8-test",
-      "changes": [
-        "Mobile profile crash fix: iPhone/Android profile kholte hi tab + poora software band ho jata tha \u2014 wajah floating CDP promise (debugger attach/detach await nahi hota tha, unhandled rejection se main process exit); ab attach/detach awaited + fail ho to desktop fallback, window kabhi nahi toot-ti; agle crash ki wajah kb-crash.log me milegi",
-        "Real browser jaisa shell: KartStudio ke Chrome jaisa \u2014 light theme, rounded tabs (favicon + title + close), omnibox (lock icon + URL), History/Extensions icon buttons, profile avatar; History/Extensions panels ab asal me dikhte hain (pehle view ke peeche chhup jate thay)",
-        "Shell labels fix: History/Extensions par raw keys (kb.shell.history) dikhte thay \u2014 ab shell strings khud maangta hai + fallback labels, raw key kabhi nahi"
-      ]
-    },
-    {
-      "version": "1.7.7-test",
-      "changes": [
-        "PC-off scheduling: YouTube publishAt + Facebook scheduled_publish_time \u2014 video schedule karte hi upload foran hota hai (PRIVATE/scheduled), PC band ho to bhi waqt par publish; PUBLISHED ka matlab upload mukammal, local scheduler fallback bhi hai (Reel local par jata hai)",
-        "Watch-folder auto-queue: har folder ka apna auto-queue toggle \u2014 ON ho to nayi video scan par Library + Queue + schedule khud ban jata hai",
-        "Best-time auto-pick (imaandari se): hour-level API data nahi milta, is liye top videos ka publish hour ya default 6 PM \u2014 source Queue par saaf dikhta hai ('Analytics se' ya 'Default 6 PM')",
-        "Week planner: 'Hafta bhar do' \u2014 7 videos select karo to 7 din me spread schedule",
-        "Companion app: FAILED jobs ki list (GET /api/jobs/failed) + retry button (POST /api/jobs/:id/retry) \u2014 phone se failed job dobara SCHEDULED",
-        "Muse inbox end-to-end verified \u2014 image + caption Muse se Library/Queue me, post se pehle approval (folders.importFile export fix samet)"
-      ]
-    },
-    {
-      "changes": [
-        "Remove toasts theek: Profile hatane par \"Profile removed\", Proxy par \"Proxy removed\", ID/Page/Group/Post/Log par apni sahi line \u2014 \"Account disconnected\" ab sirf asal Facebook account remove par ata hai",
-        "Muse inbox disconnect ka bhi apna toast: \"Muse inbox disconnected\"",
-        "Profile 1 remove fix: pehli/default profile hatane par dobara nahi banti \u2014 default profile sirf aik dafa auto-create hoti hai; khaali list par '+ Add Profile' ka hint",
-        "Tabbed browser: profile window me asal tabs \u2014 tab strip (title + close x), + New tab, address bar (Back/Forward/Reload), History panel, Extensions panel (unpacked Chrome extension folder); aakhri tab band karne par window band nahi hoti",
-        "Pages fetch: KartBrowser login ke baad ID ke saare pages khud fetch hoke Pages tab me dikhte hain (Fetched badge) + Refresh button; dobara fetch par duplicate nahi",
-        "Companion app v2.0 endpoints: Library, Pages, KartBrowser, Analytics, Accounts, Settings, Activity \u2014 phone app ke 'Mazeed' tabs ke liye",
-        "Real MCP server + free Cloud relay: Settings \u2192 Muse MCP ON karo to Muse live connect karta hai (library/pages/queue/jobs/analytics tools); relay Cloudflare Worker par free \u2014 PC on hona zaroori hai"
-      ],
-      "version": "1.7.6-test"
-    },
-    {
-      "changes": [
-        "Add Profile UA fix: Browser ya Device badlo to User Agent field khud badal jata hai \u2014 Chrome, Edge, Firefox har aik ki apni alag UA; haath se likhi hui UA overwrite nahi hoti",
-        "Profiles table me Browser column: Chrome vs Brave rows alag nazar ati hain (Brave ki UA Chrome jaisi hoti hai, asli Brave bhi Chrome UA bhejta hai)"
-      ],
-      "version": "1.7.4-test"
-    },
-    {
-      "changes": [
-        "Browser select theek: Chrome, Microsoft Edge, Firefox, Brave \u2014 chaaron hamesha selectable hain, system par browser installed hona zaroori nahi; jo select karo wohi type tool ke andar khulega (built-in engine, us browser ki UA + fingerprint identity), koi greyed/disabled nahi",
-        "Default browser naye profile ke liye Chrome"
-      ],
-      "version": "1.7.3-test"
-    },
-    {
-      "changes": [
-        "KartBrowser buttons theek: bulk buttons (Check Live, Login, Remove, Create, Join, Post) ab hamesha enabled \u2014 bina selection click karo to 'pehle select karo' toast aye ga, khamosh kuch nahi hoga",
-        "Tabs foran khulte hain: page ab cache se foran render hota hai, data background me taaza hota hai \u2014 har click par poora page dobara load nahi hota",
-        "Add/Edit Profile me Browser select: Chrome, Microsoft Edge, Firefox, Brave \u2014 jo PC par installed hai wo select karo, na ho to greyed dikhe ga; select karte hi User Agent khud bhar jayega aur window usi browser ki identity se khulegi",
-        "Device select: Desktop (Windows 10 / Windows 11) ya Mobile (iPhone, Android, Google Pixel) \u2014 mobile par phone size window + touch emulation",
-        "Tabs aur action buttons alag saaf rows me \u2014 aik hi height, barabar spacing, ghule hue nahi",
-        "Test auto-update: ab test build bhi khud update check karega (sirf test feed se) \u2014 manual download ki zaroorat nahi"
-      ],
-      "version": "1.7.2-test"
-    },
-    {
-      "changes": [
-        "KartBrowser engine + per-profile proxy + bulk ID import/cookie login + dashboard",
-        "Bulk page creation (1 page per account per day) + group posting (auto-join open groups only)",
-        "Muse inbox + Spintax/macros",
-        "Android companion app v1 + Tailscale option (mobile data par bhi chale)"
-      ],
-      "version": "1.7.0-test.1"
-    }
-  ],
-  "kind": "feature"
+    "Koi profile na ho to saaf message aata hai — pehle Browser Profiles me aik profile banao"
+   ]
+  },
+  {
+   "version": "1.7.41-test",
+   "changes": [
+    "YouTube Connect ab tool ke browser (Anti-Detect profile) me bhi ho sakta hai — system browser wala option bhi hai",
+    "Analytics ab aik hi tab me — Pages aur YouTube sath, alag YouTube Analytics tab khatam",
+    "Browser Profiles list ab minimal hai — sirf naam + Device + Browser + Open/Close + Remove + Edit + Check Fingerprint; poora fingerprint ab us profile ke browser tab me dikhta hai"
+   ]
+  },
+  {
+   "version": "1.7.40-test",
+   "changes": [
+    "Taskbar icon ab MetaBox wala hai — stock Electron icon khatam, exe ke andar wala icon badal diya",
+    "Koi aur change nahi — sirf icon fix hai"
+   ]
+  },
+  {
+   "version": "1.7.39-test",
+   "changes": [
+    "Naya Analytics tab — har Facebook page ka card (Followers, Views, Reach, Engagement, Top posts) aur har YouTube channel ka card (Subscribers, Views, Watch time, Top videos)",
+    "Period 7 din / 28 din, Refresh button, 1 ghante ka cache — jo metric na mile wo khaali rehta hai, number kabhi invent nahi hota",
+    "Token expire ho to card par saaf wajah + dobara-connect ka rasta"
+   ]
+  },
+  {
+   "version": "1.7.38-test",
+   "changes": [
+    "Browser ab asal Chrome hai — imitation shell khatam; Profile kholo to tumhare PC ka Chrome khulta hai, poora Chromium UI",
+    "Sidebar wapas pehle jaisa — hamesha 248px khula, collapse wala button khatam",
+    "Fingerprint ab Chrome ke control channel se; extensions Web Store se seedha real Chrome me"
+   ]
+  },
+  {
+   "version": "1.7.37-test",
+   "changes": [
+    "YouTube Connect ab seedha — Client ID app me pehle se hai, koi ID/Secret mangna nahi; token exchange tumhare apne Cloudflare server se hota hai",
+    "Uninstall/reinstall ke baad bhi Connect waisa hi — built-in app har boot par seed hoti hai",
+    "Apni secret wali app ka flow waisa hi — direct Google, kuch nahi badla"
+   ]
+  },
+  {
+   "version": "1.7.36-test",
+   "changes": [
+    "Browser ab bilkul Chromium jaisa — address bar me jo likho wo Google search, suggestions, downloads shelf, find, zoom, poora menu",
+    "Sidebar chhoti (216px) + collapse toggle — click karo to sirf icons, dobara click karo to labels wapas",
+    "Browser ka taskbar icon Chromium wala, app ka taskbar icon MetaBox wala — dono alag; YouTube built-in app ki tayyari bhi hai"
+   ]
+  },
+  {
+   "version": "1.7.35-test",
+   "changes": [
+    "Engine upgrade — Electron 45.2.3, Chromium 156, Node 24 — browser ab tumhare Chromium jaisa naya hai",
+    "Browser ki pehchan ab asal engine se match karti hai — Chrome 156, Edge 156",
+    "1.7.16 ka sab kuch barqarar — Settings tabs upar, ixBrowser jaisa anti-detect browser, glass logo"
+   ]
+  },
+  {
+   "version": "1.7.34-test",
+   "changes": [
+    "Settings ke tabs ab upar hain — header band me, title ke neeche",
+    "Browser ab ixBrowser jaisa anti-detect hai — har profile ki apni pehchan: Audio, fonts, WebRTC, geo aur device fingerprint, apna Chrome/Edge/Firefox version",
+    "Proxy bulk import, per-profile proxy check, cookie import/export aur profile transfer, bulk profile kaam, har profile ki apni extensions aur Local API"
+   ]
+  },
+  {
+   "version": "1.7.33-test",
+   "changes": [
+    "Buttons ab chipke hue nahi lagte — toolbar rows ka gap barha diya gaya, har button alag dikhta hai",
+    "Sidebar logo ab glass type hai — baghair rang, appearance ke colour aur dark/light mode ke sath khud badal jata hai",
+    "Poori app ka UI audit — 13 inch screen par chaudi tables ab card ke andar scroll hoti hain, page ki horizontal scrollbar nahi aati"
+   ]
+  },
+  {
+   "version": "1.7.32-test",
+   "changes": [
+    "Settings me ab tabs hain — General, Muse Connect, Privacy aur Storage; har section apni jagah par hai",
+    "Muse Connect ab aik jagah — pairing, MCP token, relay, download folder aur inbox sab Settings ke Muse Connect tab me; sidebar se alag Muse Connected tab hata diya gaya",
+    "Light mode me background ab selected color ki halki tint hota hai — pattern ki lines bhi usi rang me; dark mode bilkul waisa hi hai",
+    "Appearance apne sidebar tab me hi hai — Settings me wapas nahi laya gaya"
+   ]
+  },
+  {
+   "version": "1.7.31-test",
+   "changes": [
+    "Browser system theek — bulk import ab har ID ki apni profile banata hai (Auto default), profile delete poora wipe (session + cookies saaf), IDs table me asal proxy, page/group hamesha sahi ID ke browser me",
+    "User Agent current — Chrome 157 / Edge 157 / Firefox 159, aik hi source; per-profile Refresh UA; test bookmarks bar par ab asal favicon",
+    "Kartar engine features — Controlled Browser open, browser data clear + dobara login, Trash Export, IDs table par right-click menu; profile edit live-apply + Advanced section"
+   ]
+  },
+  {
+   "version": "1.7.30-test",
+   "changes": [
+    "Muse Connect naya feature — Settings me Muse Connect card: Enable toggle, Setup Instruction copy (Muse me paste karo), pairing token se Pairing Done, aur download folder chooser",
+    "Muse generated media ab seedha PC par aata hai — naya MCP tool media_deliver file ko download folder me category subfolder (jaise Celebrity Photos) me save karke Library me import karta hai; kuch bhi auto-post nahi hota",
+    "App khulte hi pending deliveries kheench leti hai — tool off tha to Muse pending content apne paas rakh kar dobara connect par deliver karta hai, relay files store nahi kar sakta",
+    "Skill + MD template shamil — sirf content category likho, baqi automation par hai; hard rule: content confirmation ke baghair auto PC par jaye, posting kabhi auto nahi"
+   ]
+  },
+  {
+   "version": "1.7.29-test",
+   "changes": [
+    "8 new background patterns added — Dots, Grid, Diagonal, Hexagon, Circuit, Topo, Zigzag, Aurora; Appearance tab now has 12 patterns + None to choose from",
+    "Chosen pattern also shows in the Appearance preview box; choice stays after restart, old patterns and colors unchanged"
+   ]
+  },
+  {
+   "version": "1.7.28-test",
+   "changes": [
+    "Appearance ab Settings se nikal kar apna alag tab hai — sidebar me Settings ke upar; 8 accent colors, 4 background patterns aur Gradient/Solid style wahi hain, choice restart ke baad bhi rehti hai",
+    "Settings me ab sirf Language, Theme aur Mode rehte hain — Appearance wale controls sirf Appearance tab me milenge"
+   ]
+  },
+  {
+   "version": "1.7.27-test",
+   "changes": [
+    "Browser shell polish — fonts ab Chrome jaisi (Segoe UI, sahi size/weight); pehle shell ka font serif dikhta tha, ab tabs, address bar, bookmarks bar aur menu sab Chrome jaisi dikhte hain",
+    "Profile avatar par ab hamesha profile ka pehla harf dikhta hai — '?' kabhi nahi; naam na ho to profile ID ka pehla harf, wo bhi na ho to 'M'",
+    "New tab (+) button ab sirf tab strip me hai (tabs ke baad) — bookmarks bar se hata diya; three-dot menu me ab sirf History aur Extensions hain, aur menu poora dikhta hai (pehle neeche kat jata tha)",
+    "Shell ki depth aur hover behtar — active tab toolbar se jura hua dikhta hai, tab close × aur buttons par hover states, address bar me behtar contrast"
+   ]
+  },
+  {
+   "version": "1.7.26-test",
+   "changes": [
+    "Appearance — Settings me naya Appearance section: 8 accent colors (gold, purple, blue, green, red, pink, teal, orange), 4 background patterns (Waves, Mesh, Boxes, Linings) aur Gradient/Solid style — choice poore tool par lagti hai, restart ke baad bhi rehti hai; default waisa hi jaisa pehle tha",
+    "Update pop-up par ab update ki kisam dikhti hai — fix ho to 'Some fixes' (neela, wrench), bug fix ho to 'Some bug fixes' (narangi, bug icon), nayi cheez ho to 'New feature added' (jamni, sparkle); changelog ki tafseel ab bhi nahi dikhti, pop-up app ki language me hi rehta hai",
+    "Update restart tez — installer end par poori folder ka size ginna (GetSize) aur icon-cache clear (ie4uinit) hata diye; purani update files ki safai aur Google Apps migration ab window khulne ke baad hoti hain, boot block nahi karti; boot timing logs (window shown, load, license refresh) bhi lag gaye",
+    "Installer ka EstimatedSize ab fixed value hai (~128MB) — install ke end par stall khatam; wizard aur silent install waisi hi"
+   ]
+  },
+  {
+   "version": "1.7.25-test",
+   "changes": [
+    "Chrome jaisa shell: gol tabs (asal site favicon + title + close x + naya tab button), Chrome-style back/forward/reload icons (SVG), gol omnibox (lock icon + URL, Enter se navigate)",
+    "Three-dot menu (⋮): sirf pehle se mojood functions — New tab, History, Extensions; History/Extensions toolbar buttons bhi waisi hi",
+    "Bookmarks bar: omnibox star se active page bookmark karo (bhara star), bookmark par click se tab me khulta hai, × se remove; bookmarks per-profile save hote hain (History jaisa), shuru me khaali",
+    "Shell height 40+48+32 = 120px — web view bookmarks bar ke neeche lagta hai, 13 inch screen par tabs + toolbar + bookmarks + page sab dikhte hain, koi overlap nahi",
+    "Engine, fingerprint, profiles, login/page-posting/automation aur History/Extensions panels waisi hi — sirf shell UI badla hai"
+   ]
+  },
+  {
+   "version": "1.7.24-test",
+   "changes": [
+    "Welcome celebration khatam — license activate karne par ab 'Welcome to MetaBox!' card + streamers + awaz nahi aati; sirf toast + license pill refresh hota hai; Settings se celebration sound toggle bhi hata diya",
+    "Guided tour ab fresh install par bhi aata hai — pehle license popup boot par khul jata tha is liye tour ka 1.5s check haar maan leta tha aur dobara try nahi hota tha; ab tour defer hota hai aur license popup band hote hi (Later dabane ya kamyab activation ke baad) aata hai; 'Don't show again' tick karne wale ko dobara tang nahi karta",
+    "Tour ka step-1 selector waisa hi hai (dashboard stats grid) — koi step nahi badla; About page se manual tour button bhi waisa hi hai"
+   ]
+  },
+  {
+   "version": "1.7.23-test",
+   "changes": [
+    "Guided tour ab spotlight style me — har step par pehle us page par jata hai, phir baqi screen dim karke us section ko roshan highlight karta hai + chhota tooltip card (title + body + Next/Back + 'N / 5' + Don't show again); 13 inch screen par tooltip viewport ke andar rehta hai",
+    "'KartBrowser' lafz app me kahin nazar nahi aayega — browser windows, page titles, logs aur messages ab 'MetaBox' kehte hain (andar ke naam/files waisi hi)",
+    "Update pop-up saada — lambi changelog list khatam; sirf 'Update Available' + version + 'Minor updates / Bug fixes' (bare update par generic line); app ki language English ho to pop-up bhi English (pehle Urdu changelog dikhta tha)",
+    "Toasts/notifications bhi selected language me — update, publish, Safe Mode aur automation wali ittila ab usi zuban me aati hai jo app me select hai"
+   ]
+  },
+  {
+   "version": "1.7.22-test",
+   "changes": [
+    "Scheduler Cancel button fix: 13 inch screen par 4-button wali row (Resume + Switch to local + Reschedule + Cancel) actions column se bahar nikal jati thi — Cancel button table ke bahar / kata hua dikhta tha; ab saare buttons column ke andar hain, koi horizontal slide nahi",
+    "Scheduler action buttons ab row ke darmiyan me (vertically center) hain — pehle upar chipke rehte thay; video cell ka top-align aur title 1 line + badges line 2 waisa hi hai",
+    "Scheduler table columns rebalance: actions column chaura (328px), page/attempts/error thode tang — poori table ki chaudai waisi hi, bari screen par layout waisa hi hai"
+   ]
+  },
+  {
+   "version": "1.7.21-test",
+   "changes": [
+    "Calendar refinement: din ke cell ka size waisa hi — andar wale event pills chhote kar diye (padding 2px 5px, font 10px, badge 9px); '+N more' khatam — din ki saari events dikhti hain (pehle 4 ke baad baqi chhup jati thin)",
+    "Scheduler video cell: title ab 1 line me ellipsis (poora naam hover par) + badges us ke neeche line 2 par — pehle title block tha, badges teesri line par chale jate thay; checkbox vertically center (pehle upar chipka rehta tha); baqi cells top-align (badges page text se na takrayen)",
+    "Calendar grid + Scheduler table-layout fixed, th widths, actions/date aik line — 1.7.20-test wale theek hisse barqarar"
+   ]
+  },
+  {
+   "version": "1.7.20-test",
+   "changes": [
+    "Calendar fix: 7-din grid ab aik screen par fit hota hai — right slide khatam (grid minmax(0,1fr) + day cells min-width 0, events ellipsis karte hain)",
+    "Scheduler table: badges aik line me (YouTube + Platform aik hi row, nowrap), actions aik line me compact (Resume/Switch to local/Reschedule/Cancel), channel/date aik line me (nowrap + ellipsis)",
+    "Scheduler table fixed layout: poora table viewport me fit hota hai, horizontal scroll nahi"
+   ]
+  },
+  {
+   "version": "1.7.19-test",
+   "changes": [
+    "Scheduler burst fix: 2/day select karne par bhi ~17 videos ek saath publish ho jati thin — ab overdue jobs (slot guzar gaya ho) foran publish nahi hoti, agle khali slot par reschedule hoti hain (30 min grace); Generate bhi pehle se bhare din skip karta hai (aik din me 2 se zyada nahi); tick har minute overdue jobs ko reschedule karta hai",
+    "Status sachha: platform mode me video upload ke baad 'PUBLISHED' nahi kehti jab tak YouTube/Facebook usay slot par public na kare — Scheduler table me ab 'SCHEDULED' badge + waqt dikhta hai; YouTube private video par 'upload ho gayi (Private)' likhta hai, 'publish ho gayi' sirf asal public par",
+    "Scheduler table alignment: lambe titles 2 lines tak (poora naam hover par), badges aik line me, actions tidy",
+    "YouTube 400 error: doosre channel par 'Request failed with status code 400' ki asal wajah ab Logs/notification me dikhti hai (pehle classify hi nahi hota tha); dead refresh token (Testing-mode tokens 7 din me expire) par channel ko YouTube page par 'Dobara connect karein' ke sath NEEDS_RECONNECT dikhata hai, jobs baar-baar retry nahi kartin",
+    "Upload verify: YouTube upload ke baad video asal channel + privacy par check hoti hai — ghalat channel ho to job FAILED (dobara upload se duplicate nahi banta)",
+    "DB v21 (yt_channels status columns); KB local posts ka burst fix bhi (overdue kb-local rows agle khali slot par reschedule)",
+    "Live Facebook/YouTube post user ke PC par test hoga — VM par page token + Electron session nahi"
+   ]
+  },
+  {
+   "version": "1.7.18-test",
+   "changes": [
+    "Guided tour modal fix: 'Don't show again' checkbox ab sahi align hai — pehle global input{width:100%} ki wajah se checkbox poori modal chaudai tak phail jata tha (khali bordered box + text neeche); ab label.check flex row hai (17px checkbox + text aik line me)",
+    "Library folder card fix: 'Auto queue' checkbox bhi wahi 100% width bug tha — width:auto kar diya",
+    "Baaki sab 1.7.17-test jaisa (Rasta 1 platform mode, cloud mode, demo gaps); live Facebook post user ke PC par test hoga"
+   ]
+  },
+  {
+   "version": "1.7.17-test",
+   "changes": [
+    "Rasta 1 — API Facebook posting wapas (laptop se, platform mode): subah select karo → app background me khamoshi se upload karta hai (koi browser window nahi khulti, saath me aur kaam kar sakte ho) → upload khatam hote hi laptop band → Facebook khud waqt par publish karta hai (scheduled_publish_time + published=false); Oracle server/card ki zaroorat nahi",
+    "Effective mode fix: server URL khaali ho to mode hamesha local — pehle default cloud rehta tha aur jobs PENDING me phans jati thin, kuch post nahi hota tha",
+    "PENDING jobs reclaim: local mode me server par na gayi jobs (cloud_job_id nahi) LOCAL par flip hokar worker se post hoti hain; server wali jobs kabhi nahi chhedi jatin",
+    "Purani API jobs (cloud_status NULL) dobara NEEDS_MIGRATION nahi hoti — legacy local samajh kar platform flow se post hoti hain; Reels hamesha local (waqt par post)",
+    "Settings mode select + Queue badge/hint effective mode dikhate hain (URL nahi to Is PC se); dead API_REMOVED code hataya gaya",
+    "Live Facebook post user ke PC par test hoga — VM par page token + Electron session nahi"
+   ]
+  },
+  {
+   "version": "1.7.16-test",
+   "changes": [
+    "Per-page posting config: har page ki apni settings — media folder, caption source (custom/file/sidecar), caption strategy (same/remove-after-use/random), schedule mode (interval/specific times), daily limit Image/Reel, interval minutes, move-used-media toggle; config na ho to purana global scheduler waisa hi",
+    "Queue me Facebook-style post preview card — page naam, caption, media, Scheduled chip + waqt",
+    "Auto Comment / Comments & Engagement: page posts par comments fetch + manual reply + auto-reply rules (keyword/all, Spintax); naya Comments tab (sidebar 21 entries)",
+    "Story + Link posts: Page Posts aur Queue me Story (browser story composer) aur Link (URL + preview) types; Link post ka URL caption se bhi nikalta hai",
+    "Target-group join: Groups page par link paste karo — open group ho to join, questions/approval mile to ruk jata hai (auto-answer nahi)",
+    "Accounts: categories + filter, Trash/restore, bulk actions (Open browsers / Check status / Move to trash)",
+    "Proxy health check: latency (ms) + Ready/Failed status, proxy groups, Check all",
+    "Logs Export CSV, About me diagnostics view + export, privacy masking, Data & Storage panel (clear history/export/optimize), worker threads setting, auth-token login (Graph validation + API page fetch), Dashboard 'Your next move' shortcuts, guided tour (pehli dafa 5 steps)",
+    "DB v20 (kb_page_configs, kb_comment_rules, kb_comments, link_url, trashed, proxy health columns)",
+    "Live flows (Story post, comments fetch/reply, group join, auth-token validation) user ke PC par test honge — VM par prove nahi ho sake"
+   ]
+  },
+  {
+   "version": "1.7.15-test",
+   "changes": [
+    "Rasta 2 — Cloud Posting: videos ab cloud server (Oracle VM) ko jati hain — server waqt par Facebook par post karta hai, PC band ho to bhi; Settings me Cloud Posting card (server URL + token + Test Connection + Cloud / Is PC se mode), Accounts par API Facebook card (sirf page tokens), Library modal + Queue me API pages dobara targets (Cloud badge), Jobs page par server status sync (Server par hai / Schedule ho gaya / Publish ho gaya / Fail) + Refresh + server se cancel; local worker cloud jobs ko nahi chhede (double-post guard); DB v19 (jobs par cloud_job_id / cloud_status / cloud_error)"
+   ]
+  },
+  {
+   "version": "1.7.14-test",
+   "changes": [
+    "Desktop full audit (duplicates singled): Dashboard se Analytics section hata di — publishing chart + page status + YouTube insights ab sirf Analytics page par (pehle dono jagah wahi cheez thi); Dashboard sirf stats + upcoming + quick actions",
+    "Pages header fix: 'Pages queued: {n} (skipped {s})' aur 'Pages created: {n}' raw placeholders dikhte thay — ab saaf labels (naye kb.pagesQueuedLbl / kb.pagesCreatedLbl, 5 languages)",
+    "Scheduler duplicate Generate hata di — kb card wali 'Generate from Queue' button aur upar wali 'Generate schedule for all pages' dono aik hi scheduler_generate() chalati thin; ab sirf aik button",
+    "CDP debugger attach/detach awaited (automation.js) — floating promise khatam, 'already attached' ab catch me ata hai (1.7.8 wala crash class)",
+    "Notifications page ka title ab tarjuma shuda label dikhata hai (raw 'notifications' id nahi); hub-dead i18n keys (kb.tab* x7) aur schedulerKbGenerate key hatayi gayin; SHELL_HEIGHT 88 theek nikla (tabstrip 40 + toolbar 48, border-box) — sirf stale 80px comment theek hui"
+   ]
+  },
+  {
+   "version": "1.7.13-test",
+   "changes": [
+    "Companion app v2.2 PC endpoints: naya GET /api/muse — MCP server + cloud relay + Muse inbox status aik jagah (Muse Connected screen ke liye); GET /api/jobs/upcoming me kbPosts — scheduled KartBrowser page posts bhi aane lage (composer SCHEDULED + kb-local QUEUED-with-time); GET /api/kartbrowser me Pages, Page Posts, global Extensions aur Proxies bhi — sirf safe fields, koi password/token/path nahi",
+    "FAILED jobs list (GET /api/jobs/failed) + retry (POST /api/jobs/:id/retry) pehle se thay — is build me waisi hi, kuch nahi badla"
+   ]
+  },
+  {
+   "version": "1.7.12-test",
+   "changes": [
+    "Har section sirf apna content dikhata hai — Accounts = sirf IDs, Pages = sirf Pages, Proxies = sirf Proxies, Extensions = sirf Extensions; Profiles, Page Posts aur Groups ki bhi apni sidebar entries (poora hub har jagah dikhna khatam)",
+    "Accounts Dashboard ke foran neeche — sidebar order theek; Muse Connected tab: MCP connect settings + Muse inbox ab aik jagah (Settings se MCP card aur Accounts se inbox card yahan move hue)",
+    "Extensions global ho gayin — Web Store link aik dafa dalo to extension har profile browser me khud add ho jati hai, jo bhi ID login karo (pehle se khuli window dobara kholni paregi)",
+    "KartStudio profile model: har ID ki apni profile khud ban jati hai — login/import par auto-create hoti hai, manual profile banana zaroori nahi (Profiles tab dekhne/edit karne ke liye rehta hai)",
+    "Extensions link input fix: stale tab + shell panel offset ki wajah se input nazar nahi ata tha — ab Extensions page par input sab se upar hai"
+   ]
+  },
+  {
+   "version": "1.7.11-test",
+   "changes": [
+    "Mobile emulation poori tarah khatam — 1.7.8 ka crash fix 1.7.9 me hone ke bawajood iPhone/Android profile kholte hi software band ho jata tha; ab phone-sized window + touch + mobile metrics ka CDP rasta hi nahi hai — profile hamesha normal desktop-size browser jaisi khulti hai, mobile sirf UA + fingerprint identity background me rehti hai",
+    "Naya tab blank khulta hai — '+' dabao to khaali tab, Facebook nahi; address bar se koi bhi URL khulta hai (pehla tab profile kholne par Facebook hi hota hai)",
+    "Extensions Chrome Web Store link se install — Extensions panel ya hub ke naye Extensions tab me store link paste karo, extension download + install ho jayegi; unpacked folder load waisa hi",
+    "Sidebar me naye entries — Pages, Proxies, Extensions: click karte hi Accounts page khulta hai, hub ki wahi section khuli hui (Pages tab / Proxies tab / Extensions tab)"
+   ]
+  },
+  {
+   "version": "1.7.10-test",
+   "changes": [
+    "KartBrowser nav tab hata diya — KartBrowser content ab sirf Accounts page ke hub me hai (do jagah same cheez dikhti thi); sidebar se tab gaya, Accounts hub waisa hi (IDs, Profiles, Proxies, Pages, Page Posts, Groups)"
+   ]
+  },
+  {
+   "version": "1.7.9-test",
+   "changes": [
+    "KartBrowser-only Facebook workflow: Facebook API accounts test build se hata diye gaye (filhal) — Facebook posting ab sirf KartBrowser se hoti hai; Accounts page ab Muse Inbox + Kartar workflow hub hai; YouTube bilkul untouched",
+    "Browser page-posting: KartBrowser me naya Page Posts tab — video/photo/text seedha Facebook page par browser se post hoti hai (CDP file upload, Spintax/macros post time par, checkpoint par window khuli rehti hai, transient fail par 10 dafa retry)",
+    "Browser scheduling: default Facebook web-composer Schedule option — post abhi banti hai future time ke sath, Facebook khud waqt par publish karta hai (PC band ho to bhi); fallback local timed browser post (PC on zaroori); har post par Browser badge (Schedule/Local)",
+    "Purani API Facebook jobs NEEDS_MIGRATION dikhti hain — Roman Urdu wajah ke sath, dobara post nahi hoti; Facebook insights ki jagah saaf line hai, YouTube insights waisi hi",
+    "Queue/Library ab kb pages ko target karti hai (KB: targets) — API pages target list se hata diye gaye; Scheduler page par KartBrowser page posts section + mode switch (composer/local)"
+   ]
+  },
+  {
+   "version": "1.7.8-test",
+   "changes": [
+    "Mobile profile crash fix: iPhone/Android profile kholte hi tab + poora software band ho jata tha — wajah floating CDP promise (debugger attach/detach await nahi hota tha, unhandled rejection se main process exit); ab attach/detach awaited + fail ho to desktop fallback, window kabhi nahi toot-ti; agle crash ki wajah kb-crash.log me milegi",
+    "Real browser jaisa shell: KartStudio ke Chrome jaisa — light theme, rounded tabs (favicon + title + close), omnibox (lock icon + URL), History/Extensions icon buttons, profile avatar; History/Extensions panels ab asal me dikhte hain (pehle view ke peeche chhup jate thay)",
+    "Shell labels fix: History/Extensions par raw keys (kb.shell.history) dikhte thay — ab shell strings khud maangta hai + fallback labels, raw key kabhi nahi"
+   ]
+  },
+  {
+   "version": "1.7.7-test",
+   "changes": [
+    "PC-off scheduling: YouTube publishAt + Facebook scheduled_publish_time — video schedule karte hi upload foran hota hai (PRIVATE/scheduled), PC band ho to bhi waqt par publish; PUBLISHED ka matlab upload mukammal, local scheduler fallback bhi hai (Reel local par jata hai)",
+    "Watch-folder auto-queue: har folder ka apna auto-queue toggle — ON ho to nayi video scan par Library + Queue + schedule khud ban jata hai",
+    "Best-time auto-pick (imaandari se): hour-level API data nahi milta, is liye top videos ka publish hour ya default 6 PM — source Queue par saaf dikhta hai ('Analytics se' ya 'Default 6 PM')",
+    "Week planner: 'Hafta bhar do' — 7 videos select karo to 7 din me spread schedule",
+    "Companion app: FAILED jobs ki list (GET /api/jobs/failed) + retry button (POST /api/jobs/:id/retry) — phone se failed job dobara SCHEDULED",
+    "Muse inbox end-to-end verified — image + caption Muse se Library/Queue me, post se pehle approval (folders.importFile export fix samet)"
+   ]
+  },
+  {
+   "changes": [
+    "Remove toasts theek: Profile hatane par \"Profile removed\", Proxy par \"Proxy removed\", ID/Page/Group/Post/Log par apni sahi line — \"Account disconnected\" ab sirf asal Facebook account remove par ata hai",
+    "Muse inbox disconnect ka bhi apna toast: \"Muse inbox disconnected\"",
+    "Profile 1 remove fix: pehli/default profile hatane par dobara nahi banti — default profile sirf aik dafa auto-create hoti hai; khaali list par '+ Add Profile' ka hint",
+    "Tabbed browser: profile window me asal tabs — tab strip (title + close x), + New tab, address bar (Back/Forward/Reload), History panel, Extensions panel (unpacked Chrome extension folder); aakhri tab band karne par window band nahi hoti",
+    "Pages fetch: KartBrowser login ke baad ID ke saare pages khud fetch hoke Pages tab me dikhte hain (Fetched badge) + Refresh button; dobara fetch par duplicate nahi",
+    "Companion app v2.0 endpoints: Library, Pages, KartBrowser, Analytics, Accounts, Settings, Activity — phone app ke 'Mazeed' tabs ke liye",
+    "Real MCP server + free Cloud relay: Settings → Muse MCP ON karo to Muse live connect karta hai (library/pages/queue/jobs/analytics tools); relay Cloudflare Worker par free — PC on hona zaroori hai"
+   ],
+   "version": "1.7.6-test"
+  },
+  {
+   "changes": [
+    "Add Profile UA fix: Browser ya Device badlo to User Agent field khud badal jata hai — Chrome, Edge, Firefox har aik ki apni alag UA; haath se likhi hui UA overwrite nahi hoti",
+    "Profiles table me Browser column: Chrome vs Brave rows alag nazar ati hain (Brave ki UA Chrome jaisi hoti hai, asli Brave bhi Chrome UA bhejta hai)"
+   ],
+   "version": "1.7.4-test"
+  },
+  {
+   "changes": [
+    "Browser select theek: Chrome, Microsoft Edge, Firefox, Brave — chaaron hamesha selectable hain, system par browser installed hona zaroori nahi; jo select karo wohi type tool ke andar khulega (built-in engine, us browser ki UA + fingerprint identity), koi greyed/disabled nahi",
+    "Default browser naye profile ke liye Chrome"
+   ],
+   "version": "1.7.3-test"
+  },
+  {
+   "changes": [
+    "KartBrowser buttons theek: bulk buttons (Check Live, Login, Remove, Create, Join, Post) ab hamesha enabled — bina selection click karo to 'pehle select karo' toast aye ga, khamosh kuch nahi hoga",
+    "Tabs foran khulte hain: page ab cache se foran render hota hai, data background me taaza hota hai — har click par poora page dobara load nahi hota",
+    "Add/Edit Profile me Browser select: Chrome, Microsoft Edge, Firefox, Brave — jo PC par installed hai wo select karo, na ho to greyed dikhe ga; select karte hi User Agent khud bhar jayega aur window usi browser ki identity se khulegi",
+    "Device select: Desktop (Windows 10 / Windows 11) ya Mobile (iPhone, Android, Google Pixel) — mobile par phone size window + touch emulation",
+    "Tabs aur action buttons alag saaf rows me — aik hi height, barabar spacing, ghule hue nahi",
+    "Test auto-update: ab test build bhi khud update check karega (sirf test feed se) — manual download ki zaroorat nahi"
+   ],
+   "version": "1.7.2-test"
+  },
+  {
+   "changes": [
+    "KartBrowser engine + per-profile proxy + bulk ID import/cookie login + dashboard",
+    "Bulk page creation (1 page per account per day) + group posting (auto-join open groups only)",
+    "Muse inbox + Spintax/macros",
+    "Android companion app v1 + Tailscale option (mobile data par bhi chale)"
+   ],
+   "version": "1.7.0-test.1"
+  }
+ ],
+ "kind": "bugfix"
 }
