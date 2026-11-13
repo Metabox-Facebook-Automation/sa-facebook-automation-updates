@@ -1,14 +1,23 @@
 {
- "version": "1.7.25",
+ "version": "1.7.26",
  "url": "https://drive.google.com/uc?export=download&id=1krBQZ6Od3IrR9uVOQwaeMTKAS-ry7RpL",
- "size": 172477823,
+ "size": 172478821,
  "notes": "Naya version v1.7.14 tayyar hai. Settings tabs, Muse Connect aik jagah, aur light-mode background tint.",
  "changes": [
-  "Nayi profile kholne par 'PROFILE_DIR_NOT_FOUND' error aata tha — ab nayi profile bhi pehli dafa seedha khulti hai (Chrome apna data pehli launch par khud bana leta hai)",
-  "Profile kholne se pehle Chrome data check hota hai — naya profile ho to us ka data foran ban jata hai, purani profiles waisi hi khulti hain",
-  "Ghalti ki soorat me ab saaf Roman Urdu message dikhta hai — raw error code nahi"
+  "License gate naya — bina active license key ke sirf Browser Profiles (Anti-Detect) + About khulte hain, baqi sab pages par license pop-up aata hai",
+  "Locked page par click karne par maujooda license pop-up khulta hai — key daal kar activate karte hi wahi page khul jata hai",
+  "Bina license ke app seedha Browser Profiles par khulta hai; sidebar me locked pages par naya 🔒 nishan dikhta hai"
  ],
  "history": [
+  {
+   "version": "1.7.26",
+   "kind": "feature",
+   "changes": [
+    "License gate naya — bina active license key ke sirf Browser Profiles (Anti-Detect) + About khulte hain, baqi sab pages par license pop-up aata hai",
+    "Locked page par click karne par maujooda license pop-up khulta hai — key daal kar activate karte hi wahi page khul jata hai",
+    "Bina license ke app seedha Browser Profiles par khulta hai; sidebar me locked pages par naya 🔒 nishan dikhta hai"
+   ]
+  },
   {
    "version": "1.7.25",
    "kind": "bugfix",
@@ -718,5 +727,5 @@
    ]
   }
  ],
- "kind": "bugfix"
+ "kind": "feature"
 }
