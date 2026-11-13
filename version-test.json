@@ -1,14 +1,19 @@
 {
- "version": "1.7.43-test",
- "url": "https://drive.google.com/uc?export=download&id=1Rdg6hlRulrYnKi78Jg5FzGGDgdRetuv8",
- "size": 172530639,
- "notes": "Naya version v1.7.32-test tayyar hai. Settings tabs, Muse Connect aik jagah, aur light-mode background tint.",
  "changes": [
-  "Nayi profile kholne par 'PROFILE_DIR_NOT_FOUND' error aata tha — ab nayi profile bhi pehli dafa seedha khulti hai (Chrome apna data pehli launch par khud bana leta hai)",
-  "Profile kholne se pehle Chrome data check hota hai — naya profile ho to us ka data foran ban jata hai, purani profiles waisi hi khulti hain",
-  "Ghalti ki soorat me ab saaf Roman Urdu message dikhta hai — raw error code nahi"
+  "License gate naya — bina active license key ke sirf Browser Profiles (Anti-Detect) + About khulte hain, baqi sab pages par license pop-up aata hai",
+  "Locked page par click karne par maujooda license pop-up khulta hai — key daal kar activate karte hi wahi page khul jata hai",
+  "Bina license ke app seedha Browser Profiles par khulta hai; sidebar me locked pages par naya 🔒 nishan dikhta hai"
  ],
  "history": [
+  {
+   "version": "1.7.44-test",
+   "kind": "feature",
+   "changes": [
+    "License gate naya — bina active license key ke sirf Browser Profiles (Anti-Detect) + About khulte hain, baqi sab pages par license pop-up aata hai",
+    "Locked page par click karne par maujooda license pop-up khulta hai — key daal kar activate karte hi wahi page khul jata hai",
+    "Bina license ke app seedha Browser Profiles par khulta hai; sidebar me locked pages par naya 🔒 nishan dikhta hai"
+   ]
+  },
   {
    "version": "1.7.43-test",
    "kind": "bugfix",
@@ -21,13 +26,13 @@
   {
    "version": "1.7.42-test",
    "changes": [
-    "YouTube page par har connected channel ke saath ab Open button hai — dabane par wo channel Anti-Detect browser me khul jata hai",
-    "Open wahi profile use karta hai jis se channel connect hua tha; aik profile ho to wahi, multiple hon to picker dikhta hai",
-    "Koi profile na ho to saaf message aata hai — pehle Browser Profiles me aik profile banao"
+    "YouTube page par har connected channel ke saath aik 'Open' button — dabane par wo channel us ke Anti-Detect profile ke real Chrome me naye tab me khulta hai",
+    "Tool browser se YouTube connect karne par us channel ka profile yaad rehta hai — Open dabate hi wahi profile khulta hai"
    ]
   },
   {
    "version": "1.7.41-test",
+   "kind": "feature",
    "changes": [
     "YouTube Connect ab tool ke browser (Anti-Detect profile) me bhi ho sakta hai — system browser wala option bhi hai",
     "Analytics ab aik hi tab me — Pages aur YouTube sath, alag YouTube Analytics tab khatam",
@@ -43,58 +48,75 @@
   },
   {
    "version": "1.7.39-test",
+   "kind": "feature",
    "changes": [
-    "Naya Analytics tab — har Facebook page ka card (Followers, Views, Reach, Engagement, Top posts) aur har YouTube channel ka card (Subscribers, Views, Watch time, Top videos)",
-    "Period 7 din / 28 din, Refresh button, 1 ghante ka cache — jo metric na mile wo khaali rehta hai, number kabhi invent nahi hota",
-    "Token expire ho to card par saaf wajah + dobara-connect ka rasta"
+    "Analytics tab naya — Facebook Pages + YouTube Channels aik jagah: har page ka card (Followers, Views, Reach, Engagement) + Top posts (reach ke hisaab se), har channel ka card (Subscribers, period Views, Watch time) — period 7/28 din, Refresh button, app khulte hi auto-refresh + 1 ghante ka cache (last-updated dikhta hai)",
+    "Per-card error states — token expire/revoke ya permission na ho to us card par saaf wajah dikhti hai, khaali nahi rehta; NEEDS_RECONNECT wala channel dobara connect ka rasta dikhata hai, API call nahi karta; jo metric Meta/YouTube na de wo \"—\" rehta hai, number kabhi fabricate nahi hota",
+    "Facebook insights insights.js se (PAGE_METRICS + REACH_METRICS, per-metric fallback barqarar), YouTube Data API totals + Analytics API period series (fetchChannelFullAnalytics reuse) — token flow, license/YouTube built-in aur real Chrome ko haath nahi lagaya",
+    "DB v25 (analytics_cache table — tab:7 / tab:28 payload + fetch time, TTL 1 ghanta); i18n anTab.* keys 5 zabano me; unused kb.ext* keys (9 x 5) saaf — kb.extStoreTitle istemal hoti hai, wahi bachi",
+    "Live Facebook/YouTube analytics user ke PC par test hoga — VM par koi real FB/YT token nahi, is liye live API calls prove nahi ho sake"
    ]
   },
   {
    "version": "1.7.38-test",
+   "kind": "feature",
    "changes": [
-    "Browser ab asal Chrome hai — imitation shell khatam; Profile kholo to tumhare PC ka Chrome khulta hai, poora Chromium UI",
-    "Sidebar wapas pehle jaisa — hamesha 248px khula, collapse wala button khatam",
-    "Fingerprint ab Chrome ke control channel se; extensions Web Store se seedha real Chrome me"
+    "Real Chrome: imitation shell khatam — profiles ab system ke asal Chrome (chrome.exe) me CDP se khulte hain; Chrome na mile to CHROME_NOT_FOUND + download link, fake shell par fallback nahi",
+    "CDP fingerprint inject (preload logic se slice) + UA/timezone override + Check fingerprint action; partition dir disk se confirm, owned-only close, port 9222+hash",
+    "Chrome Cookies file import/export (v10 AES-256-GCM, Local State DPAPI key, temp copy); in-app Web Store install flow khatam — extensions seedha Chrome me, list Preferences se informational",
+    "Automated posting/comments/group join hidden Electron engine par barqarar; Settings + Profiles page par Chrome path/detect"
    ]
   },
   {
    "version": "1.7.37-test",
    "changes": [
-    "YouTube Connect ab seedha — Client ID app me pehle se hai, koi ID/Secret mangna nahi; token exchange tumhare apne Cloudflare server se hota hai",
-    "Uninstall/reinstall ke baad bhi Connect waisa hi — built-in app har boot par seed hoti hai",
-    "Apni secret wali app ka flow waisa hi — direct Google, kuch nahi badla"
+    "YouTube built-in default app POORA — naya Tier 2 Worker-side exchange: MetaBox ki Client ID ab app me bhari hui hai (613756904921-...apps.googleusercontent.com) — khaali DB par boot me 'MetaBox' app khud seed hoti hai, Connect dabate hi seedha browser khulta hai",
+    "Token exchange ab Cloudflare Worker se hota hai (secret sirf Worker env me, app me kabhi nahi) — Google ne probe me bina secret ke exchange se mana kar diya tha (client_secret is missing), is liye direct Google exchange band; custom app (secret wali) ab bhi seedha Google se exchange karti hai",
+    "Token refresh bhi built-in app ke liye Worker se hota hai; custom app ka refresh seedha Google se waisa hi",
+    "Client Secret app ke code me kahin nahi — grep se verify; license-client se Worker URLs (serverBase + /youtube-exchange, /youtube-refresh)",
+    "Live exchange test abhi nahi ho sakta — Worker env me YOUTUBE_CLIENT_SECRET user ko khud dalna hai, us ke baad PC par built-in Connect check hoga"
    ]
   },
   {
    "version": "1.7.36-test",
    "changes": [
-    "Browser ab bilkul Chromium jaisa — address bar me jo likho wo Google search, suggestions, downloads shelf, find, zoom, poora menu",
-    "Sidebar chhoti (216px) + collapse toggle — click karo to sirf icons, dobara click karo to labels wapas",
-    "Browser ka taskbar icon Chromium wala, app ka taskbar icon MetaBox wala — dono alag; YouTube built-in app ki tayyari bhi hai"
+    "KB-shell ab Chromium jaisa — omnibox search (URL ho to kholo, warna Google search) + search suggestions",
+    "Downloads: will-download handler + Chrome jaisi downloads shelf (neeche bar) aur Downloads page (open / show in folder / cancel / clear)",
+    "Find bar (Ctrl+F, Enter/Shift+Enter, match count, Esc) aur per-tab zoom (Ctrl + / - / 0, zoom % omnibox me)",
+    "Three-dot menu poora (New tab, History, Downloads, Extensions, Find, Zoom, Settings) + tab right-click actions (Duplicate, Pin, Mute, Close others/right, Reopen) + page right-click menu (Back/Forward/Reload, Save as, Print, Inspect, View source, Copy link/image)",
+    "History page me search + clear; omnibox me lock / not-secure indicator; Gmail/Google login shell me (Chrome 156 UA)",
+    "App sidebar 248px se 216px + collapse toggle (76px icons-only), haalat settings me save, restart par wahi mile",
+    "YouTube built-in default app (mechanism tayyar, Client ID abhi khaali hai — value aate hi probe hoga): khaali DB par boot me 'MetaBox' app khud seed hogi, Connect seedha browser kholega; token exchange + refresh PKCE ke saath bina secret ke (secret app ke code me kabhi nahi); uninstaller userData (%APPDATA%) kabhi delete nahi karta"
    ]
   },
   {
    "version": "1.7.35-test",
    "changes": [
-    "Engine upgrade — Electron 45.2.3, Chromium 156, Node 24 — browser ab tumhare Chromium jaisa naya hai",
-    "Browser ki pehchan ab asal engine se match karti hai — Chrome 156, Edge 156",
-    "1.7.16 ka sab kuch barqarar — Settings tabs upar, ixBrowser jaisa anti-detect browser, glass logo"
+    "Electron engine upgrade — 31.7.7 se 45.2.3 (Chromium 126 se 156.0.8078.80, Node 24.22.2, V8 15.6); browser tez aur naya web standard",
+    "better-sqlite3 11.10.0 se 13.0.3 — naye engine ke liye dobara build; purana database waisa hi chalta hai (DB v24, koi migration nahi)",
+    "User Agent ab asal engine se match — Chrome 156.0.8078.80 / Edge 156.0.4314.70 / Firefox 159 (pehle 157 spoof tha jabke engine 126 tha)",
+    "Engine breaking-changes audit — preload, browser windows, sessions aur extensions aik aik karke check; 1.7.34-test ka sab kuch waisa hi (Settings tabs upar, glass logo, fingerprint gehrai, proxy bulk, Local API 8755)"
    ]
   },
   {
    "version": "1.7.34-test",
    "changes": [
-    "Settings ke tabs ab upar hain — header band me, title ke neeche",
-    "Browser ab ixBrowser jaisa anti-detect hai — har profile ki apni pehchan: Audio, fonts, WebRTC, geo aur device fingerprint, apna Chrome/Edge/Firefox version",
-    "Proxy bulk import, per-profile proxy check, cookie import/export aur profile transfer, bulk profile kaam, har profile ki apni extensions aur Local API"
+    "Settings ke tabs ab upar hain — header band ke andar, Settings title ke neeche",
+    "Fingerprint gehrai: AudioContext masking, font masking, WebRTC control (disable/relay/proxy), media devices spoofing, device memory, geo lat/long aur ClientRects noise — har profile ki apni Advanced settings",
+    "Har profile apna browser + UA version chun sakti hai (Chrome 157 / Edge 157 / Firefox 159)",
+    "Proxy mazbooti: bulk import (ip:port, ip:port:user:pass, user:pass@ip:port), per-profile health check, HTTP/HTTPS/SOCKS4/SOCKS5 — SSH Electron me nahi hota",
+    "Cookie import/export per profile + profile transfer (cookies + proxy + fingerprint, password kabhi nahi)",
+    "Bulk profile ops: copy, edit (proxy/seed), open/close; extensions ab per-profile bhi (Web Store install + on/off)",
+    "Local API: sirf localhost:8755, Bearer token — profiles list/open/close/proxy"
    ]
   },
   {
    "version": "1.7.33-test",
    "changes": [
-    "Buttons ab chipke hue nahi lagte — toolbar rows ka gap barha diya gaya, har button alag dikhta hai",
-    "Sidebar logo ab glass type hai — baghair rang, appearance ke colour aur dark/light mode ke sath khud badal jata hai",
-    "Poori app ka UI audit — 13 inch screen par chaudi tables ab card ke andar scroll hoti hain, page ki horizontal scrollbar nahi aati"
+    "Toolbar rows me buttons ke beech gap barha diya — ab buttons chipke nahi lagte",
+    "Sidebar logo ab baghair-rang glass hexagon hai — accent aur theme ke sath rang badalta hai",
+    "Poora UI audit — topbar, pills, tour tips aur panels ki spacing theek ki",
+    "Modal actions ab wrap hote hain — tang window par buttons bahar nahi nikalte"
    ]
   },
   {
@@ -376,5 +398,9 @@
    "version": "1.7.0-test.1"
   }
  ],
- "kind": "bugfix"
+ "notes": "Naya version v1.7.43-test tayyar hai. Bug fix: nayi profile kholne par PROFILE_DIR_NOT_FOUND aata tha — ab nayi profile pehli dafa seedha khulti hai (canonical dir fallback + session materialize); baqi sab 1.7.42-test jaisa (YouTube per-channel Open button, Analytics aik tab, minimal profiles list, Electron 45.2.3, DB v25).",
+ "size": 172531631,
+ "url": "https://drive.google.com/uc?export=download&id=1Rdg6hlRulrYnKi78Jg5FzGGDgdRetuv8",
+ "version": "1.7.44-test",
+ "kind": "feature"
 }
