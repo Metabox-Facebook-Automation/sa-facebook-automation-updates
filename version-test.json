@@ -1,11 +1,19 @@
 {
  "changes": [
-  "Upload pacing naya — platform videos ab publish time se sirf 2 ghante pehle upload hoti hain, is liye 48 videos aik saath upload ho kar YouTube upload limit nahi lagwati",
-  "Per-day limit ab platform mode par bhi lagti hai — aik din me 2 uploads ke baad agli video khud agle din ke slot par shift ho jati hai",
-  "YouTube upload limit (UPLOAD_LIMIT) aaye to video agle din ke free slot par khud reschedule ho jati hai — dobara upload ki koshish nahi hoti",
-  "Boot par aik dafa repair — pehle upload limit ki wajah se ruki hui jobs wapas schedule ho jati hain"
+  "Scheduler ke action buttons ab wazeh bordered style me dikhte hain — Pause, Switch, Reschedule aur Cancel theek se nazar ate hain, khaali jagah nahi lagti",
+  "Video column ko zyada chaudai mili — lambe titles ab poore nazar ate hain, actions column buttons ke hisab se chhota hua",
+  "Scheduler ke liye harness me row-render check — har SCHEDULED row par 4 buttons + visible style check hota hai"
  ],
  "history": [
+  {
+   "version": "1.7.47-test",
+   "kind": "fix",
+   "changes": [
+    "Scheduler ke action buttons ab wazeh bordered style me dikhte hain — Pause, Switch, Reschedule aur Cancel theek se nazar ate hain, khaali jagah nahi lagti",
+    "Video column ko zyada chaudai mili — lambe titles ab poore nazar ate hain, actions column buttons ke hisab se chhota hua",
+    "Scheduler ke liye harness me row-render check — har SCHEDULED row par 4 buttons + visible style check hota hai"
+   ]
+  },
   {
    "version": "1.7.46-test",
    "kind": "feature",
@@ -418,9 +426,9 @@
    "version": "1.7.0-test.1"
   }
  ],
- "notes": "Naya version v1.7.46-test tayyar hai. Upload pacing fix — platform upload sirf 2h window me, per-day cap platform par bhi, UPLOAD_LIMIT par reschedule + boot repair; baqi sab 1.7.45-test jaisa (Schedule filter, license gate, YouTube per-channel Open button, Analytics aik tab, minimal profiles list, Electron 45.2.3, DB v25).",
- "size": 172533547,
+ "notes": "Naya version v1.7.47-test tayyar hai. Scheduler table fix — action buttons wazeh bordered style me, VIDEO column ko zyada chaudai, actions column 328px se 310px; baqi sab 1.7.46-test jaisa (upload pacing, Schedule filter, license gate, YouTube per-channel Open button, Analytics aik tab, minimal profiles list, Electron 45.2.3, DB v25).",
+ "size": 172533698,
  "url": "https://drive.google.com/uc?export=download&id=1Rdg6hlRulrYnKi78Jg5FzGGDgdRetuv8",
- "version": "1.7.46-test",
- "kind": "feature"
+ "version": "1.7.47-test",
+ "kind": "fix"
 }
