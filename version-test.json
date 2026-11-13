@@ -1,10 +1,21 @@
 {
  "changes": [
-  "Scheduler tab me naya Channel/Page filter — status filter ke saath aik aur dropdown: Sab + saare YouTube channels + saare Facebook Pages",
-  "Channel ya page select karne par sirf us ki scheduled videos dikhti hain; status filter bhi saath chalta hai (dono mil kar filter karte hain)",
-  "Neeche wala MetaBox page posts card bhi usi page se filter hota hai — YouTube channel select par wo khaali rehta hai (ye card sirf Facebook pages ka hai)"
+  "Upload pacing naya — platform videos ab publish time se sirf 2 ghante pehle upload hoti hain, is liye 48 videos aik saath upload ho kar YouTube upload limit nahi lagwati",
+  "Per-day limit ab platform mode par bhi lagti hai — aik din me 2 uploads ke baad agli video khud agle din ke slot par shift ho jati hai",
+  "YouTube upload limit (UPLOAD_LIMIT) aaye to video agle din ke free slot par khud reschedule ho jati hai — dobara upload ki koshish nahi hoti",
+  "Boot par aik dafa repair — pehle upload limit ki wajah se ruki hui jobs wapas schedule ho jati hain"
  ],
  "history": [
+  {
+   "version": "1.7.46-test",
+   "kind": "feature",
+   "changes": [
+    "Upload pacing naya — platform videos ab publish time se sirf 2 ghante pehle upload hoti hain, is liye 48 videos aik saath upload ho kar YouTube upload limit nahi lagwati",
+    "Per-day limit ab platform mode par bhi lagti hai — aik din me 2 uploads ke baad agli video khud agle din ke slot par shift ho jati hai",
+    "YouTube upload limit (UPLOAD_LIMIT) aaye to video agle din ke free slot par khud reschedule ho jati hai — dobara upload ki koshish nahi hoti",
+    "Boot par aik dafa repair — pehle upload limit ki wajah se ruki hui jobs wapas schedule ho jati hain"
+   ]
+  },
   {
    "version": "1.7.45-test",
    "kind": "feature",
@@ -407,9 +418,9 @@
    "version": "1.7.0-test.1"
   }
  ],
- "notes": "Naya version v1.7.45-test tayyar hai. Scheduler tab me Channel/Page filter naya — status filter ke saath channel/page dropdown, dono mil kar jobs + page posts card filter karte hain; baqi sab 1.7.44-test jaisa (license gate, YouTube per-channel Open button, Analytics aik tab, minimal profiles list, Electron 45.2.3, DB v25).",
- "size": 172532396,
+ "notes": "Naya version v1.7.46-test tayyar hai. Upload pacing fix — platform upload sirf 2h window me, per-day cap platform par bhi, UPLOAD_LIMIT par reschedule + boot repair; baqi sab 1.7.45-test jaisa (Schedule filter, license gate, YouTube per-channel Open button, Analytics aik tab, minimal profiles list, Electron 45.2.3, DB v25).",
+ "size": 172533547,
  "url": "https://drive.google.com/uc?export=download&id=1Rdg6hlRulrYnKi78Jg5FzGGDgdRetuv8",
- "version": "1.7.45-test",
+ "version": "1.7.46-test",
  "kind": "feature"
 }
