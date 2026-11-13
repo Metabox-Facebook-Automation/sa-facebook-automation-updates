@@ -1,14 +1,23 @@
 {
- "version": "1.7.26",
+ "version": "1.7.27",
  "url": "https://drive.google.com/uc?export=download&id=1krBQZ6Od3IrR9uVOQwaeMTKAS-ry7RpL",
- "size": 172478821,
- "notes": "Naya version v1.7.14 tayyar hai. Settings tabs, Muse Connect aik jagah, aur light-mode background tint.",
+ "size": 172479584,
+ "notes": "Naya version v1.7.27 tayyar hai. Scheduler tab me Channel/Page filter naya — status filter ke saath channel/page dropdown, dono mil kar jobs + page posts card filter karte hain; baqi sab 1.7.26 jaisa (license gate, YouTube per-channel Open button, Analytics aik tab, minimal profiles list, Electron 45.2.3, DB v24).",
  "changes": [
-  "License gate naya — bina active license key ke sirf Browser Profiles (Anti-Detect) + About khulte hain, baqi sab pages par license pop-up aata hai",
-  "Locked page par click karne par maujooda license pop-up khulta hai — key daal kar activate karte hi wahi page khul jata hai",
-  "Bina license ke app seedha Browser Profiles par khulta hai; sidebar me locked pages par naya 🔒 nishan dikhta hai"
+  "Scheduler tab me naya Channel/Page filter — status filter ke saath aik aur dropdown: Sab + saare YouTube channels + saare Facebook Pages",
+  "Channel ya page select karne par sirf us ki scheduled videos dikhti hain; status filter bhi saath chalta hai (dono mil kar filter karte hain)",
+  "Neeche wala MetaBox page posts card bhi usi page se filter hota hai — YouTube channel select par wo khaali rehta hai (ye card sirf Facebook pages ka hai)"
  ],
  "history": [
+  {
+   "version": "1.7.27",
+   "kind": "feature",
+   "changes": [
+    "Scheduler tab me naya Channel/Page filter — status filter ke saath aik aur dropdown: Sab + saare YouTube channels + saare Facebook Pages",
+    "Channel ya page select karne par sirf us ki scheduled videos dikhti hain; status filter bhi saath chalta hai (dono mil kar filter karte hain)",
+    "Neeche wala MetaBox page posts card bhi usi page se filter hota hai — YouTube channel select par wo khaali rehta hai (ye card sirf Facebook pages ka hai)"
+   ]
+  },
   {
    "version": "1.7.26",
    "kind": "feature",
