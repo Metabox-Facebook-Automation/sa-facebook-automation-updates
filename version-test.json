@@ -1,10 +1,19 @@
 {
  "changes": [
-  "License gate naya — bina active license key ke sirf Browser Profiles (Anti-Detect) + About khulte hain, baqi sab pages par license pop-up aata hai",
-  "Locked page par click karne par maujooda license pop-up khulta hai — key daal kar activate karte hi wahi page khul jata hai",
-  "Bina license ke app seedha Browser Profiles par khulta hai; sidebar me locked pages par naya 🔒 nishan dikhta hai"
+  "Scheduler tab me naya Channel/Page filter — status filter ke saath aik aur dropdown: Sab + saare YouTube channels + saare Facebook Pages",
+  "Channel ya page select karne par sirf us ki scheduled videos dikhti hain; status filter bhi saath chalta hai (dono mil kar filter karte hain)",
+  "Neeche wala MetaBox page posts card bhi usi page se filter hota hai — YouTube channel select par wo khaali rehta hai (ye card sirf Facebook pages ka hai)"
  ],
  "history": [
+  {
+   "version": "1.7.45-test",
+   "kind": "feature",
+   "changes": [
+    "Scheduler tab me naya Channel/Page filter — status filter ke saath aik aur dropdown: Sab + saare YouTube channels + saare Facebook Pages",
+    "Channel ya page select karne par sirf us ki scheduled videos dikhti hain; status filter bhi saath chalta hai (dono mil kar filter karte hain)",
+    "Neeche wala MetaBox page posts card bhi usi page se filter hota hai — YouTube channel select par wo khaali rehta hai (ye card sirf Facebook pages ka hai)"
+   ]
+  },
   {
    "version": "1.7.44-test",
    "kind": "feature",
@@ -398,9 +407,9 @@
    "version": "1.7.0-test.1"
   }
  ],
- "notes": "Naya version v1.7.43-test tayyar hai. Bug fix: nayi profile kholne par PROFILE_DIR_NOT_FOUND aata tha — ab nayi profile pehli dafa seedha khulti hai (canonical dir fallback + session materialize); baqi sab 1.7.42-test jaisa (YouTube per-channel Open button, Analytics aik tab, minimal profiles list, Electron 45.2.3, DB v25).",
- "size": 172531631,
+ "notes": "Naya version v1.7.45-test tayyar hai. Scheduler tab me Channel/Page filter naya — status filter ke saath channel/page dropdown, dono mil kar jobs + page posts card filter karte hain; baqi sab 1.7.44-test jaisa (license gate, YouTube per-channel Open button, Analytics aik tab, minimal profiles list, Electron 45.2.3, DB v25).",
+ "size": 172532396,
  "url": "https://drive.google.com/uc?export=download&id=1Rdg6hlRulrYnKi78Jg5FzGGDgdRetuv8",
- "version": "1.7.44-test",
+ "version": "1.7.45-test",
  "kind": "feature"
 }
