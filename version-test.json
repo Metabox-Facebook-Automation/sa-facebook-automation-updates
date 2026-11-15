@@ -1,10 +1,19 @@
 {
  "changes": [
-  "Scheduler ke action buttons ab wazeh bordered style me dikhte hain — Pause, Switch, Reschedule aur Cancel theek se nazar ate hain, khaali jagah nahi lagti",
-  "Video column ko zyada chaudai mili — lambe titles ab poore nazar ate hain, actions column buttons ke hisab se chhota hua",
-  "Scheduler ke liye harness me row-render check — har SCHEDULED row par 4 buttons + visible style check hota hai"
+  "License dashboard ke liye heartbeat naya — app rozana aik dafa license server ko anonymous ping bhejti hai, taake owner active installs gin sake",
+  "Ping me sirf install-id, license status aur app version jata hai — koi naam, key, video ya page ki maloomat nahi jati",
+  "About page par naya note — rozana ping ke bare me shafafiyat ke liye, paanchon zabano me"
  ],
  "history": [
+  {
+   "version": "1.7.48-test",
+   "kind": "feature",
+   "changes": [
+    "License dashboard ke liye heartbeat naya — app rozana aik dafa license server ko anonymous ping bhejti hai, taake owner active installs gin sake",
+    "Ping me sirf install-id, license status aur app version jata hai — koi naam, key, video ya page ki maloomat nahi jati",
+    "About page par naya note — rozana ping ke bare me shafafiyat ke liye, paanchon zabano me"
+   ]
+  },
   {
    "version": "1.7.47-test",
    "kind": "fix",
@@ -427,8 +436,8 @@
   }
  ],
  "notes": "Naya version v1.7.47-test tayyar hai. Scheduler table fix — action buttons wazeh bordered style me, VIDEO column ko zyada chaudai, actions column 328px se 310px; baqi sab 1.7.46-test jaisa (upload pacing, Schedule filter, license gate, YouTube per-channel Open button, Analytics aik tab, minimal profiles list, Electron 45.2.3, DB v25).",
- "size": 172533698,
+ "size": 172534878,
  "url": "https://drive.google.com/uc?export=download&id=1Rdg6hlRulrYnKi78Jg5FzGGDgdRetuv8",
- "version": "1.7.47-test",
- "kind": "fix"
+ "version": "1.7.48-test",
+ "kind": "feature"
 }
