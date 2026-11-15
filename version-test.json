@@ -1,10 +1,19 @@
 {
  "changes": [
-  "License dashboard ke liye heartbeat naya — app rozana aik dafa license server ko anonymous ping bhejti hai, taake owner active installs gin sake",
-  "Ping me sirf install-id, license status aur app version jata hai — koi naam, key, video ya page ki maloomat nahi jati",
-  "About page par naya note — rozana ping ke bare me shafafiyat ke liye, paanchon zabano me"
+  "YouTube channel disconnect fail ho raha tha — button dabane par kuch nahi hota tha, channel wahi khada rehta tha; ab disconnect karne par channel foran hat jata hai",
+  "Disconnect fail hone par ab saaf error message dikhta hai — pehle error chup-chap ghayab ho jata tha, kuch nazar nahi aata tha",
+  "Token ki safai ab disconnect ko nahi rokti — pehle token file lock hone par poora disconnect ruk jata tha"
  ],
  "history": [
+  {
+   "version": "1.7.49-test",
+   "kind": "bugfix",
+   "changes": [
+    "YouTube channel disconnect fail ho raha tha — button dabane par kuch nahi hota tha, channel wahi khada rehta tha; ab disconnect karne par channel foran hat jata hai",
+    "Disconnect fail hone par ab saaf error message dikhta hai — pehle error chup-chap ghayab ho jata tha, kuch nazar nahi aata tha",
+    "Token ki safai ab disconnect ko nahi rokti — pehle token file lock hone par poora disconnect ruk jata tha"
+   ]
+  },
   {
    "version": "1.7.48-test",
    "kind": "feature",
@@ -436,8 +445,8 @@
   }
  ],
  "notes": "Naya version v1.7.47-test tayyar hai. Scheduler table fix — action buttons wazeh bordered style me, VIDEO column ko zyada chaudai, actions column 328px se 310px; baqi sab 1.7.46-test jaisa (upload pacing, Schedule filter, license gate, YouTube per-channel Open button, Analytics aik tab, minimal profiles list, Electron 45.2.3, DB v25).",
- "size": 172534878,
+ "size": 172535064,
  "url": "https://drive.google.com/uc?export=download&id=1Rdg6hlRulrYnKi78Jg5FzGGDgdRetuv8",
- "version": "1.7.48-test",
- "kind": "feature"
+ "version": "1.7.49-test",
+ "kind": "bugfix"
 }
