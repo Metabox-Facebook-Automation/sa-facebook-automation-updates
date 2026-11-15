@@ -1,14 +1,23 @@
 {
- "version": "1.7.30",
+ "version": "1.7.31",
  "url": "https://drive.google.com/uc?export=download&id=1krBQZ6Od3IrR9uVOQwaeMTKAS-ry7RpL",
- "size": 172482152,
+ "size": 172482327,
  "notes": "Naya version v1.7.29 tayyar hai. Scheduler table fix — action buttons wazeh bordered style me, VIDEO column ko zyada chaudai, actions column 328px se 310px (CDP nape widths ke hisab se); baqi sab 1.7.28 jaisa (upload pacing, Schedule filter, license gate, Analytics aik tab, Electron 45.2.3, DB v24).",
  "changes": [
-  "License dashboard ke liye heartbeat naya — app rozana aik dafa license server ko anonymous ping bhejti hai, taake owner active installs gin sake",
-  "Ping me sirf install-id, license status aur app version jata hai — koi naam, key, video ya page ki maloomat nahi jati",
-  "About page par naya note — rozana ping ke bare me shafafiyat ke liye, paanchon zabano me"
+  "YouTube channel disconnect fail ho raha tha — button dabane par kuch nahi hota tha, channel wahi khada rehta tha; ab disconnect karne par channel foran hat jata hai",
+  "Disconnect fail hone par ab saaf error message dikhta hai — pehle error chup-chap ghayab ho jata tha, kuch nazar nahi aata tha",
+  "Token ki safai ab disconnect ko nahi rokti — pehle token file lock hone par poora disconnect ruk jata tha"
  ],
  "history": [
+  {
+   "version": "1.7.31",
+   "kind": "bugfix",
+   "changes": [
+    "YouTube channel disconnect fail ho raha tha — button dabane par kuch nahi hota tha, channel wahi khada rehta tha; ab disconnect karne par channel foran hat jata hai",
+    "Disconnect fail hone par ab saaf error message dikhta hai — pehle error chup-chap ghayab ho jata tha, kuch nazar nahi aata tha",
+    "Token ki safai ab disconnect ko nahi rokti — pehle token file lock hone par poora disconnect ruk jata tha"
+   ]
+  },
   {
    "version": "1.7.30",
    "kind": "feature",
@@ -764,5 +773,5 @@
    ]
   }
  ],
- "kind": "feature"
+ "kind": "bugfix"
 }
