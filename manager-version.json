@@ -1,10 +1,11 @@
 {
-  "changes": [
-    "Category ab seedha dropdown hai — Personal, Team, Agency, Pro, VIP sab aik sath nazar ayenge",
-    "Custom category bhi likh sakte hain (Custom chunein to neeche box khul jayega)"
-  ],
-  "notes": "Naya version v1.2.12 tayyar hai. Installer checkbox.",
-  "size": 122300367,
-  "url": "https://drive.google.com/uc?export=download&id=1E17sFp13cEfDuez7pXumek-gcW1twI3z",
-  "version": "1.2.14"
+ "changes": [
+  "PIN bhool gaye? — unlock screen par naya reset: Worker Admin Token se verify karke PIN saaf ho jata hai, naya PIN ban jata hai (bani hui keys ko kuch nahi hota)",
+  "Server se keys wapas lao — naya button: server se saari keys wapas aajati hain (PIN bhoolne ya Windows dobara install karne par bhi)",
+  "Yaad rahe: customer ka naam (note) server se wapas nahi aata — wo sirf is computer ki file me tha"
+ ],
+ "notes": "Naya version v1.2.15 tayyar hai — PIN reset + server se keys wapas lao.",
+ "size": 122308648,
+ "url": "https://drive.google.com/uc?export=download&id=1UxIvtObmHFIAaDT8Ju8_ksrl7SVnIWwj",
+ "version": "1.2.15"
 }
