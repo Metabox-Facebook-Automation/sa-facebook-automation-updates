@@ -1,14 +1,23 @@
 {
- "version": "1.7.29",
+ "version": "1.7.30",
  "url": "https://drive.google.com/uc?export=download&id=1krBQZ6Od3IrR9uVOQwaeMTKAS-ry7RpL",
- "size": 172480962,
+ "size": 172482152,
  "notes": "Naya version v1.7.29 tayyar hai. Scheduler table fix — action buttons wazeh bordered style me, VIDEO column ko zyada chaudai, actions column 328px se 310px (CDP nape widths ke hisab se); baqi sab 1.7.28 jaisa (upload pacing, Schedule filter, license gate, Analytics aik tab, Electron 45.2.3, DB v24).",
  "changes": [
-  "Scheduler ke action buttons ab wazeh bordered style me dikhte hain — Pause, Switch, Reschedule aur Cancel theek se nazar ate hain, khaali jagah nahi lagti",
-  "Video column ko zyada chaudai mili — lambe titles ab poore nazar ate hain, actions column buttons ke hisab se chhota hua",
-  "Scheduler ke liye harness me row-render check — har SCHEDULED row par 4 buttons + visible style check hota hai"
+  "License dashboard ke liye heartbeat naya — app rozana aik dafa license server ko anonymous ping bhejti hai, taake owner active installs gin sake",
+  "Ping me sirf install-id, license status aur app version jata hai — koi naam, key, video ya page ki maloomat nahi jati",
+  "About page par naya note — rozana ping ke bare me shafafiyat ke liye, paanchon zabano me"
  ],
  "history": [
+  {
+   "version": "1.7.30",
+   "kind": "feature",
+   "changes": [
+    "License dashboard ke liye heartbeat naya — app rozana aik dafa license server ko anonymous ping bhejti hai, taake owner active installs gin sake",
+    "Ping me sirf install-id, license status aur app version jata hai — koi naam, key, video ya page ki maloomat nahi jati",
+    "About page par naya note — rozana ping ke bare me shafafiyat ke liye, paanchon zabano me"
+   ]
+  },
   {
    "version": "1.7.29",
    "kind": "fix",
@@ -755,5 +764,5 @@
    ]
   }
  ],
- "kind": "fix"
+ "kind": "feature"
 }
