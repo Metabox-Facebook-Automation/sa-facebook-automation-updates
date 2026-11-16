@@ -1,10 +1,19 @@
 {
  "changes": [
-  "YouTube channel disconnect ab kaam karta hai jab channel se videos juri hon — pehle Library me juri videos ki wajah se disconnect FOREIGN KEY error se ruk jata tha, channel wahi khada rehta tha",
-  "Disconnect karne par videos Library me mehfooz rehti hain — sirf channel se un-link hoti hain, delete nahi hoti",
-  "Purani installs par bhi fix lag jata hai — app khulte hi videos ka foreign key SET NULL par update ho jata hai, bina data khoye"
+  "Settings me 'YouTube / Google Apps' card wapas aa gaya — ab doosri Google App (naya OAuth client) UI se add ho sakti hai; pehle built-in app ki wajah se add karne ka koi rasta nahi tha",
+  "Card me apps ki list, default (★), Built-in badge aur delete button — built-in 'MetaBox' app par delete button nahi hota, aur linked channels wali app delete nahi hoti",
+  "invalid_client error ab sahi rasta batata hai — built-in app ho to Worker ki YOUTUBE_CLIENT_SECRET check karein, apni app ho to Settings card me us ki ID/Secret"
  ],
  "history": [
+  {
+   "version": "1.7.51-test",
+   "kind": "feature",
+   "changes": [
+    "Settings me 'YouTube / Google Apps' card wapas aa gaya — ab doosri Google App (naya OAuth client) UI se add ho sakti hai; pehle built-in app ki wajah se add karne ka koi rasta nahi tha",
+    "Card me apps ki list, default (★), Built-in badge aur delete button — built-in 'MetaBox' app par delete button nahi hota, aur linked channels wali app delete nahi hoti",
+    "invalid_client error ab sahi rasta batata hai — built-in app ho to Worker ki YOUTUBE_CLIENT_SECRET check karein, apni app ho to Settings card me us ki ID/Secret"
+   ]
+  },
   {
    "version": "1.7.50-test",
    "kind": "bugfix",
@@ -453,9 +462,9 @@
    "version": "1.7.0-test.1"
   }
  ],
- "notes": "Naya version v1.7.47-test tayyar hai. Scheduler table fix — action buttons wazeh bordered style me, VIDEO column ko zyada chaudai, actions column 328px se 310px; baqi sab 1.7.46-test jaisa (upload pacing, Schedule filter, license gate, YouTube per-channel Open button, Analytics aik tab, minimal profiles list, Electron 45.2.3, DB v25).",
- "size": 172539506,
+ "notes": "Naya version v1.7.51-test tayyar hai. Settings me YouTube / Google Apps card wapas — list + add + delete + set-default, built-in app par delete nahi; invalid_client error ab built-in (Worker secret) aur custom app (Settings card) me farq karta hai; baqi sab 1.7.50-test jaisa (disconnect FK fix, upload pacing, Schedule filter, license gate, YouTube per-channel Open button, Analytics aik tab, minimal profiles list, Electron 45.2.3, DB v25).",
+ "size": 172540801,
  "url": "https://drive.google.com/uc?export=download&id=1Rdg6hlRulrYnKi78Jg5FzGGDgdRetuv8",
- "version": "1.7.50-test",
- "kind": "bugfix"
+ "version": "1.7.51-test",
+ "kind": "feature"
 }
