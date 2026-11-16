@@ -1,14 +1,23 @@
 {
- "version": "1.7.32",
+ "version": "1.7.33",
  "url": "https://drive.google.com/uc?export=download&id=1krBQZ6Od3IrR9uVOQwaeMTKAS-ry7RpL",
- "size": 172486748,
+ "size": 172488145,
  "notes": "Naya version v1.7.29 tayyar hai. Scheduler table fix — action buttons wazeh bordered style me, VIDEO column ko zyada chaudai, actions column 328px se 310px (CDP nape widths ke hisab se); baqi sab 1.7.28 jaisa (upload pacing, Schedule filter, license gate, Analytics aik tab, Electron 45.2.3, DB v24).",
  "changes": [
-  "YouTube channel disconnect ab kaam karta hai jab channel se videos juri hon — pehle Library me juri videos ki wajah se disconnect FOREIGN KEY error se ruk jata tha, channel wahi khada rehta tha",
-  "Disconnect karne par videos Library me mehfooz rehti hain — sirf channel se un-link hoti hain, delete nahi hoti",
-  "Purani installs par bhi fix lag jata hai — app khulte hi videos ka foreign key SET NULL par update ho jata hai, bina data khoye"
+  "Settings me 'YouTube / Google Apps' card wapas aa gaya — ab doosri Google App (naya OAuth client) UI se add ho sakti hai; pehle built-in app ki wajah se add karne ka koi rasta nahi tha",
+  "Card me apps ki list, default (★), Built-in badge aur delete button — built-in 'MetaBox' app par delete button nahi hota, aur linked channels wali app delete nahi hoti",
+  "invalid_client error ab sahi rasta batata hai — built-in app ho to Worker ki YOUTUBE_CLIENT_SECRET check karein, apni app ho to Settings card me us ki ID/Secret"
  ],
  "history": [
+  {
+   "version": "1.7.33",
+   "kind": "feature",
+   "changes": [
+    "Settings me 'YouTube / Google Apps' card wapas aa gaya — ab doosri Google App (naya OAuth client) UI se add ho sakti hai; pehle built-in app ki wajah se add karne ka koi rasta nahi tha",
+    "Card me apps ki list, default (★), Built-in badge aur delete button — built-in 'MetaBox' app par delete button nahi hota, aur linked channels wali app delete nahi hoti",
+    "invalid_client error ab sahi rasta batata hai — built-in app ho to Worker ki YOUTUBE_CLIENT_SECRET check karein, apni app ho to Settings card me us ki ID/Secret"
+   ]
+  },
   {
    "version": "1.7.32",
    "kind": "bugfix",
@@ -782,5 +791,5 @@
    ]
   }
  ],
- "kind": "bugfix"
+ "kind": "feature"
 }
