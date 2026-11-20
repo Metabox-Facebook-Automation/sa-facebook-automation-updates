@@ -1,9 +1,19 @@
 {
  "changes": [
-  "App me naya usage hisaab shamil — ab app apne chalne ka waqt (duration) bhi license server ko bhejti hai, har 5 minute par guzra hua waqt, taake owner dashboard Analytics me har device ka kul istemal ka waqt (Kul Waqt) dekh sake",
-  "Waqt ke saath sirf install-id, license status aur minutes jate hain — koi naam, key, video ya page ki maloomat nahi jati; app band karne par baqi bacha waqt bhi best-effort bhej diya jata hai"
+  "Create/Edit Profile form ka naya design — approved preview jaisa: platform chips par har platform ke brand icons (Facebook, YouTube, Google, Instagram, TikTok, X, WhatsApp, Telegram), selected chip solid blue bhari hui",
+  "Profile Name wala naya khana placeholder ke saath shamil, bara Create Profile title aur upar dayein X band button, edit par Save Profile button",
+  "Form ke neeche naya footer — fingerprint note ke saath Cancel aur Create Profile buttons aik row me; dropdown labels ab mukhtasar: Chrome, Windows 11 · Desktop, No Proxy, Asia/Karachi"
  ],
  "history": [
+  {
+   "version": "1.7.55-test",
+   "kind": "feature",
+   "changes": [
+    "Create/Edit Profile form ka naya design — approved preview jaisa: platform chips par har platform ke brand icons (Facebook, YouTube, Google, Instagram, TikTok, X, WhatsApp, Telegram), selected chip solid blue bhari hui",
+    "Profile Name wala naya khana placeholder ke saath shamil, bara Create Profile title aur upar dayein X band button, edit par Save Profile button",
+    "Form ke neeche naya footer — fingerprint note ke saath Cancel aur Create Profile buttons aik row me; dropdown labels ab mukhtasar: Chrome, Windows 11 · Desktop, No Proxy, Asia/Karachi"
+   ]
+  },
   {
    "version": "1.7.54-test",
    "kind": "feature",
@@ -487,8 +497,8 @@
   }
  ],
  "notes": "Naya version v1.7.54-test tayyar hai. Usage duration tracking (main 1.7.36 jaisa) — app har 5 minute par apna chala hua waqt license server ko bhejti hai (sirf install-id + license status + minutes), dashboard Analytics me har device ka Kul Waqt dikhega; baqi sab 1.7.53-test jaisa (heartbeat har boot par, Create Profile redesign + platform chips, Settings Google Apps card, disconnect FK fix, upload pacing, Schedule filter, license gate, YouTube per-channel Open button, Analytics aik tab, minimal profiles list, Electron 45.2.3, DB v27).",
- "size": 172544306,
+ "size": 172546648,
  "url": "https://drive.google.com/uc?export=download&id=1Rdg6hlRulrYnKi78Jg5FzGGDgdRetuv8",
- "version": "1.7.54-test",
+ "version": "1.7.55-test",
  "kind": "feature"
 }
