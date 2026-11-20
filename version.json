@@ -1,14 +1,23 @@
 {
- "version": "1.7.33",
+ "version": "1.7.34",
  "url": "https://drive.google.com/uc?export=download&id=1krBQZ6Od3IrR9uVOQwaeMTKAS-ry7RpL",
- "size": 172488145,
+ "size": 172492085,
  "notes": "Naya version v1.7.29 tayyar hai. Scheduler table fix — action buttons wazeh bordered style me, VIDEO column ko zyada chaudai, actions column 328px se 310px (CDP nape widths ke hisab se); baqi sab 1.7.28 jaisa (upload pacing, Schedule filter, license gate, Analytics aik tab, Electron 45.2.3, DB v24).",
  "changes": [
-  "Settings me 'YouTube / Google Apps' card wapas aa gaya — ab doosri Google App (naya OAuth client) UI se add ho sakti hai; pehle built-in app ki wajah se add karne ka koi rasta nahi tha",
-  "Card me apps ki list, default (★), Built-in badge aur delete button — built-in 'MetaBox' app par delete button nahi hota, aur linked channels wali app delete nahi hoti",
-  "invalid_client error ab sahi rasta batata hai — built-in app ho to Worker ki YOUTUBE_CLIENT_SECRET check karein, apni app ho to Settings card me us ki ID/Secret"
+  "Create Profile form naya design — platform chips (Facebook, YouTube, Google, Instagram, TikTok, X, WhatsApp, Telegram, Other), do-column rows aur band Advanced Settings; ab form bina scroll ke fit hota hai",
+  "Profile kis platform ke liye hai wo list me naam ke saath chip me dikhta hai, platform filter bhi aa gaya, aur profile Open karne par usi platform ki site pehle tab me khulti hai",
+  "App ki speed behtar — Library, Queue aur Scheduler pages ab data parallel lete hain aur Scheduler cloud sync ke intezar me nahi rukta; waqt/timezone formatting bhi tez ho gayi"
  ],
  "history": [
+  {
+   "version": "1.7.34",
+   "kind": "feature",
+   "changes": [
+    "Create Profile form naya design — platform chips (Facebook, YouTube, Google, Instagram, TikTok, X, WhatsApp, Telegram, Other), do-column rows aur band Advanced Settings; ab form bina scroll ke fit hota hai",
+    "Profile kis platform ke liye hai wo list me naam ke saath chip me dikhta hai, platform filter bhi aa gaya, aur profile Open karne par usi platform ki site pehle tab me khulti hai",
+    "App ki speed behtar — Library, Queue aur Scheduler pages ab data parallel lete hain aur Scheduler cloud sync ke intezar me nahi rukta; waqt/timezone formatting bhi tez ho gayi"
+   ]
+  },
   {
    "version": "1.7.33",
    "kind": "feature",
