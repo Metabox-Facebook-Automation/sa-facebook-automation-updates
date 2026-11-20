@@ -1,10 +1,17 @@
 {
  "changes": [
-  "Create Profile form naya design — platform chips (Facebook, YouTube, Google, Instagram, TikTok, X, WhatsApp, Telegram, Other), do-column rows aur band Advanced Settings; ab form bina scroll ke fit hota hai",
-  "Profile kis platform ke liye hai wo list me naam ke saath chip me dikhta hai, platform filter bhi aa gaya, aur profile Open karne par usi platform ki site pehle tab me khulti hai",
-  "App ki speed behtar — Library, Queue aur Scheduler pages ab data parallel lete hain aur Scheduler cloud sync ke intezar me nahi rukta; waqt/timezone formatting bhi tez ho gayi"
+  "App ab har dafa khulne par license server ko anonymous ping bhejti hai — naya rawaj (pehle rozana aik dafa tha), taake owner dashboard par har device ke opens aur istemal ka hisaab dekh sake",
+  "Ping me sirf install-id, license status aur app version jata hai — koi naam, key, video ya page ki maloomat nahi jati"
  ],
  "history": [
+  {
+   "version": "1.7.53-test",
+   "kind": "feature",
+   "changes": [
+    "App ab har dafa khulne par license server ko anonymous ping bhejti hai — naya rawaj (pehle rozana aik dafa tha), taake owner dashboard par har device ke opens aur istemal ka hisaab dekh sake",
+    "Ping me sirf install-id, license status aur app version jata hai — koi naam, key, video ya page ki maloomat nahi jati"
+   ]
+  },
   {
    "version": "1.7.52-test",
    "kind": "feature",
@@ -471,9 +478,9 @@
    "version": "1.7.0-test.1"
   }
  ],
- "notes": "Naya version v1.7.51-test tayyar hai. Settings me YouTube / Google Apps card wapas — list + add + delete + set-default, built-in app par delete nahi; invalid_client error ab built-in (Worker secret) aur custom app (Settings card) me farq karta hai; baqi sab 1.7.50-test jaisa (disconnect FK fix, upload pacing, Schedule filter, license gate, YouTube per-channel Open button, Analytics aik tab, minimal profiles list, Electron 45.2.3, DB v25).",
- "size": 172543848,
+ "notes": "Naya version v1.7.53-test tayyar hai. Heartbeat har boot par (rozana throttle khatam) — dashboard Analytics me har device ke opens ginne ke liye; payload waisa hi (install-id + license status + app version, koi zaati maloomat nahi); baqi sab 1.7.52-test jaisa (Create Profile redesign + platform chips, Settings Google Apps card, disconnect FK fix, upload pacing, Schedule filter, license gate, YouTube per-channel Open button, Analytics aik tab, minimal profiles list, Electron 45.2.3, DB v27).",
+ "size": 172543613,
  "url": "https://drive.google.com/uc?export=download&id=1Rdg6hlRulrYnKi78Jg5FzGGDgdRetuv8",
- "version": "1.7.52-test",
+ "version": "1.7.53-test",
  "kind": "feature"
 }
