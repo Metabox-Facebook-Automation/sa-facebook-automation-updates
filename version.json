@@ -1,13 +1,21 @@
 {
- "version": "1.7.35",
+ "version": "1.7.36",
  "url": "https://drive.google.com/uc?export=download&id=1krBQZ6Od3IrR9uVOQwaeMTKAS-ry7RpL",
- "size": 172491850,
- "notes": "Naya version v1.7.35 tayyar hai. Heartbeat har boot par (rozana throttle khatam) — dashboard Analytics me har device ke opens ginne ke liye; payload waisa hi (install-id + license status + app version, koi zaati maloomat nahi); baqi sab 1.7.34 jaisa (Create Profile redesign + platform, speed fixes, Google Apps card, disconnect fix, upload pacing, Schedule filter, license gate, Analytics aik tab, Electron 45.2.3, DB v26).",
+ "size": 172492536,
+ "notes": "Naya version v1.7.36 tayyar hai. Usage duration tracking — app har 5 minute par apna chala hua waqt license server ko bhejti hai (sirf install-id + license status + minutes), dashboard Analytics me har device ka Kul Waqt dikhega; baqi sab 1.7.35 jaisa (heartbeat har boot par, Create Profile redesign + platform, Settings Google Apps card, disconnect FK fix, upload pacing, Schedule filter, license gate, Analytics aik tab, Electron 45.2.3, DB v26).",
  "changes": [
-  "App ab har dafa khulne par license server ko anonymous ping bhejti hai — naya rawaj (pehle rozana aik dafa tha), taake owner dashboard par har device ke opens aur istemal ka hisaab dekh sake",
-  "Ping me sirf install-id, license status aur app version jata hai — koi naam, key, video ya page ki maloomat nahi jati"
+  "App me naya usage hisaab shamil — ab app apne chalne ka waqt (duration) bhi license server ko bhejti hai, har 5 minute par guzra hua waqt, taake owner dashboard Analytics me har device ka kul istemal ka waqt (Kul Waqt) dekh sake",
+  "Waqt ke saath sirf install-id, license status aur minutes jate hain — koi naam, key, video ya page ki maloomat nahi jati; app band karne par baqi bacha waqt bhi best-effort bhej diya jata hai"
  ],
  "history": [
+  {
+   "version": "1.7.36",
+   "kind": "feature",
+   "changes": [
+    "App me naya usage hisaab shamil — ab app apne chalne ka waqt (duration) bhi license server ko bhejti hai, har 5 minute par guzra hua waqt, taake owner dashboard Analytics me har device ka kul istemal ka waqt (Kul Waqt) dekh sake",
+    "Waqt ke saath sirf install-id, license status aur minutes jate hain — koi naam, key, video ya page ki maloomat nahi jati; app band karne par baqi bacha waqt bhi best-effort bhej diya jata hai"
+   ]
+  },
   {
    "version": "1.7.35",
    "kind": "feature",
