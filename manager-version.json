@@ -1,11 +1,10 @@
 {
  "changes": [
-  "PIN bhool gaye? — unlock screen par naya reset: Worker Admin Token se verify karke PIN saaf ho jata hai, naya PIN ban jata hai (bani hui keys ko kuch nahi hota)",
-  "Server se keys wapas lao — naya button: server se saari keys wapas aajati hain (PIN bhoolne ya Windows dobara install karne par bhi)",
-  "Yaad rahe: customer ka naam (note) server se wapas nahi aata — wo sirf is computer ki file me tha"
+  "Device management — naya: har key ke registered devices ab Manager se hi dekho aur hatao (aik device, ya saare aik sath); Windows dobara install karne par purani device entry hatakar license limit me jagah ban jati hai",
+  "Devices server se taza ate hain aur hatane se pehle confirm lazmi hai — is Manager ki keys list ko kuch nahi hota, sirf server se device hat-ta hai"
  ],
- "notes": "Naya version v1.2.15 tayyar hai — PIN reset + server se keys wapas lao.",
- "size": 122308648,
+ "notes": "Naya version v1.2.16 tayyar hai — key ke devices Manager se dekho aur hatao.",
+ "size": 122314358,
  "url": "https://drive.google.com/uc?export=download&id=1UxIvtObmHFIAaDT8Ju8_ksrl7SVnIWwj",
- "version": "1.2.15"
+ "version": "1.2.16"
 }
