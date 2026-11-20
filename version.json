@@ -1,14 +1,21 @@
 {
- "version": "1.7.34",
+ "version": "1.7.35",
  "url": "https://drive.google.com/uc?export=download&id=1krBQZ6Od3IrR9uVOQwaeMTKAS-ry7RpL",
- "size": 172492085,
- "notes": "Naya version v1.7.29 tayyar hai. Scheduler table fix — action buttons wazeh bordered style me, VIDEO column ko zyada chaudai, actions column 328px se 310px (CDP nape widths ke hisab se); baqi sab 1.7.28 jaisa (upload pacing, Schedule filter, license gate, Analytics aik tab, Electron 45.2.3, DB v24).",
+ "size": 172491850,
+ "notes": "Naya version v1.7.35 tayyar hai. Heartbeat har boot par (rozana throttle khatam) — dashboard Analytics me har device ke opens ginne ke liye; payload waisa hi (install-id + license status + app version, koi zaati maloomat nahi); baqi sab 1.7.34 jaisa (Create Profile redesign + platform, speed fixes, Google Apps card, disconnect fix, upload pacing, Schedule filter, license gate, Analytics aik tab, Electron 45.2.3, DB v26).",
  "changes": [
-  "Create Profile form naya design — platform chips (Facebook, YouTube, Google, Instagram, TikTok, X, WhatsApp, Telegram, Other), do-column rows aur band Advanced Settings; ab form bina scroll ke fit hota hai",
-  "Profile kis platform ke liye hai wo list me naam ke saath chip me dikhta hai, platform filter bhi aa gaya, aur profile Open karne par usi platform ki site pehle tab me khulti hai",
-  "App ki speed behtar — Library, Queue aur Scheduler pages ab data parallel lete hain aur Scheduler cloud sync ke intezar me nahi rukta; waqt/timezone formatting bhi tez ho gayi"
+  "App ab har dafa khulne par license server ko anonymous ping bhejti hai — naya rawaj (pehle rozana aik dafa tha), taake owner dashboard par har device ke opens aur istemal ka hisaab dekh sake",
+  "Ping me sirf install-id, license status aur app version jata hai — koi naam, key, video ya page ki maloomat nahi jati"
  ],
  "history": [
+  {
+   "version": "1.7.35",
+   "kind": "feature",
+   "changes": [
+    "App ab har dafa khulne par license server ko anonymous ping bhejti hai — naya rawaj (pehle rozana aik dafa tha), taake owner dashboard par har device ke opens aur istemal ka hisaab dekh sake",
+    "Ping me sirf install-id, license status aur app version jata hai — koi naam, key, video ya page ki maloomat nahi jati"
+   ]
+  },
   {
    "version": "1.7.34",
    "kind": "feature",
