@@ -1,10 +1,19 @@
 {
  "changes": [
-  "Settings me 'YouTube / Google Apps' card wapas aa gaya — ab doosri Google App (naya OAuth client) UI se add ho sakti hai; pehle built-in app ki wajah se add karne ka koi rasta nahi tha",
-  "Card me apps ki list, default (★), Built-in badge aur delete button — built-in 'MetaBox' app par delete button nahi hota, aur linked channels wali app delete nahi hoti",
-  "invalid_client error ab sahi rasta batata hai — built-in app ho to Worker ki YOUTUBE_CLIENT_SECRET check karein, apni app ho to Settings card me us ki ID/Secret"
+  "Create Profile form naya design — platform chips (Facebook, YouTube, Google, Instagram, TikTok, X, WhatsApp, Telegram, Other), do-column rows aur band Advanced Settings; ab form bina scroll ke fit hota hai",
+  "Profile kis platform ke liye hai wo list me naam ke saath chip me dikhta hai, platform filter bhi aa gaya, aur profile Open karne par usi platform ki site pehle tab me khulti hai",
+  "App ki speed behtar — Library, Queue aur Scheduler pages ab data parallel lete hain aur Scheduler cloud sync ke intezar me nahi rukta; waqt/timezone formatting bhi tez ho gayi"
  ],
  "history": [
+  {
+   "version": "1.7.52-test",
+   "kind": "feature",
+   "changes": [
+    "Create Profile form naya design — platform chips (Facebook, YouTube, Google, Instagram, TikTok, X, WhatsApp, Telegram, Other), do-column rows aur band Advanced Settings; ab form bina scroll ke fit hota hai",
+    "Profile kis platform ke liye hai wo list me naam ke saath chip me dikhta hai, platform filter bhi aa gaya, aur profile Open karne par usi platform ki site pehle tab me khulti hai",
+    "App ki speed behtar — Library, Queue aur Scheduler pages ab data parallel lete hain aur Scheduler cloud sync ke intezar me nahi rukta; waqt/timezone formatting bhi tez ho gayi"
+   ]
+  },
   {
    "version": "1.7.51-test",
    "kind": "feature",
@@ -463,8 +472,8 @@
   }
  ],
  "notes": "Naya version v1.7.51-test tayyar hai. Settings me YouTube / Google Apps card wapas — list + add + delete + set-default, built-in app par delete nahi; invalid_client error ab built-in (Worker secret) aur custom app (Settings card) me farq karta hai; baqi sab 1.7.50-test jaisa (disconnect FK fix, upload pacing, Schedule filter, license gate, YouTube per-channel Open button, Analytics aik tab, minimal profiles list, Electron 45.2.3, DB v25).",
- "size": 172540801,
+ "size": 172543848,
  "url": "https://drive.google.com/uc?export=download&id=1Rdg6hlRulrYnKi78Jg5FzGGDgdRetuv8",
- "version": "1.7.51-test",
+ "version": "1.7.52-test",
  "kind": "feature"
 }
