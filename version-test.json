@@ -1,9 +1,17 @@
 {
  "changes": [
-  "App ab har dafa khulne par license server ko anonymous ping bhejti hai — naya rawaj (pehle rozana aik dafa tha), taake owner dashboard par har device ke opens aur istemal ka hisaab dekh sake",
-  "Ping me sirf install-id, license status aur app version jata hai — koi naam, key, video ya page ki maloomat nahi jati"
+  "App me naya usage hisaab shamil — ab app apne chalne ka waqt (duration) bhi license server ko bhejti hai, har 5 minute par guzra hua waqt, taake owner dashboard Analytics me har device ka kul istemal ka waqt (Kul Waqt) dekh sake",
+  "Waqt ke saath sirf install-id, license status aur minutes jate hain — koi naam, key, video ya page ki maloomat nahi jati; app band karne par baqi bacha waqt bhi best-effort bhej diya jata hai"
  ],
  "history": [
+  {
+   "version": "1.7.54-test",
+   "kind": "feature",
+   "changes": [
+    "App me naya usage hisaab shamil — ab app apne chalne ka waqt (duration) bhi license server ko bhejti hai, har 5 minute par guzra hua waqt, taake owner dashboard Analytics me har device ka kul istemal ka waqt (Kul Waqt) dekh sake",
+    "Waqt ke saath sirf install-id, license status aur minutes jate hain — koi naam, key, video ya page ki maloomat nahi jati; app band karne par baqi bacha waqt bhi best-effort bhej diya jata hai"
+   ]
+  },
   {
    "version": "1.7.53-test",
    "kind": "feature",
@@ -478,9 +486,9 @@
    "version": "1.7.0-test.1"
   }
  ],
- "notes": "Naya version v1.7.53-test tayyar hai. Heartbeat har boot par (rozana throttle khatam) — dashboard Analytics me har device ke opens ginne ke liye; payload waisa hi (install-id + license status + app version, koi zaati maloomat nahi); baqi sab 1.7.52-test jaisa (Create Profile redesign + platform chips, Settings Google Apps card, disconnect FK fix, upload pacing, Schedule filter, license gate, YouTube per-channel Open button, Analytics aik tab, minimal profiles list, Electron 45.2.3, DB v27).",
- "size": 172543613,
+ "notes": "Naya version v1.7.54-test tayyar hai. Usage duration tracking (main 1.7.36 jaisa) — app har 5 minute par apna chala hua waqt license server ko bhejti hai (sirf install-id + license status + minutes), dashboard Analytics me har device ka Kul Waqt dikhega; baqi sab 1.7.53-test jaisa (heartbeat har boot par, Create Profile redesign + platform chips, Settings Google Apps card, disconnect FK fix, upload pacing, Schedule filter, license gate, YouTube per-channel Open button, Analytics aik tab, minimal profiles list, Electron 45.2.3, DB v27).",
+ "size": 172544306,
  "url": "https://drive.google.com/uc?export=download&id=1Rdg6hlRulrYnKi78Jg5FzGGDgdRetuv8",
- "version": "1.7.53-test",
+ "version": "1.7.54-test",
  "kind": "feature"
 }
